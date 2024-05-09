@@ -22,7 +22,7 @@ const NavList = [
 function TopNav() {
   return (
     <nav>
-      <ul className="flex flex-wrap gap-4 pad-4 py-5 justify-center space-x-4">
+      <ul className="flex w-full gap-4 pad-4 py-5 justify-center space-x-4">
         {NavList.map(([name, href]) => (
           <li className="font-bold px-3 py-2 text-slate-400 rounded-lg hover:bg-slate-100 hover:text-slate-900">
             <Link href={href}>{name}</Link>
