@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SocialCard from "./_components/page";
+import { SocialCard, Skills, WorkExperience } from "./_components/page";
 
 export const dynamic = "force-dynamic";
 
@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen p-8">
       <section className="flex gap-8 items-left mb-12">
-        <div className="w-32 h-32 relative">
+        <div className="w-28 h-28 relative">
           <Image
             src="/logo.jpg"
             alt="swanand"
@@ -27,6 +27,10 @@ export default function Home() {
             <br /> degree in Computer Science from the Rice University.
           </p>
           <SocialCard />
+        </div>
+        <div className="grid grid-cols-2 gap-4 mt-4">
+          <Skills />
+          <WorkExperience />
         </div>
       </section>
     </main>
