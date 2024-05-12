@@ -95,16 +95,75 @@ function WorkExperience() {
         </h3>
       </div>
       <ul>
-        <li>
-          <strong>Nedd Technologies</strong> - Software Engineer 1 (Internship)
-          (May 2024 - Aug 2024)
+        <li className="flex justify-between items-center py-2">
+          <div className="flex items-center">
+            <img
+              src="/nedd.jpeg"
+              alt="Company Logo"
+              className="w-10 h-10 mr-4 rounded-full"
+            />
+            <div>
+              <strong>Nedd Technologies</strong>
+              <p className="text-xs">Software Engineer 1 (Internship)</p>
+            </div>
+          </div>
+          <span className="text-sm">May 2024 - Aug 2024</span>
         </li>
-        <li>
-          <strong>HSBC</strong> - Software Engineer (Aug 2021 - June 2023)
+        <li className="flex justify-between items-center py-2">
+          <div className="flex items-center">
+            <img
+              src="/hsbc.jpeg"
+              alt="Company Logo"
+              className="w-10 h-10 mr-4 rounded-full"
+            />
+            <div>
+              <strong>HSBC</strong>
+              <p className="text-xs">Software Engineer</p>
+            </div>
+          </div>
+          <span className="text-sm">Aug 2021 - Jun 2023</span>
         </li>
-        <li>
-          <strong>Optimum Data Analytics</strong> - Machine Learning Engineer
-          Intern (Aug 2019 - Jan 2020)
+        <li className="flex justify-between items-center py-2">
+          <div className="flex items-center">
+            <img
+              src="/xceed.jpeg"
+              alt="Company Logo"
+              className="w-10 h-10 mr-4 rounded-full"
+            />
+            <div>
+              <strong>Xceed Imagination</strong>
+              <p className="text-xs">Software Engineer Intern</p>
+            </div>
+          </div>
+          <span className="text-sm">Jan 2021 - July 2020</span>
+        </li>
+        <li className="flex justify-between items-center py-2">
+          <div className="flex items-center">
+            <img
+              src="/oda.jpeg"
+              alt="Company Logo"
+              className="w-10 h-10 mr-4 rounded-full"
+            />
+            <div>
+              <strong>Optimum Data Analytics</strong>
+              <p className="text-xs">Machine Learning Engineer Intern</p>
+            </div>
+          </div>
+          <span className="text-sm">Aug 2019 - Jan 2020</span>
+        </li>
+        <li className="flex justify-between items-center py-2">
+          <div className="flex items-center">
+            <img
+              src="/iauro.jpeg"
+              alt="Company Logo"
+              className="w-10 h-10 mr-4 rounded-full"
+            />
+            <div>
+              <strong>Iauro Systems</strong>
+              <p className="text-xs">Software Engineer Intern</p>
+            </div>
+          </div>
+          <span className="text-sm">June 2018 - Aug 2018</span>
         </li>
       </ul>
     </div>
