@@ -131,7 +131,7 @@ const carouselImages = [
   "/laptop.avif",
   "/hsbc.jpeg",
   "/xceed.jpeg",
-  "/nedd.jpeg",
+  "/self.jpg",
   "/iauro.jpeg",
   "/oda.jpeg",
 ];

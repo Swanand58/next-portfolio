@@ -2,12 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-- [X] - adding default layout and global styles
-- [X] - adding top nav in main layout.tsx page
-- [] - adding Home page
-- [] - adding about page
+- [x] - adding default layout and global styles
+- [x] - adding top nav in main layout.tsx page
+- [x] - adding Home page
+- [X] - adding about page
 - [] - adding education page
 - [] - adding experience page
-- [] - adding projects page
-- [] - adding contact page
-
+- [X] - adding projects page
+- [X] - adding contact page

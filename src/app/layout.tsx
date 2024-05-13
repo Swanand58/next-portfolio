@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -39,7 +38,7 @@ function Footer() {
       <div className="flex-grow">
         <ul className="flex space-x-4">
           {NavList.map(([name, href]) => (
-            <li className="font-bold px-2 py-2 text-sm text-gray-600 hover:text-white">
+            <li className="font-bold px-2 py-2 text-sm text-gray-600 hover:text-white ">
               <Link href={href}>{name}</Link>
             </li>
           ))}
