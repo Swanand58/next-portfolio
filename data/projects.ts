@@ -171,6 +171,7 @@ const carouselImages = [
   "/gallery21.jpg",
   "/gallery19.jpg",
   "/gallery26.jpg",
+  "/gallery27.jpg",
 ];
 
 interface SocialLink {
