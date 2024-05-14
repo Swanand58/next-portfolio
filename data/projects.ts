@@ -139,12 +139,16 @@ const articles: Article[] = [
 ];
 
 const carouselImages = [
-  "/laptop.avif",
-  "/hsbc.jpeg",
-  "/xceed.jpeg",
-  "/self.jpg",
-  "/iauro.jpeg",
-  "/oda.jpeg",
+  "/gallery1.png",
+  "/gallery2.jpg",
+  "/gallery3.jpg",
+  "/gallery4.jpg",
+  "/gallery5.jpg",
+  "/gallery6.jpg",
+  "/gallery7.jpg",
+  "/gallery8.jpg",
+  "/gallery9.jpg",
+  "/gallery10.jpg",
 ];
 
 interface SocialLink {
