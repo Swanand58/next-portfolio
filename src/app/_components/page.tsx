@@ -213,9 +213,16 @@ interface ExperienceCardProps {
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
     <div className="bg-slate-500 p-4 sm:p-6 rounded-lg shadow-md m-3">
-      <h2 className="text-xl sm:text-2xl font-bold ml-3">
-        {experience.company}
-      </h2>
+      <div className="flex mb-4">
+        <img
+          src={experience.companyLogo}
+          alt={`${experience.company} Logo`}
+          className="w-10 h-10 ml-3 rounded-full"
+        />
+        <h2 className="text-xl sm:text-2xl font-bold ml-3">
+          {experience.company}
+        </h2>
+      </div>
       <p className="text-sm sm:text-base ml-3 text-slate-200">
         {experience.role} - {experience.period}
       </p>

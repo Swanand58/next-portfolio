@@ -263,6 +263,7 @@ const skills: SkillSet[] = [
 interface Experience {
   id: number;
   company: string;
+  companyLogo: string;
   role: string;
   period: string;
   skills: string[];
@@ -273,6 +274,7 @@ const experiences: Experience[] = [
   {
     id: 1,
     company: "Nedd Technologies",
+    companyLogo: "/nedd.jpeg",
     role: "Software Engineer I (Internship)",
     period: "May 2024 - Present",
     skills: ["Nextjs", "React", "Node", "Azure", "Postgres"],
@@ -284,6 +286,7 @@ const experiences: Experience[] = [
   {
     id: 2,
     company: "HSBC",
+    companyLogo: "/hsbc.jpeg",
     role: "Software Engineer",
     period: "Aug 2021 - June 2023",
     skills: [
@@ -310,6 +313,7 @@ const experiences: Experience[] = [
   {
     id: 3,
     company: "Optimum Data Analytics",
+    companyLogo: "/oda.jpeg",
     role: "Machine Learning Engineer Intern",
     period: "Aug 2019 - Jan 2020",
     skills: [
