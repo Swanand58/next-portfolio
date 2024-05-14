@@ -53,7 +53,6 @@ const Skills: React.FC = () => {
     </div>
   );
 };
-
 const WorkExperience: React.FC = () => {
   return (
     <div className="bg-slate-500 hover:bg-slate-800 text-white p-4 rounded-lg shadow-md">
