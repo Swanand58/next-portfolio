@@ -4,6 +4,17 @@ import { IconType } from "react-icons";
 import { SiJavascript } from "react-icons/si";
 import { FaJava, FaP } from "react-icons/fa6";
 import { FaNode, FaReact, FaPython } from "react-icons/fa";
+import { VscAzureDevops } from "react-icons/vsc";
+import {
+  FaXTwitter,
+  FaLinkedin,
+  FaGithub,
+  FaEnvelope,
+  FaCode,
+  FaLaptopCode,
+  FaServer,
+  FaDatabase,
+} from "react-icons/fa6";
 
 interface Project {
   title: string;
@@ -136,4 +147,121 @@ const carouselImages = [
   "/oda.jpeg",
 ];
 
-export { projects, articles, carouselImages };
+interface SocialLink {
+  name: string;
+  url: string;
+  icon: IconType;
+}
+
+const socialLinks: SocialLink[] = [
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/swanandkhonde/",
+    icon: FaLinkedin,
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/Swanand58",
+    icon: FaGithub,
+  },
+  {
+    name: "Twitter",
+    url: "https://twitter.com/swanandkhonde_",
+    icon: FaXTwitter,
+  },
+  {
+    name: "Email",
+    url: "mailto:swanandkhonde1999@gmail.com",
+    icon: FaEnvelope,
+  },
+];
+
+interface WorkExperienceType {
+  id: string;
+  companyLogo: string;
+  companyName: string;
+  role: string;
+  duration: string;
+}
+
+const workExperiences: WorkExperienceType[] = [
+  {
+    id: "nedd",
+    companyLogo: "/nedd.jpeg",
+    companyName: "Nedd Technologies",
+    role: "Software Engineer I (Internship)",
+    duration: "May 2024 - Aug 2024",
+  },
+  {
+    id: "hsbc",
+    companyLogo: "/hsbc.jpeg",
+    companyName: "HSBC",
+    role: "Software Engineer",
+    duration: "Aug 2021 - Jun 2023",
+  },
+  {
+    id: "xceed",
+    companyLogo: "/xceed.jpeg",
+    companyName: "Xceed Imagination",
+    role: "Software Engineer Intern",
+    duration: "Jan 2021 - July 2021",
+  },
+  {
+    id: "oda",
+    companyLogo: "/oda.jpeg",
+    companyName: "Optimum Data Analytics",
+    role: "Machine Learning Engineer Intern",
+    duration: "Aug 2019 - Jan 2020",
+  },
+  {
+    id: "iauro",
+    companyLogo: "/iauro.jpeg",
+    companyName: "Iauro Systems",
+    role: "Software Engineer Intern",
+    duration: "June 2018 - Aug 2018",
+  },
+];
+
+interface SkillSet {
+  id: string;
+  icon: IconType;
+  description: string;
+}
+
+const skills: SkillSet[] = [
+  {
+    id: "programming",
+    icon: FaCode,
+    description: "Python, Java, Javascript/Typescript, C++, C",
+  },
+  {
+    id: "backend",
+    icon: FaServer,
+    description: "Spring Boot, Node.js, Kafka, Redis",
+  },
+  {
+    id: "frontend",
+    icon: FaLaptopCode,
+    description: "React, Next.js, Groovy",
+  },
+  {
+    id: "devops",
+    icon: VscAzureDevops,
+    description: "AWS, Jenkins, Git, JUnit, Ansible, Service Now, Grafana",
+  },
+  {
+    id: "databases",
+    icon: FaDatabase,
+    description: "SQL, MongoDB",
+  },
+];
+
+export {
+  projects,
+  articles,
+  carouselImages,
+  socialLinks,
+  workExperiences,
+  skills,
+};
+export type { SocialLink, WorkExperienceType, SkillSet };
