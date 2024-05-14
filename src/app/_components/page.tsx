@@ -5,6 +5,7 @@ import {
   WorkExperienceType,
   skills,
   SkillSet,
+  Experience,
 } from "../../../data/projects";
 
 import { IoSettingsOutline } from "react-icons/io5";
@@ -204,6 +205,38 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
     </div>
   );
 };
+
+interface ExperienceCardProps {
+  experience: Experience;
+}
+
+const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
+  return (
+    <div className="bg-slate-500 p-4 sm:p-6 rounded-lg shadow-md m-3">
+      <h2 className="text-xl sm:text-2xl font-bold ml-3">
+        {experience.company}
+      </h2>
+      <p className="text-sm sm:text-base ml-3 text-slate-200">
+        {experience.role} - {experience.period}
+      </p>
+      <ul className="my-2 mt-3 flex flex-wrap gap-2 ml-3 text-slate-200 text-sm sm:text-base mb-6">
+        <span className="font-semibold">Skills:</span>
+        {experience.skills.map((skill, index) => (
+          <li key={index} className="text-slate-200 text-sm sm:text-base">
+            {skill}
+            {index < experience.skills.length - 1 && <span>,</span>}
+          </li>
+        ))}
+      </ul>
+      <ul className="text-white list-disc pl-5">
+        {experience.achievements.map((achievement, index) => (
+          <li key={index}>{achievement}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
 export {
   SocialCard,
   Skills,
@@ -211,4 +244,5 @@ export {
   ProjectCards,
   ArticleCard,
   ImageCarousel,
+  ExperienceCard,
 };
