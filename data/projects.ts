@@ -49,7 +49,7 @@ const projects: Project[] = [
     title: "OES Rice Event Management App",
     description:
       "A work in progress project for a fully scalable event management web application for the Ralph O'connor Building of Engineering Sciences at Rice University.",
-    Icon: SiJavascript,
+    Icon: TbBrandTypescript,
     link: "https://github.com/Swanand58/OES-Rice-EventManagement",
   },
   {
