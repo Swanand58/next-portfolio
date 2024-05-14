@@ -37,11 +37,25 @@ const Home: React.FC = () => {
       <section className="flex flex-col gap-4">
         <div className="text-left">
           <h1 className="text-3xl sm:text-4xl font-bold">
-            Software Engineer, Tech Enthusiast, and Amateur Musician.
+            Software Engineer, Technology Enthusiast, and Aspiring Musician
           </h1>
           <p className="mt-2 sm:mt-4">
-            I'm Swanand, a software developer based in Houston, Texas. I'm
+            I'm Swanand, a software developer based in Houston, Texas, currently
             pursuing a Master's degree in Computer Science from Rice University.
+            My passion for technology and coding drives me to constantly learn
+            and explore new things. Beyond my love for coding, music is a
+            significant part of my life. I listen to songs all the time and
+            enjoy playing guitar. Music fuels my creativity and helps me unwind.
+            In my free time, I love to go on long biking drives, exploring new
+            places and enjoying the journey. Photography is another hobby of
+            mine; capturing moments and landscapes allows me to see the world
+            from different perspectives. Whenever I feel tired or stressed, a
+            cup of masala tea is my go-to stress buster. There's nothing quite
+            like the comfort of a warm, aromatic tea to rejuvenate my spirits.
+            Houston has become my new home as I embark on this exciting journey
+            of advanced studies in computer science. I'm eager to combine my
+            technical skills with my diverse interests to create innovative
+            solutions and contribute to the tech community.
           </p>
           <SocialCard />
         </div>
