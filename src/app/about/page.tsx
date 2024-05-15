@@ -37,11 +37,11 @@ const About: React.FC = () => {
         </p>
         <p className="styled-paragraph text-center sm:text-center">
           Beyond my professional life, I am deeply passionate about music. I
-          listen to songs constantly and enjoy playing the guitar, which fuels
-          my creativity and helps me unwind. My musical tastes are diverse,
-          ranging from Linkin Park and Metallica to Bollywood music legends like
-          Sonu Nigam, KK, and Shreya Ghoshal. Music is an integral part of my
-          life, providing both inspiration and relaxation
+          listen to songs and enjoy playing the guitar, which fuels my
+          creativity and helps me unwind. My musical tastes are diverse, ranging
+          from Linkin Park and Metallica to Bollywood music legends like Sonu
+          Nigam, KK, and Shreya Ghoshal. Music is an integral part of my life,
+          providing both inspiration and relaxation
         </p>
       </div>
       <div className="w-full sm:w-auto mt-10 sm:mt-0 sm:mr-[80px] sm:ml-[80px] mr-[80px] ml-[160px]">

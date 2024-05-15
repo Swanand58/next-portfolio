@@ -33,7 +33,7 @@ const EducationPage: React.FC = () => {
           </button>
         </div>
         <div className="flex flex-col md:grid-cols-2 gap-4 mt-4">
-          <div className=" p-4 bg-slate-500 rounded-lg shadow-md">
+          <div className="p-4 bg-slate-500 hover:bg-slate-800 rounded-lg shadow-md">
             <div className="flex  items-center mb-4">
               <Image
                 src="/rice-logo.jpeg"
@@ -50,29 +50,52 @@ const EducationPage: React.FC = () => {
                 <p className="text-sm text-gray-300">Aug 2023 - Dec 2024</p>
               </div>
             </div>
-            <ul className="list-disc ml-5">
-              <li>
-                <strong>Parallel Computing:</strong> Built Shared Memory
-                Parallel Programs using Intel's Cilk Plus, OpenMP, MPI(Message
-                Passing Interface), and CUDA(Compute Unified Device
-                Architecture).
+            <ul className="list-disc ml-5 p-y-4">
+              <li className="mb-2">
+                <strong className=" text-lg">Parallel Computing:</strong> Built
+                shared memory parallel programs using Intel's Cilk Plus, OpenMP,
+                MPI, and CUDA. Studied parallel algorithm design, decomposition
+                techniques, and performance analysis. Gained hands-on experience
+                with GPU programming and warehouse-scale computing. Analyzed
+                scalability and parallel efficiency, and identified scaling
+                losses using advanced tools.
               </li>
-              <li>
-                <strong>Machine Learning with Graphs:</strong> content here
+              <li className="mb-2">
+                <strong className="text-lg">
+                  Machine Learning with Graphs:
+                </strong>{" "}
+                Developed skills in graph-based machine learning algorithms,
+                including graph neural networks, spectral graph theory, and
+                graph embeddings. Implemented a music recommendation system
+                using Policy-guided Path Reasoning (PGPR) on a Spotify dataset,
+                focusing on scalability, interpretability, and performance.
+                Analyzed song features and constructed knowledge graphs to
+                enhance recommendation accuracy and explainability.
               </li>
-              <li>
-                <strong>Deep Learning in Vision and Langauge:</strong> content
-                here
+              <li className="mb-2">
+                <strong className="text-lg">
+                  Deep Learning in Vision and Langauge:
+                </strong>{" "}
+                Studied visual recognition and language understanding using deep
+                learning models like CNNs and Transformers. Implemented an image
+                captioning model, fine-tuned on synthetic data, to evaluate the
+                impact on model performance. Gained hands-on experience with GPU
+                programming, pre-trained models like CLIP, and techniques such
+                as image retrieval and text-to-image generation.
               </li>
-              <li>
-                <strong>Web Development:</strong> In my Web Development course,
-                I strengthened and revised my frontend and backend skills. I
-                built a fully functional social media application called
-                RiceBook using React, and Node.js.
+              <li className="mb-2">
+                <strong className=" text-lg">Web Development:</strong> Created
+                multi-user web applications using the MERN stack. Gained
+                expertise in front-end development with HTML, CSS, and
+                JavaScript, and back-end development with Node.js, Express, and
+                MongoDB. Implemented industry best practices like test-driven
+                development and version control. Developed a fully functional,
+                scalable social media application called RiceBook, incorporating
+                modern web frameworks and design patterns.
               </li>
             </ul>
           </div>
-          <div className=" p-4 bg-slate-500 rounded-lg shadow-md">
+          <div className=" p-4 bg-slate-500 hover:bg-slate-800 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
               <Image
                 src="/vit-logo.jpeg"
@@ -92,22 +115,22 @@ const EducationPage: React.FC = () => {
               </div>
             </div>
             <ul className="list-disc ml-5">
-              <li>
+              <li className="mb-2">
                 <strong>Data Structures:</strong> Gained a thorough
                 understanding of data structures and their applications in
                 solving computational problems.
               </li>
-              <li>
+              <li className="mb-2">
                 <strong>Object-Oriented Programming:</strong> Learned the
                 principles of object-oriented design and applied them in various
                 programming projects.
               </li>
-              <li>
+              <li className="mb-2">
                 <strong>Python Programming:</strong> Acquired proficiency in
                 Python programming and developed multiple applications using
                 Python.
               </li>
-              <li>
+              <li className="mb-2">
                 <strong>Deep Learning</strong> Studied the fundamentals of deep
                 learning and its applications. Built a deep learning project
                 called document classification using TensorFlow and Ludwig.

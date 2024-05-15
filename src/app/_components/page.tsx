@@ -212,7 +212,7 @@ interface ExperienceCardProps {
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
-    <div className="bg-slate-500 p-4 sm:p-6 rounded-lg shadow-md m-3">
+    <div className="bg-slate-500 hover:bg-slate-800 p-4 sm:p-6 rounded-lg shadow-md m-3">
       <div className="flex mb-4">
         <img
           src={experience.companyLogo}

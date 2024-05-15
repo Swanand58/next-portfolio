@@ -194,7 +194,7 @@ const workExperiences: WorkExperienceType[] = [
     companyLogo: "/nedd.jpeg",
     companyName: "Nedd Technologies",
     role: "Software Engineer I (Internship)",
-    duration: "May 2024 - Aug 2024",
+    duration: "May 2024 - Present",
   },
   {
     id: "hsbc",
@@ -236,27 +236,28 @@ const skills: SkillSet[] = [
   {
     id: "programming",
     icon: FaCode,
-    description: "Python, Java, Javascript/Typescript, C++, C",
+    description: "Python, Java, Javascript/ Typescript, C++, C",
   },
   {
     id: "backend",
     icon: FaServer,
-    description: "Spring Boot, Node.js, Kafka, Redis",
+    description: "Spring Boot, Node.js, Express.js, Flask",
   },
   {
     id: "frontend",
     icon: FaLaptopCode,
-    description: "React, Next.js, Groovy",
+    description: "React, Next.js",
   },
   {
     id: "devops",
     icon: VscAzureDevops,
-    description: "AWS, Jenkins, Git, JUnit, Ansible, Service Now, Grafana",
+    description:
+      "Azure, AWS, Jenkins, Git, JUnit, Ansible, Service Now, Grafana",
   },
   {
     id: "databases",
     icon: FaDatabase,
-    description: "SQL, MongoDB",
+    description: "SQL, MongoDB, PostgresSQL",
   },
 ];
 
@@ -279,8 +280,10 @@ const experiences: Experience[] = [
     period: "May 2024 - Present",
     skills: ["Nextjs", "React", "Node", "Azure", "Postgres"],
     achievements: [
-      "Working on the development of ESG Platform, from conception to launch.",
-      "Developing a Nextjs application for the clients and enhancing REST endpoints.",
+      "Leading the development of the ESG Platform, from conception to launch. Ensuring robust architecture and seamless integration.",
+      "Developing a responsive and user-friendly Next.js application for clients, enhancing the overall user experience",
+      "Enhancing REST endpoints using Node.js and Express to improve back-end performance and usability.",
+      "Utilizing Azure DevOps to implement CI/CD pipelines, automated testing, and deployment strategies, significantly improving development efficiency and product reliability.",
     ],
   },
   {
