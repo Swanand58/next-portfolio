@@ -3,7 +3,10 @@ import Image from "next/image";
 const QuantumComputing = () => {
   return (
     <div className="article-container p-6 rounded-lg shadow-lg ml-40 mr-40">
-      <h1 className="text-3xl font-bold mb-4 text-center">Quantum Computing</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center">
+        {" "}
+        Patents in Quantum Computing
+      </h1>
       <p className="mb-6">
         Quantum Computing can be simply defined as “Use of quantum effects to
         store and compute data”. Quantum computing is emerging as a gamechanger

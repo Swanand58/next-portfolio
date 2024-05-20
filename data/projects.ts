@@ -117,7 +117,7 @@ const articles: Article[] = [
   {
     id: 2,
     date: "28 Jul 2020",
-    title: "Quantum Computing",
+    title: "Patents in Quantum Computing",
     summary:
       "Quantum Computing can be simply defined as “Use of quantum effects to store and compute data”. Quantum computing is emerging as a gamechanger in today’s computer industry. But what is the need of quantum computing? Today we use semiconductor technology for computers. By increasing the number of transistors in given area we are increasing the capacity of data storage. But we can’t keep on reducing the size of transistors.",
     link: "/articles/quantum-computing",
