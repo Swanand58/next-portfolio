@@ -101,6 +101,7 @@ interface Article {
   title: string;
   summary: string;
   link: string;
+  isExternal: boolean;
 }
 
 const articles: Article[] = [
@@ -111,6 +112,7 @@ const articles: Article[] = [
     summary:
       "Facial recognition software is a technology that can detect and identify a human face by an image or by a video stream or a live stream through cameras. Though the term facial recognition looks fairly simple, it is not! The term facial detection and facial recognition are often confused as being synonymous and are used interchangeably. However, there is a major difference between the two. A facial detection program only detects a face whereas facial recognition detects a face as well as identifies the person.   Published: Photon Legal",
     link: "https://photonlegal.com/patents-in-facial-recognition/",
+    isExternal: true,
   },
   {
     id: 2,
@@ -118,23 +120,8 @@ const articles: Article[] = [
     title: "Quantum Computing",
     summary:
       "Quantum Computing can be simply defined as “Use of quantum effects to store and compute data”. Quantum computing is emerging as a gamechanger in today’s computer industry. But what is the need of quantum computing? Today we use semiconductor technology for computers. By increasing the number of transistors in given area we are increasing the capacity of data storage. But we can’t keep on reducing the size of transistors.",
-    link: "https://example.com/philosophy-article",
-  },
-  {
-    id: 3,
-    date: "12 May 2023",
-    title: "The Art of Being a Good Student",
-    summary:
-      "Here, I try to discover the profound philosophy of not judging people quickly and giving them the time they deserve to be understood in this insightful article.",
-    link: "https://example.com/art-of-being-good-student",
-  },
-  {
-    id: 4,
-    date: "12 May 2023",
-    title: "The Art of Being a Good Student",
-    summary:
-      "Here, I try to discover the profound philosophy of not judging people quickly and giving them the time they deserve to be understood in this insightful article.",
-    link: "https://example.com/art-of-being-good-student",
+    link: "/articles/quantum-computing",
+    isExternal: false,
   },
 ];
 
@@ -345,4 +332,4 @@ export {
   skills,
   experiences,
 };
-export type { SocialLink, WorkExperienceType, SkillSet, Experience };
+export type { SocialLink, WorkExperienceType, SkillSet, Experience, Article };

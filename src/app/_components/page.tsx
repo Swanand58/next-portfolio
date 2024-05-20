@@ -6,6 +6,8 @@ import {
   skills,
   SkillSet,
   Experience,
+  articles,
+  Article,
 } from "../../../data/projects";
 
 import { IoSettingsOutline } from "react-icons/io5";
@@ -13,6 +15,7 @@ import { MdWork } from "react-icons/md";
 import { IconType } from "react-icons";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const SocialCard: React.FC = () => {
   return (
@@ -121,14 +124,6 @@ const ProjectCards: React.FC<ProjectCardProps> = ({
   );
 };
 
-interface Article {
-  id: number;
-  date: string;
-  title: string;
-  summary: string;
-  link: string;
-}
-
 interface ArticleCardProps {
   article: Article;
 }
@@ -146,14 +141,23 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
           {article.summary}
         </p>
       </div>
-      <a
-        href={article.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-2  hover:text-blue-300 p-2 rounded font-semibold transition-colors"
-      >
-        Read article &gt;
-      </a>
+      {article.isExternal ? (
+        <a
+          href={article.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 hover:text-blue-300 p-2 rounded font-semibold transition-colors"
+        >
+          Read more &gt;
+        </a>
+      ) : (
+        <Link
+          className="mt-2 hover:text-blue-300 p-2 rounded font-semibold transition-colors"
+          href={article.link}
+        >
+          Read more &gt;
+        </Link>
+      )}
     </div>
   );
 };
