@@ -136,8 +136,8 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
     >
       <div>
         <p className="text-sm">{article.date}</p>
-        <h3 className="font-bold text-lg">{article.title}</h3>
-        <p className="overflow-auto my-2" style={{ flex: "1" }}>
+        <h3 className="font-bold text-lg mt-4">{article.title}</h3>
+        <p className="overflow-auto my-2 mt-4" style={{ flex: "1" }}>
           {article.summary}
         </p>
       </div>
