@@ -244,7 +244,7 @@ const skills: SkillSet[] = [
   {
     id: "databases",
     icon: FaDatabase,
-    description: "SQL, MongoDB, PostgresSQL",
+    description: "SQL, MongoDB, PostgreSQL",
   },
 ];
 
