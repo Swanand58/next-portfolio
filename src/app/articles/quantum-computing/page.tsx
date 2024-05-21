@@ -26,9 +26,14 @@ const QuantumComputing = () => {
         technology for computers. By increasing the number of transistors in a
         given area we are increasing the capacity of data storage. But we can’t
         keep on reducing the size of transistors. There is a limit to it. The
-        advantages of small size are - a) Less heat generation, b) Less inertia,
-        c) More capacity in a given area.
+        advantages of small size are:
       </p>
+      <ul className="list-disc pl-6 mb-6">
+        <li>Less heat generation</li>
+        <li>Less inertia</li>
+        <li>More capacity in a given area</li>
+      </ul>
+
       <Image
         src="/quantum-2.avif"
         alt="Quantum Computing"
@@ -36,6 +41,9 @@ const QuantumComputing = () => {
         height={600}
         className="mb-4 rounded-lg mx-auto"
       />
+      <div className="text-sm text-gray-500 text-center mb-2">
+        Image credits: [HP.com]
+      </div>
       <p className="mb-6">
         If we are able to store 1 bit using the size of an atom or even less
         than that, we can achieve the above-mentioned advantages. But at this
@@ -93,6 +101,9 @@ const QuantumComputing = () => {
         height={400}
         className="mb-4 rounded-lg mx-auto"
       />
+      <div className="text-sm text-gray-500 text-center mb-2">
+        Image credits: [https://sciencebackyard.com/]
+      </div>
       <p className="mb-6">
         One of the many fields in quantum computing in which there is a huge
         possibility for patents is quantum cryptography. Classical cryptography
@@ -114,10 +125,18 @@ const QuantumComputing = () => {
         quantum computing research. Patents can be acquired for quantum
         algorithms based on mathematical models, bypassing the need for
         extremely expensive quantum hardware. The mathematical model of quantum
-        computing uses a) Linear Algebra - Specifically vector space, b) Hilbert
-        space, c) Classical computing Mathematical model abstracts the quantum
-        effects which makes it easy to create and prove quantum algorithms.
+        computing uses:
       </p>
+      <ul className="list-disc pl-6 mb-6">
+        <li>Linear Algebra - Specifically vector space</li>
+        <li>Hilbert space</li>
+        <li>Classical computing</li>
+      </ul>
+      <p className="mb-6">
+        The mathematical model abstracts the quantum effects, which makes it
+        easy to create and prove quantum algorithms.
+      </p>
+
       <Image
         src="/quantum-1.png"
         alt="Quantum Computing"
@@ -125,6 +144,9 @@ const QuantumComputing = () => {
         height={400}
         className="mb-4 rounded-lg mx-auto"
       />
+      <div className="text-sm text-gray-500 text-center mb-2">
+        Image credits: [The Washington Post]
+      </div>
       <p className="mb-6">
         In 2018, China had nearly twice as many patent filings as the United
         States for quantum technology overall, a category that includes

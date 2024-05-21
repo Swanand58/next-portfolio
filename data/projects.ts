@@ -111,7 +111,7 @@ const articles: Article[] = [
     title:
       "Refactoring from Monolithic to Microservices based Architecture. (Challenges and Solution)",
     summary:
-      "Monolithic Architecture: A monolithic architerture based application is typically a system in which all the modules are packaged together as a single deployable unit of execution. A monolithic application typically has a layered design, with separate layers for UI, Business Logic and Database. For example, A client-side UI (desktop or Web-based), a server-side application and a data access. The server-side application receives requests, executes domain-logic, retrieves and updates data from the database, and responds back to the client. This server-side application is based on the monolithic architecture. Any changes to the system involves building and deploying a new version of the server-side application.",
+      "Monolithic Architecture -  A monolithic architecture-based application is typically a system in which all the modules are packaged together as a single deployable unitof execution. A monolithic application typically has a layered design, with separate layers for UI, Business Logic, and Database. For example, a client-side UI (desktop or web-based), a server-side application, and data access. The server-side application receives requests, executes domain logic, retrieves and updates data from the database, and responds back to the client. This server-side application is based on the monolithic architecture. Any changes to the system involve building and deploying a new version of the server-side application.",
     link: "/articles/refactoring-from-monolithic-to-microservices-based-architecture",
     isExternal: false,
   },
