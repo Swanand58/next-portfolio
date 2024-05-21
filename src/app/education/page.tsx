@@ -6,11 +6,11 @@ import Image from "next/image";
 const EducationPage: React.FC = () => {
   return (
     <main className="flex flex-wrap min-h-screen p-8">
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <h1 className="text-3xl font-bold text-center mb-6">
           My Education History
         </h1>
-        <p className="text-center mb-4">
+        <p className="text-justify mb-4">
           I am currently pursuing a Master of Science in Computer Science at
           Rice University. I started my program in August 2023 and am expected
           to graduate in December 2024. I have taken courses in Parallel

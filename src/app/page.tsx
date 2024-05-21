@@ -46,7 +46,7 @@ const Home: React.FC = () => {
             constantly learn and explore new things. Beyond my love for coding,
             music is a significant part of my life. I listen to songs all the
             time and enjoy playing guitar. Music fuels my creativity and helps
-            me unwind. In my free time, I love to go on long biking drives,
+            me unwind. In my free time, I love to go on long bike rides,
             exploring new places and enjoying the journey. Photography is
             another hobby of mine; capturing moments and landscapes allows me to
             see the world from different perspectives. Whenever I feel tired or

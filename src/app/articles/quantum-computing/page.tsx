@@ -1,10 +1,19 @@
+"use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const QuantumComputing = () => {
+  const router = useRouter();
+
   return (
-    <div className="article-container p-6 rounded-lg shadow-lg ml-40 mr-40">
-      <h1 className="text-3xl font-bold mb-4 text-center">
-        {" "}
+    <div className="article-container p-4 sm:p-6 rounded-lg shadow-lg max-w-4xl mx-auto text-justify">
+      <button
+        onClick={() => router.back()}
+        className="text-blue-500 hover:text-blue-700 mb-4"
+      >
+        ← Back
+      </button>
+      <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">
         Patents in Quantum Computing
       </h1>
       <p className="mb-6">
@@ -102,7 +111,7 @@ const QuantumComputing = () => {
       <p className="mb-6">
         Quantum algorithms can be developed using a mathematical model of
         quantum computing, which eliminates the need for actual hardware for
-        quantum computng research. Patents can be acquired for quantum
+        quantum computing research. Patents can be acquired for quantum
         algorithms based on mathematical models, bypassing the need for
         extremely expensive quantum hardware. The mathematical model of quantum
         computing uses a) Linear Algebra - Specifically vector space, b) Hilbert
@@ -135,7 +144,7 @@ const QuantumComputing = () => {
         ion traps, quantum dots, color centers in diamond, topological devices.
         However, there is a huge scope of research in quantum cryptography and
         mathematical models and quantum algorithms in quantum computing which
-        does not require a million-dollar hardware
+        does not require a million-dollar hardware.
       </p>
     </div>
   );

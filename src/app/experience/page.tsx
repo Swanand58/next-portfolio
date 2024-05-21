@@ -11,7 +11,7 @@ const ExperiencePage: React.FC = () => {
         <h1 className="text-3xl font-bold text-center mb-6">
           My Work Experience
         </h1>
-        <p className="text-center mb-4">
+        <p className="text-justify mb-4">
           During my work experience, I have had the opportunity to work in
           diverse roles and projects that have significantly enriched my
           skillset and knowledge in the field of computer science. After

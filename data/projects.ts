@@ -107,6 +107,16 @@ interface Article {
 const articles: Article[] = [
   {
     id: 1,
+    date: "01 Apr 2022",
+    title:
+      "Refactoring from Monolithic to Microservices based Architecture. (Challenges and Solution)",
+    summary:
+      "Monolithic Architecture: A monolithic architerture based application is typically a system in which all the modules are packaged together as a single deployable unit of execution. A monolithic application typically has a layered design, with separate layers for UI, Business Logic and Database. For example, A client-side UI (desktop or Web-based), a server-side application and a data access. The server-side application receives requests, executes domain-logic, retrieves and updates data from the database, and responds back to the client. This server-side application is based on the monolithic architecture. Any changes to the system involves building and deploying a new version of the server-side application.",
+    link: "/articles/refactoring-from-monolithic-to-microservices-based-architecture",
+    isExternal: false,
+  },
+  {
+    id: 2,
     date: "1 July 2020",
     title: "Patents in Facial Recognition",
     summary:
@@ -115,7 +125,7 @@ const articles: Article[] = [
     isExternal: true,
   },
   {
-    id: 2,
+    id: 3,
     date: "28 Jul 2020",
     title: "Patents in Quantum Computing",
     summary:
