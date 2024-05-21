@@ -56,8 +56,10 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
           vulnerabilities.
         </li>
       </ul>
-      At this point, it makes sense to migrate the application to a
-      microservices architecture.
+      <p className="mb-6">
+        At this point, it makes sense to migrate the application to a
+        microservices architecture.
+      </p>
       <Image
         src="/monolithic1.webp"
         alt="Monolith"
