@@ -182,15 +182,16 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
   };
 
   return (
-    <div className="relative w-full h-full flex items-center justify-center">
-      <div className="relative w-full h-80">
-        <div className="absolute inset-0 flex flex-wrap items-center">
+    <div className="relative w-full h-80 max-h-[80vh] flex items-center justify-center">
+      <div className="relative w-full h-full">
+        <div className="absolute inset-0 flex items-center justify-center">
           <Image
             src={images[currentIndex]}
             alt="Carousel"
-            layout="fill"
-            objectFit="contain"
-            className="w-full h-auto"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            style={{ objectFit: "contain" }}
+            className="max-h-full"
           />
         </div>
         <button

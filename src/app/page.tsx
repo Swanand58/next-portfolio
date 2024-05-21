@@ -29,7 +29,8 @@ const Home: React.FC = () => {
           <Image
             src="/logo.jpg"
             alt="Swanand"
-            layout="fill"
+            fill
+            sizes=""
             className="rounded-full object-contain"
           />
         </div>
