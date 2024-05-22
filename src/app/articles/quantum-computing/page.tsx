@@ -16,6 +16,9 @@ const QuantumComputing = () => {
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">
         Patents in Quantum Computing
       </h1>
+      <p className="mb-6 text-center text-sm ">
+        Co-Author: Utkarshbhanu Andurkar
+      </p>
       <p className="mb-6">
         Quantum Computing can be simply defined as “Use of quantum effects to
         store and compute data”. Quantum computing is emerging as a gamechanger
@@ -37,8 +40,8 @@ const QuantumComputing = () => {
       <Image
         src="/quantum-2.avif"
         alt="Quantum Computing"
-        width={800}
-        height={600}
+        width={500}
+        height={400}
         className="mb-4 rounded-lg mx-auto"
       />
       <div className="text-sm text-gray-500 text-center mb-2">

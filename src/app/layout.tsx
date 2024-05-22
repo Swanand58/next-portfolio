@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
+import GoogleAnalytics from "./_components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: "Swanand Sanjay Khonde",
@@ -58,6 +59,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics />
       <body className={inter.className}>
         <TopNav />
         {children}

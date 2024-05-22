@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Here is the live site: [My Portfolio](https://swanand-khonde-portfolio.vercel.app/)
+
 ## Getting Started
 
 - [x] - adding default layout and global styles

@@ -107,7 +107,7 @@ interface Article {
 const articles: Article[] = [
   {
     id: 1,
-    date: "01 Apr 2022",
+    date: "01 April 2022",
     title:
       "Refactoring from Monolithic to Microservices based Architecture. (Challenges and Solution)",
     summary:
@@ -117,21 +117,21 @@ const articles: Article[] = [
   },
   {
     id: 2,
+    date: "28 July 2020",
+    title: "Patents in Quantum Computing",
+    summary:
+      "Quantum Computing can be simply defined as “Use of quantum effects to store and compute data”. Quantum computing is emerging as a gamechanger in today’s computer industry. But what is the need of quantum computing? Today we use semiconductor technology for computers. By increasing the number of transistors in given area we are increasing the capacity of data storage. But we can’t keep on reducing the size of transistors.",
+    link: "/articles/quantum-computing",
+    isExternal: false,
+  },
+  {
+    id: 3,
     date: "1 July 2020",
     title: "Patents in Facial Recognition",
     summary:
       "Facial recognition software is a technology that can detect and identify a human face by an image or by a video stream or a live stream through cameras. Though the term facial recognition looks fairly simple, it is not! The term facial detection and facial recognition are often confused as being synonymous and are used interchangeably. However, there is a major difference between the two. A facial detection program only detects a face whereas facial recognition detects a face as well as identifies the person.   Published: Photon Legal",
     link: "https://photonlegal.com/patents-in-facial-recognition/",
     isExternal: true,
-  },
-  {
-    id: 3,
-    date: "28 Jul 2020",
-    title: "Patents in Quantum Computing",
-    summary:
-      "Quantum Computing can be simply defined as “Use of quantum effects to store and compute data”. Quantum computing is emerging as a gamechanger in today’s computer industry. But what is the need of quantum computing? Today we use semiconductor technology for computers. By increasing the number of transistors in given area we are increasing the capacity of data storage. But we can’t keep on reducing the size of transistors.",
-    link: "/articles/quantum-computing",
-    isExternal: false,
   },
 ];
 
