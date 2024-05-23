@@ -3,11 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
-import GoogleAnalytics from "./_components/GoogleAnalytics";
+import { CSPostHogProvider } from "./_analytics/providers";
 
 export const metadata: Metadata = {
   title: "Swanand Sanjay Khonde",
-  description: "This is my portfolio",
+  description: "My personal website",
 };
 
 const NavList = [
@@ -59,12 +59,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleAnalytics />
-      <body className={inter.className}>
-        <TopNav />
-        {children}
-        <Footer />
-      </body>
+      <CSPostHogProvider>
+        <body className={inter.className}>
+          <TopNav />
+          {children}
+          <Footer />
+        </body>
+      </CSPostHogProvider>
     </html>
   );
 }
