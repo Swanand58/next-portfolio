@@ -44,6 +44,9 @@ const EducationPage: React.FC = () => {
               />
               <div>
                 <h2 className="text-xl font-bold">Rice University</h2>
+                <p className="text-sm font-semibold text-gray-300">
+                  Houston, Texas, United States
+                </p>
                 <p className="text-sm text-gray-300">
                   Masters in Computer Science
                 </p>
@@ -108,6 +111,9 @@ const EducationPage: React.FC = () => {
                 <h2 className="text-xl font-bold">
                   Vishwakarma Institute of Technology
                 </h2>
+                <p className="text-sm font-semibold text-gray-300">
+                  Pune, Maharashtra, India
+                </p>
                 <p className="text-sm text-gray-300">
                   Bachelor of Technology in Computer Engineering
                 </p>

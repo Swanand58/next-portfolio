@@ -16,7 +16,7 @@ export default function Contact() {
             Let's get in touch!
           </h1>
         </div>
-        <div className="text-center mt-12 mb-6 px-6 sm:px-36 ">
+        <div className="text-justify mt-12 mb-6 px-6 sm:px-36 ">
           <p className="text-sm sm:text-base font-semibold">
             Thank you for wanting to reach out! I'd love to hear your thoughts,
             questions, or ideas. You can email me directly at
