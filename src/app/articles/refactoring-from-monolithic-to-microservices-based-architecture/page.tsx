@@ -13,7 +13,9 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
         ← Back
       </button>
       <h1 className="text-3xl font-bold mb-6 text-center">
-        {" "}
+        <p className="mb-6 font-semibold text-center text-sm">
+          Published - 1 April 2022
+        </p>{" "}
         Refactoring from Monolithic to Microservices based Architecture.
         (Challenges and Solution)
       </h1>

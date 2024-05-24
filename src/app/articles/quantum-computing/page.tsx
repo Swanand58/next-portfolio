@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 const QuantumComputing = () => {
@@ -13,12 +14,18 @@ const QuantumComputing = () => {
       >
         ← Back
       </button>
+      <p className="mb-6 font-semibold text-center text-sm">
+        Published - 28 July 2020
+      </p>
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">
         Patents in Quantum Computing
       </h1>
       <p className="mb-6 text-center text-sm ">
-        Co-Author: Utkarshbhanu Andurkar
+        <Link href="https://www.linkedin.com/in/utkarshbhanu-andurkar/">
+          Co-Author: Utkarshbhanu Andurkar
+        </Link>
       </p>
+
       <p className="mb-6">
         Quantum Computing can be simply defined as “Use of quantum effects to
         store and compute data”. Quantum computing is emerging as a gamechanger

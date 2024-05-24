@@ -148,14 +148,14 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
           rel="noopener noreferrer"
           className="mt-2 hover:text-blue-300 p-2 rounded font-semibold transition-colors"
         >
-          Read more &gt;
+          Read article &gt;
         </a>
       ) : (
         <Link
           className="mt-2 hover:text-blue-300 p-2 rounded font-semibold transition-colors"
           href={article.link}
         >
-          Read more &gt;
+          Read article &gt;
         </Link>
       )}
     </div>
