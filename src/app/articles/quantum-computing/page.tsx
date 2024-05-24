@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { FaLinkedin } from "react-icons/fa";
 
 const QuantumComputing = () => {
   const router = useRouter();
@@ -20,11 +21,14 @@ const QuantumComputing = () => {
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">
         Patents in Quantum Computing
       </h1>
-      <p className="mb-6 text-center text-sm ">
-        <Link href="https://www.linkedin.com/in/utkarshbhanu-andurkar/">
-          Co-Author: Utkarshbhanu Andurkar
-        </Link>
-      </p>
+      <div className="flex justify-center items-center mb-8 mt-6">
+        <p className="flex items-center text-sm">
+          <FaLinkedin className="mr-2" />
+          <Link href="https://www.linkedin.com/in/utkarshbhanu-andurkar/">
+            Co-Author: Utkarshbhanu Andurkar
+          </Link>
+        </p>
+      </div>
 
       <p className="mb-6">
         Quantum Computing can be simply defined as “Use of quantum effects to
