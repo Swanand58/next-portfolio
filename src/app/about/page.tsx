@@ -44,7 +44,7 @@ const About: React.FC = () => {
           providing both inspiration and relaxation.
         </p>
       </div>
-      <div className="w-full sm:w-1/2 sm:flex sm:flex-col sm:items-center">
+      <div className="w-full sm:w-1/2 sm:flex sm:flex-col sm:items-center mt-8">
         <div className="about-image-wrapper mx-auto sm:mr-0 sm:ml-auto">
           <Image
             src="/self2.jpg"
