@@ -18,14 +18,14 @@ export default function Contact() {
         </div>
         <div className="text-center mt-12 mb-6 px-6 sm:px-36 ">
           <p className="text-sm sm:text-base font-semibold">
-            Thank you for wanting to reach out! I'd love to hear your thoughts,
+            Thank you for reaching out! I'd love to hear your thoughts,
             questions, or ideas. You can email me directly at
-            swanandkhonde1999@gmail.com. I try to reply to all messages within a
-            day, but sometimes it might take a bit longer if I'm busy. If you
-            prefer social media, you can find me on LinkedIn and Twitter. If not
-            on LinkedIn I am definitely active on Instagram. I share updates
-            there and love chatting with followers. Thanks again for reaching
-            out, and I'm excited to hear from you!{" "}
+            swanandkhonde1999@gmail.com. I try to reply within a day, but it
+            might take a bit longer if I'm busy. You can also connect with me on
+            LinkedIn and Twitter. If not on LinkedIn, I'm definitely active on
+            Instagram, where I share updates and enjoy chatting with followers.
+            Thanks again for reaching out, and I look forward to hearing from
+            you!{" "}
           </p>
         </div>
 

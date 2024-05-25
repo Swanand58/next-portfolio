@@ -14,17 +14,18 @@ const EducationPage: React.FC = () => {
           I am currently pursuing a Master of Science in Computer Science at
           Rice University. I started my program in August 2023 and am expected
           to graduate in December 2024. I have taken courses in Parallel
-          Computing, Grad Tools and Models in Data Science, Information
-          retrieval , Machine Learning, and Deep Learning. I have also taken
-          general courses to improve my core CS skills, such as Graduate
-          Analysis of Algorithms and Web Development. Before coming to Rice, I
-          attended Vishwakarma Institute of Technology in Pune, India, where I
-          earned a Bachelor of Technology in Computer Engineering. I took
-          courses related to Data Structures,Operating Systems, Automata Theory,
-          Database Management System, Object-Oriented Programming, Machine
-          Learning, Deep Learning.
+          Computing, Graduate Tools and Models in Data Science, Information
+          Retrieval , Machine Learning with Graphs, and Deep Learning in Vision
+          and Language. I have also taken general courses to improve my core CS
+          skills, such as Graduate Design Analysis of Algorithms and Web Design
+          and Development. Before coming to Rice, I attended Vishwakarma
+          Institute of Technology in Pune, India, where I earned a Bachelor of
+          Technology in Computer Engineering. I took courses related to Data
+          Structures,Operating Systems, Automata Theory, Database Management
+          System, Computer Networks, Compiler Design, Object-Oriented
+          Programming, Machine Learning, Deep Learning.
         </p>
-        <div className="text-center mb-6">
+        <div className="text-center mb-8 mt-8">
           <button
             className=" bg-gray-700 font-bold py-2 px-4 rounded hover:bg-slate-800 hover:text-slate-200"
             onClick={() => window.open("/Resume_SwanandKhonde.pdf", "_blank")}
