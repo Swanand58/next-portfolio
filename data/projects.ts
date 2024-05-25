@@ -106,6 +106,16 @@ interface Article {
 
 const articles: Article[] = [
   {
+    id: 4,
+    date: "23 April 2024",
+    title:
+      "Enhancing Recommender Systems through Knowledge Graphs: Approaches, Comparisons, and Future Directions (Survey)",
+    summary:
+      "Recommender systems are critical in filtering vast amount of information, helping users in discovering the most relevant items. The integration of Knowledge Graphs (KG) into recommender systems offers a well defined method for enhancing the recommendation performance using semantic relationships between entities. This survey investigates different KG based methodologies that have recently proposed to improve recommender systems. We review several models, including the Knowledge-aware Path Recurrent Network (KPRN), which utilizes path-based reasoning to enhance the interpretability and accuracy of recommendations, and the Policy-Guided Path Reasoning (PGPR), which employs reinforcement learning to generate explainable recommendations via knowledge graphs. ",
+    link: "/articles/enhancing-recommender-system",
+    isExternal: false,
+  },
+  {
     id: 1,
     date: "01 April 2022",
     title:
@@ -153,6 +163,14 @@ const carouselImages = [
   "/gallery15.jpg",
   "/gallery16.jpg",
   "/gallery17.jpg",
+  "/gallery18.jpg",
+  "/gallery25.jpg",
+  "/gallery24.jpg",
+  "/gallery23.jpg",
+  "/gallery22.jpg",
+  "/gallery21.jpg",
+  "/gallery19.jpg",
+  "/gallery26.jpg",
 ];
 
 interface SocialLink {
