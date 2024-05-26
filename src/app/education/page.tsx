@@ -90,12 +90,12 @@ const EducationPage: React.FC = () => {
               <li className="mb-2">
                 <strong className=" text-lg">Web Development:</strong> Created
                 multi-user web applications using the MERN stack. Gained
-                expertise in front-end development with HTML, CSS, and
-                JavaScript, and back-end development with React.js, Node.js,
-                Express, and MongoDB. Implemented industry best practices like
-                test-driven development and version control. Developed a fully
-                functional, scalable social media application called RiceBook,
-                incorporating modern web frameworks and design patterns.
+                expertise in front-end development with HTML, CSS, React.js and
+                JavaScript, and back-end development with Node.js, Express, and
+                MongoDB. Implemented industry best practices like test-driven
+                development and version control. Developed a fully functional,
+                scalable social media application called RiceBook, incorporating
+                modern web frameworks and design patterns.
               </li>
             </ul>
           </div>

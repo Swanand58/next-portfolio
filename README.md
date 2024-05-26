@@ -12,5 +12,6 @@ Here is the live site: [My Portfolio](https://swanand-khonde-portfolio.vercel.ap
 - [x] - adding experience page
 - [x] - adding projects page
 - [x] - adding contact page
-- [ ] - adding Dynamic articles page
-- [ ] - Finetuning content
+- [X] - adding Dynamic articles page
+- [X] - Finetuning content
+- [] - future development

@@ -25,6 +25,13 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "LU Decomposition using OpenMP",
+    description:
+      "A parallel implementations of LU decomposition that use Gaussian elimination to factor a dense N x N matrix into an upper-triangular one and a lower-triangular one.",
+    Icon: PiFileCppDuotone,
+    link: "https://github.com/Swanand58/LU_Decomposition_OPENMP",
+  },
+  {
     title: "Next.js Portfolio",
     description:
       "This Website. My portfolio website built with Next.js and Tailwind CSS.",
@@ -37,13 +44,6 @@ const projects: Project[] = [
       "A parallelized version of the classic strategy game Othello (also known as Reversi), implemented in Cilk Plus. ",
     Icon: PiFileCppDuotone,
     link: "https://github.com/Swanand58/Othello_CILKPLUS",
-  },
-  {
-    title: "LU Decomposition using OpenMP",
-    description:
-      "A parallel implementations of LU decomposition that use Gaussian elimination to factor a dense N x N matrix into an upper-triangular one and a lower-triangular one.",
-    Icon: PiFileCppDuotone,
-    link: "https://github.com/Swanand58/LU_Decomposition_OPENMP",
   },
   {
     title: "OES Rice Event Management App",
@@ -106,12 +106,21 @@ interface Article {
 
 const articles: Article[] = [
   {
+    id: 2,
+    date: "28 July 2020",
+    title: "Patents in Quantum Computing",
+    summary:
+      "Quantum Computing can be simply defined as “Use of quantum effects to store and compute data”. Quantum computing is emerging as a gamechanger in today’s computer industry. But what is the need of quantum computing? Today we use semiconductor technology for computers. By increasing the number of transistors in given area we are increasing the capacity of data storage. But we can’t keep on reducing the size of transistors.",
+    link: "/articles/quantum-computing",
+    isExternal: false,
+  },
+  {
     id: 4,
     date: "23 April 2024",
     title:
       "Enhancing Recommender Systems through Knowledge Graphs: Approaches, Comparisons, and Future Directions (Survey)",
     summary:
-      "Recommender systems are critical in filtering vast amount of information, helping users in discovering the most relevant items. The integration of Knowledge Graphs (KG) into recommender systems offers a well defined method for enhancing the recommendation performance using semantic relationships between entities. This survey investigates different KG based methodologies that have recently proposed to improve recommender systems. We review several models, including the Knowledge-aware Path Recurrent Network (KPRN), which utilizes path-based reasoning to enhance the interpretability and accuracy of recommendations, and the Policy-Guided Path Reasoning (PGPR), which employs reinforcement learning to generate explainable recommendations via knowledge graphs. ",
+      "Recommender systems are critical in filtering vast amount of information, helping users in discovering the most relevant items. The integration of Knowledge Graphs (KG) into recommender systems offers a well defined method for enhancing the recommendation performance using semantic relationships between entities. This survey investigates different KG based methodologies that have recently proposed to improve recommender systems.  ",
     link: "/articles/enhancing-recommender-system",
     isExternal: false,
   },
@@ -121,17 +130,8 @@ const articles: Article[] = [
     title:
       "Refactoring from Monolithic to Microservices based Architecture. (Challenges and Solution)",
     summary:
-      "Monolithic Architecture -  A monolithic architecture-based application is typically a system in which all the modules are packaged together as a single deployable unitof execution. A monolithic application typically has a layered design, with separate layers for UI, Business Logic, and Database. For example, a client-side UI (desktop or web-based), a server-side application, and data access. The server-side application receives requests, executes domain logic, retrieves and updates data from the database, and responds back to the client. This server-side application is based on the monolithic architecture. Any changes to the system involve building and deploying a new version of the server-side application.",
+      "Monolithic Architecture -  A monolithic architecture-based application is typically a system in which all the modules are packaged together as a single deployable unitof execution. A monolithic application typically has a layered design, with separate layers for UI, Business Logic, and Database. For example, a client-side UI (desktop or web-based), a server-side application, and data access.",
     link: "/articles/refactoring-from-monolithic-to-microservices-based-architecture",
-    isExternal: false,
-  },
-  {
-    id: 2,
-    date: "28 July 2020",
-    title: "Patents in Quantum Computing",
-    summary:
-      "Quantum Computing can be simply defined as “Use of quantum effects to store and compute data”. Quantum computing is emerging as a gamechanger in today’s computer industry. But what is the need of quantum computing? Today we use semiconductor technology for computers. By increasing the number of transistors in given area we are increasing the capacity of data storage. But we can’t keep on reducing the size of transistors.",
-    link: "/articles/quantum-computing",
     isExternal: false,
   },
   {
