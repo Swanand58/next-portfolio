@@ -11,17 +11,21 @@ import {
   ImageCarousel,
 } from "./_components/page";
 import { projects, articles, carouselImages } from "../../data/projects";
+import { useRouter } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
 const Home: React.FC = () => {
   const [showAllArticles, setShowAllArticles] = useState(false);
+  const router = useRouter();
 
   const toggleArticles = () => {
     setShowAllArticles(!showAllArticles);
   };
 
   const displayedArticles = showAllArticles ? articles : articles.slice(0, 2);
+  const displayedProjects = projects.slice(0, 3);
+
   return (
     <main className="bg-black text-white min-h-screen p-4 sm:p-8">
       <section className="flex gap-4 sm:gap-8 items-start mb-4 sm:mb-12">
@@ -71,9 +75,17 @@ const Home: React.FC = () => {
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-            {projects.map((project) => (
+            {displayedProjects.map((project) => (
               <ProjectCards key={project.title} {...project} />
             ))}
+          </div>
+          <div className="flex justify-center mt-6">
+            <button
+              onClick={() => router.push("/projects")}
+              className="mt-4 text-white bg-slate-500 hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
+            >
+              View More
+            </button>
           </div>
         </div>
         <div className="flex flex-col sm:flex-row h-full mt-4">

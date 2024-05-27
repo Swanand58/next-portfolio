@@ -25,11 +25,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "LU Decomposition using OpenMP",
+    title: "Othello Reversi Game using Cilk Plus",
     description:
-      "A parallel implementations of LU decomposition that use Gaussian elimination to factor a dense N x N matrix into an upper-triangular one and a lower-triangular one.",
+      "A parallelized version of the classic strategy game Othello (also known as Reversi), implemented in Cilk Plus. Implements the negamax algorithm for AI decision-making.",
     Icon: PiFileCppDuotone,
-    link: "https://github.com/Swanand58/LU_Decomposition_OPENMP",
+    link: "https://github.com/Swanand58/Othello_CILKPLUS",
   },
   {
     title: "Next.js Portfolio",
@@ -39,11 +39,18 @@ const projects: Project[] = [
     link: "https://github.com/Swanand58/next-portfolio",
   },
   {
-    title: "Othello Reversi Game using Cilk Plus",
+    title: "Social Media App Frontend",
     description:
-      "A parallelized version of the classic strategy game Othello (also known as Reversi), implemented in Cilk Plus. ",
+      "A fully scalable social media platform in MERN stack. Frontend written in React.js",
+    Icon: FaReact,
+    link: "https://github.com/Swanand58/social-media-app-frontend-rice",
+  },
+  {
+    title: "LU Decomposition using OpenMP",
+    description:
+      "A parallel implementations of LU decomposition that use Gaussian elimination to factor a dense N x N matrix into an upper-triangular one and a lower-triangular one.",
     Icon: PiFileCppDuotone,
-    link: "https://github.com/Swanand58/Othello_CILKPLUS",
+    link: "https://github.com/Swanand58/LU_Decomposition_OPENMP",
   },
   {
     title: "OES Rice Event Management App",
@@ -65,13 +72,6 @@ const projects: Project[] = [
       "A fully scalable social media platform in MERN stack. Backend written in Node.js (Express.js) and MongoDB.",
     Icon: FaNode,
     link: "https://github.com/Swanand58/social-media-app-backend-rice",
-  },
-  {
-    title: "Social Media App Frontend",
-    description:
-      "A fully scalable social media platform in MERN stack. Frontend written in React.js",
-    Icon: FaReact,
-    link: "https://github.com/Swanand58/social-media-app-frontend-rice",
   },
   {
     title: "2-Cars Javascript Game",
