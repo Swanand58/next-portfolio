@@ -80,6 +80,13 @@ const projects: Project[] = [
     link: "https://github.com/Swanand58/2-cars-javascript",
   },
   {
+    title: "CodeFury 2021 Hackathon HSBC Online Auction",
+    description:
+      "Built a Full Stack online auction platform in HSBC Hackathon CodeFury 2021",
+    Icon: FaJava,
+    link: "https://github.com/manyaabhardwaj/CodeFury_2021",
+  },
+  {
     title: "Document Classification",
     description:
       "'Document Classification using visual parameters', a deep learning project aimed at streamlining document categorization (letters, emails, resumes, invoices, etc.) for user convenience",
