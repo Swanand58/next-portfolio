@@ -14,6 +14,7 @@ import {
   FaLaptopCode,
   FaServer,
   FaDatabase,
+  FaGolang,
 } from "react-icons/fa6";
 
 interface Project {
@@ -51,6 +52,20 @@ const projects: Project[] = [
       "A parallel implementations of LU decomposition that use Gaussian elimination to factor a dense N x N matrix into an upper-triangular one and a lower-triangular one.",
     Icon: PiFileCppDuotone,
     link: "https://github.com/Swanand58/LU_Decomposition_OPENMP",
+  },
+  {
+    title: "Spotify Music Party Backend",
+    description:
+      "A work in progess project where a group of music enthusiasts are building a music party app using spotify developer APIs",
+    Icon: FaGolang,
+    link: "https://github.com/Swanand58/spotify-music-party-backend",
+  },
+  {
+    title: "Spotify Music Party Frontend",
+    description:
+      "A work in progess project where a group of music enthusiasts are building a music party app using spotify developer APIs",
+    Icon: TbBrandTypescript,
+    link: "https://github.com/Swanand58/spotify-music-party-frontend",
   },
   {
     title: "OES Rice Event Management App",
