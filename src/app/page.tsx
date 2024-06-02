@@ -29,12 +29,12 @@ const Home: React.FC = () => {
   return (
     <main className="bg-black text-white min-h-screen p-4 sm:p-8">
       <section className="flex gap-4 sm:gap-8 items-start mb-4 sm:mb-12">
-        <div className="w-24 sm:w-28 h-24 sm:h-28 relative">
+        <div className="w-36 sm:w-36 h-36 sm:h-36 relative">
           <Image
             src="/logo.jpg"
             alt="Swanand"
             fill
-            sizes=""
+            sizes="(max-width: 768px) 100vw, 36vw"
             className="rounded-full object-contain"
           />
         </div>
