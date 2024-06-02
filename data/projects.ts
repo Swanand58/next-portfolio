@@ -115,6 +115,13 @@ const projects: Project[] = [
     Icon: FaPython,
     link: "https://github.com/Swanand58/structure-from-motion",
   },
+  {
+    title: "Compiler Design",
+    description:
+      "Compiler Design Course Assignments, Course from Vishwakarma Institute of Technology - Pune",
+    Icon: PiFileCppDuotone,
+    link: "https://github.com/Swanand58/CompilerDesign",
+  },
 ];
 
 interface Article {
