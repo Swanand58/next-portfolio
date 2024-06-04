@@ -109,6 +109,13 @@ const projects: Project[] = [
     link: "https://github.com/Swanand58/Document_Classification",
   },
   {
+    title: "Classic Snake Game",
+    description:
+      "A snake game built with Pygames Python library. The game includes features such as a growing snake, food spawning, special food spawning, score tracking, and many more.",
+    Icon: FaPython,
+    link: "https://github.com/Swanand58/classic-snake-game",
+  },
+  {
     title: "Structure from Motion",
     description:
       "Structure from Motion (SfM) algorithm optimized for architectural exteriors, generating 3D models.",
