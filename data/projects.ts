@@ -129,6 +129,13 @@ const projects: Project[] = [
     Icon: PiFileCppDuotone,
     link: "https://github.com/Swanand58/CompilerDesign",
   },
+  {
+    title: "Sudoku Game",
+    description:
+      "A Sudoku game built with python. GUI for Human Playable game and used Backtracking Algorithm for ai playing the game.",
+    Icon: FaPython,
+    link: "https://github.com/Swanand58/sudoku_game",
+  },
 ];
 
 interface Article {
