@@ -61,7 +61,7 @@ const About: React.FC = () => {
             className="flex items-center space-x-3"
           >
             <FaGithub className="text-2xl text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Follow me on GitHub
             </span>
           </a>
@@ -70,7 +70,7 @@ const About: React.FC = () => {
             className="flex items-center space-x-3"
           >
             <FaXTwitter className="text-2xl text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Follow me on Twitter
             </span>
           </a>
@@ -79,7 +79,7 @@ const About: React.FC = () => {
             className="flex items-center space-x-3"
           >
             <FaLinkedin className="text-2xl text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Follow me on LinkedIn
             </span>
           </a>
@@ -88,7 +88,7 @@ const About: React.FC = () => {
             className="flex items-center space-x-3"
           >
             <FaEnvelope className="text-2xl text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Email me
             </span>
           </a>

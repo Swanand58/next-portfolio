@@ -23,7 +23,7 @@ function Footer() {
             // </li>
             <li
               key={name}
-              className={`font-bold px-2 py-2 text-sm text-gray-600 hover:text-white ${
+              className={`font-bold px-2 py-2 text-sm text-gray-600 hover:text-white hover:underline ${
                 pathname === href ? "text-white" : "text-gray-600"
               }`}
             >

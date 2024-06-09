@@ -36,7 +36,7 @@ export default function Contact() {
             aria-label="Follow me on GitHub"
           >
             <FaGithub className="size-10 text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Follow me on GitHub
             </span>
           </a>
@@ -46,9 +46,9 @@ export default function Contact() {
             aria-label="Follow me on X"
           >
             <FaXTwitter className="size-10 text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Follow me on X
-            </span>{" "}
+            </span>
           </a>
           <a
             href="https://www.linkedin.com/in/swanandkhonde/"
@@ -56,7 +56,7 @@ export default function Contact() {
             aria-label="Follow me on LinkedIn"
           >
             <FaLinkedin className="size-10 text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Follow me on LinkedIn
             </span>
           </a>
@@ -66,7 +66,7 @@ export default function Contact() {
             aria-label="Email me"
           >
             <FaEnvelope className="size-10 text-slate-400 rounded-lg hover:text-slate-600 " />
-            <span className="text-sm font-semibold hover:text-slate-500 ">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Email me
             </span>
           </a>
@@ -76,7 +76,7 @@ export default function Contact() {
             aria-label="Email me"
           >
             <FaInstagram className="size-10 text-slate-400 rounded-lg hover:text-slate-600 " />
-            <span className="text-sm font-semibold hover:text-slate-500 ">
+            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
               Follow me on Instagram
             </span>
           </a>
