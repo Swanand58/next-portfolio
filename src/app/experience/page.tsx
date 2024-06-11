@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Experience, experiences } from "../../../data/projects";
-import { ExperienceCard } from "../_components/page";
+import ExperienceCard from "../_components/experiencecard";
 
 const ExperiencePage: React.FC = () => {
   return (

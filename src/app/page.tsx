@@ -2,14 +2,10 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import {
-  SocialCard,
-  Skills,
-  WorkExperience,
-  ProjectCards,
-  ArticleCard,
-  ImageCarousel,
-} from "./_components/page";
+import { SocialCard, Skills, WorkExperience } from "./_components/page";
+import ProjectCards from "./_components/projectcards";
+import ArticleCard from "./_components/articlecard";
+import  ImageCarousel  from "./_components/imagecarousel";
 import { projects, articles, carouselImages } from "../../data/projects";
 import { useRouter } from "next/navigation";
 
