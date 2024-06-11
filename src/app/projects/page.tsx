@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { ProjectCards } from "../_components/page";
+import ProjectCards from "../_components/projectcards";
 import { projects } from "../../../data/projects";
 
 export default function Projects() {
