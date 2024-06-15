@@ -19,9 +19,9 @@ function TopNav() {
         {NavList.map(([name, href]) => (
           <li
             key={name}
-            className={`font-bold px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900 ${
+            className={`font-bold px-3 py-2 rounded-xl hover:text-white hover:bg-slate-600 ${
               pathname === href
-                ? "text-white underline-offset-4 underline"
+                ? "text-white underline-offset-4 underline decoration-gray-400"
                 : "text-slate-400"
             }`}
           >
