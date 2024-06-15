@@ -18,12 +18,9 @@ function Footer() {
       <div className="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
         <ul className="flex justify-center flex-wrap gap-2 mb-4 sm:mb-0 items-center">
           {NavList.map(([name, href]) => (
-            // <li className="font-bold px-2 py-2 text-sm text-gray-600 hover:text-white ">
-            //   <Link href={href}>{name}</Link>
-            // </li>
             <li
               key={name}
-              className={`font-bold px-2 py-2 text-sm text-gray-600 hover:text-white hover:underline ${
+              className={`font-bold px-2 py-2 text-sm text-gray-600 hover:text-white hover:underline-offset-4 hover:underline ${
                 pathname === href ? "text-white" : "text-gray-600"
               }`}
             >
