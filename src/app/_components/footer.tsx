@@ -29,8 +29,10 @@ function Footer() {
           ))}
         </ul>
       </div>
-      <div className="flex justify-center w-full text-gray-600 text-xs sm:text-sm items-center sm:w-auto sm:ml-auto">
-        <p className="">© 2024 Swanand Khonde. All Rights Reserved.</p>
+      <div className="flex justify-center w-full text-gray-600  text-xs sm:text-sm items-center sm:w-auto sm:ml-auto">
+        <p className="hover:text-white">
+          © 2024 Swanand Khonde. All Rights Reserved.
+        </p>
       </div>
     </footer>
   );
