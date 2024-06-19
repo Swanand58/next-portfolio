@@ -6,7 +6,8 @@ import { SocialCard, Skills, WorkExperience } from "./_components/page";
 import ProjectCards from "./_components/projectcards";
 import ArticleCard from "./_components/articlecard";
 import ImageCarousel from "./_components/imagecarousel";
-import { projects, carouselImages } from "../../data/projects";
+import { projects } from "../../data/projects";
+import { carouselImages } from "../../data/images";
 import { articles } from "../../data/article";
 import { useRouter } from "next/navigation";
 

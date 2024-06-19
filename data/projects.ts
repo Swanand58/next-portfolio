@@ -140,35 +140,6 @@ const projects: Project[] = [
 
 
 
-const carouselImages = [
-  "/gallery1.png",
-  "/gallery2.jpg",
-  "/gallery3.jpg",
-  "/gallery4.jpg",
-  "/gallery5.jpg",
-  "/gallery6.jpg",
-  "/gallery7.jpg",
-  "/gallery8.jpg",
-  "/gallery9.jpg",
-  "/gallery10.jpg",
-  "/gallery11.jpg",
-  "/gallery12.jpg",
-  "/gallery13.jpg",
-  "/gallery14.jpg",
-  "/gallery15.jpg",
-  "/gallery16.jpg",
-  "/gallery17.jpg",
-  "/gallery18.jpg",
-  "/gallery25.jpg",
-  "/gallery24.jpg",
-  "/gallery23.jpg",
-  "/gallery22.jpg",
-  "/gallery21.jpg",
-  "/gallery19.jpg",
-  "/gallery26.jpg",
-  "/gallery27.jpg",
-];
-
 interface SocialLink {
   name: string;
   url: string;
@@ -361,7 +332,6 @@ const experiences: Experience[] = [
 
 export {
   projects,
-  carouselImages,
   socialLinks,
   workExperiences,
   skills,
