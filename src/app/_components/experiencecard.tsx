@@ -1,4 +1,4 @@
-import { Experience } from "../../../data/projects";
+import { Experience } from "../../../data/experience";
 import React from "react";
 
 interface ExperienceCardProps {

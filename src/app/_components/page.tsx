@@ -1,10 +1,9 @@
-import {
-  workExperiences,
-  WorkExperienceType,
-  skills,
-  SkillSet,
-} from "../../../data/projects";
+import { skills, SkillSet } from "../../../data/skills";
 import { socialLinks, SocialLink } from "../../../data/socials";
+import {
+  WorkExperienceType,
+  workExperiences,
+} from "../../../data/workexperience";
 
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdWork } from "react-icons/md";

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Experience, experiences } from "../../../data/projects";
+import { Experience, experiences } from "../../../data/experience";
 import ExperienceCard from "../_components/experiencecard";
 
 const ExperiencePage: React.FC = () => {
