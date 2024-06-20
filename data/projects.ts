@@ -2,14 +2,10 @@ import { TbBrandTypescript } from "react-icons/tb";
 import { PiFileCppDuotone } from "react-icons/pi";
 import { IconType } from "react-icons";
 import { SiJavascript } from "react-icons/si";
-import { FaJava, FaP } from "react-icons/fa6";
+import { FaJava } from "react-icons/fa6";
 import { FaNode, FaReact, FaPython } from "react-icons/fa";
 import { VscAzureDevops } from "react-icons/vsc";
 import {
-  FaXTwitter,
-  FaLinkedin,
-  FaGithub,
-  FaEnvelope,
   FaCode,
   FaLaptopCode,
   FaServer,
@@ -135,37 +131,6 @@ const projects: Project[] = [
       "A Sudoku game built with python. GUI for Human Playable game and used Backtracking Algorithm for ai playing the game.",
     Icon: FaPython,
     link: "https://github.com/Swanand58/sudoku_game",
-  },
-];
-
-
-
-interface SocialLink {
-  name: string;
-  url: string;
-  icon: IconType;
-}
-
-const socialLinks: SocialLink[] = [
-  {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/swanandkhonde/",
-    icon: FaLinkedin,
-  },
-  {
-    name: "GitHub",
-    url: "https://github.com/Swanand58",
-    icon: FaGithub,
-  },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/swanandkhonde_",
-    icon: FaXTwitter,
-  },
-  {
-    name: "Email",
-    url: "mailto:swanandkhonde1999@gmail.com",
-    icon: FaEnvelope,
   },
 ];
 
@@ -330,11 +295,5 @@ const experiences: Experience[] = [
   },
 ];
 
-export {
-  projects,
-  socialLinks,
-  workExperiences,
-  skills,
-  experiences,
-};
-export type { SocialLink, WorkExperienceType, SkillSet, Experience, };
+export { projects, workExperiences, skills, experiences };
+export type { WorkExperienceType, SkillSet, Experience };
