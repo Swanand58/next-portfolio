@@ -10,6 +10,7 @@ import { projects } from "../../data/projects";
 import { carouselImages } from "../../data/images";
 import { articles } from "../../data/article";
 import { useRouter } from "next/navigation";
+import { Typewriter } from "react-simple-typewriter";
 
 export const dynamic = "force-dynamic";
 
@@ -40,7 +41,17 @@ const Home: React.FC = () => {
       <section className="flex flex-col gap-4">
         <div className="text-left">
           <h1 className="text-3xl sm:text-4xl font-bold">
-            Software Engineer, Technology Enthusiast, and Aspiring Musician
+            <Typewriter
+              words={[
+                "Software Engineer, Technology Enthusiast, and Aspiring Musician",
+              ]}
+              loop={1}
+              cursor
+              cursorStyle="_"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
           </h1>
           <p className="mt-2 sm:mt-4">
             I'm Swanand Sanjay Khonde, a software developer based in Houston,
