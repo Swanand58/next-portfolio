@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { Typewriter } from "react-simple-typewriter";
 
 const MonolithicToMicroservicesBasedArchitecture = () => {
   const router = useRouter();
@@ -12,12 +13,21 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
       >
         ← Back
       </button>
+      <p className="mb-6 font-semibold text-center text-sm">
+        Published - 1 April 2022
+      </p>{" "}
       <h1 className="text-3xl font-bold mb-6 text-center">
-        <p className="mb-6 font-semibold text-center text-sm">
-          Published - 1 April 2022
-        </p>{" "}
-        Refactoring from Monolithic to Microservices based Architecture.
-        (Challenges and Solution)
+        <Typewriter
+          words={[
+            "Refactoring from Monolithic to Microservices based Architecture. (Challenges and Solution)",
+          ]}
+          loop={1}
+          cursor
+          cursorStyle="_"
+          typeSpeed={100}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
       </h1>
       <h2 className="mb-2 text-xl font-semibold"> Monolithic Architecture</h2>
       <p className="mb-6">

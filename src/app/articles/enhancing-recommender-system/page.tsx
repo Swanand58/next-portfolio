@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { Typewriter } from "react-simple-typewriter";
 
 const EnhancingRecommenderSystem = () => {
   const router = useRouter();
@@ -12,12 +13,21 @@ const EnhancingRecommenderSystem = () => {
       >
         ← Back
       </button>
+      <p className="mb-6 font-semibold text-center text-sm">
+        Published - 23 April 2024
+      </p>{" "}
       <h1 className="text-3xl font-bold mb-6 text-center">
-        <p className="mb-6 font-semibold text-center text-sm">
-          Published - 23 April 2024
-        </p>{" "}
-        Enhancing Recommender Systems through Knowledge Graphs: Approaches,
-        Comparisons, and Future Directions (Survey)
+        <Typewriter
+          words={[
+            "Enhancing Recommender Systems through Knowledge Graphs: Approaches,Comparisons, and Future Directions (Survey)",
+          ]}
+          loop={1}
+          cursor
+          cursorStyle="_"
+          typeSpeed={100}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
       </h1>
       <h2 className="mb-2 text-xl font-semibold"> Abstract</h2>
       <p className="mb-6">
@@ -45,7 +55,6 @@ const EnhancingRecommenderSystem = () => {
         data availability, scalability, resulting in a struggle to provide
         accurate sugesstions in dynamic environment.
       </p>
-
       <p className="mb-6">
         One of the transformative solutons to these challenges are knowledge
         graphs. By embedding deep semantic relationships within knowledge graphs

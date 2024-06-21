@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaLinkedin } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 
 const QuantumComputing = () => {
   const router = useRouter();
@@ -19,7 +20,15 @@ const QuantumComputing = () => {
         Published - 28 July 2020
       </p>
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">
-        Patents in Quantum Computing
+        <Typewriter
+          words={["Patents in Quantum Computing"]}
+          loop={1}
+          cursor
+          cursorStyle="_"
+          typeSpeed={100}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
       </h1>
       <div className="flex justify-center items-center mb-8 mt-6">
         <p className="flex items-center text-sm">
