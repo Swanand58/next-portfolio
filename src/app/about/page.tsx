@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <h1 className="text-2xl sm:text-3xl font-bold mb-3 text-center sm:text-center mt-0">
           Read more about me!
         </h1>
-        <p className="styled-paragraph text-justify sm:text-left">
+        <p className="styled-paragraph text-left sm:text-left">
           I am a Computer Science Master's student at Rice University, currently
           residing in Houston, Texas. My academic journey began with a
           Bachelor's in Computer Engineering from Vishwakarma Institute of
@@ -20,14 +20,14 @@ const About: React.FC = () => {
           where I honed my skills and contributed to numerous impactful
           projects.
         </p>
-        <p className="styled-paragraph text-justify sm:text-left">
+        <p className="styled-paragraph text-left sm:text-left">
           I possess a solid foundation and hands-on experience in programming
           languages and frameworks such as Python, Java, JavaScript/TypeScript,
           Flask, React, and Spring Boot. At HSBC, I worked as a Full Stack
           Engineer in the Shared Infrastructure Services team within the Trade
           and Transaction Reporting department.
         </p>
-        <p className="styled-paragraph text-justify sm:text-left">
+        <p className="styled-paragraph text-left sm:text-left">
           One of my notable projects involved developing a proof-of-concept AI
           SRE chatbot in Python using TensorFlow, which earned me the 'Pat on
           the Back' Award from HSBC in Q2 2022. Additionally, I developed the
@@ -35,7 +35,7 @@ const About: React.FC = () => {
           improved data accessibility for business users. For this project, I
           was recognized with the 'Star Performer' Award in Q1 2023.
         </p>
-        <p className="styled-paragraph text-justify sm:text-left">
+        <p className="styled-paragraph text-left sm:text-left">
           Beyond my professional life, I am deeply passionate about music. I
           listen to songs and enjoy playing the guitar, which fuels my
           creativity and helps me unwind. My musical tastes are diverse, ranging

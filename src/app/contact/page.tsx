@@ -16,7 +16,7 @@ export default function Contact() {
             Let's get in touch!
           </h1>
         </div>
-        <div className="text-center mt-12 mb-6 px-6 sm:px-36 ">
+        <div className="text-left mt-12 mb-6 px-6 sm:px-36 ">
           <p className="text-sm sm:text-base font-semibold">
             Thank you for reaching out! I'd love to hear your thoughts,
             questions, or ideas. You can email me directly at
@@ -35,8 +35,8 @@ export default function Contact() {
             className="flex items-center space-x-6"
             aria-label="Follow me on GitHub"
           >
-            <FaGithub className="size-10 text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
+            <FaGithub className="size-10 text-slate-400 rounded-lg hover:text-blue-500" />
+            <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
               Follow me on GitHub
             </span>
           </a>
@@ -45,8 +45,8 @@ export default function Contact() {
             className="flex items-center space-x-6"
             aria-label="Follow me on X"
           >
-            <FaXTwitter className="size-10 text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
+            <FaXTwitter className="size-10 text-slate-400 rounded-lg hover:text-blue-500" />
+            <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
               Follow me on X
             </span>
           </a>
@@ -55,8 +55,8 @@ export default function Contact() {
             className="flex items-center space-x-6 "
             aria-label="Follow me on LinkedIn"
           >
-            <FaLinkedin className="size-10 text-slate-400 rounded-lg hover:text-slate-600" />
-            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
+            <FaLinkedin className="size-10 text-slate-400 rounded-lg hover:text-blue-500" />
+            <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
               Follow me on LinkedIn
             </span>
           </a>
@@ -65,8 +65,8 @@ export default function Contact() {
             className="flex items-center space-x-6 "
             aria-label="Email me"
           >
-            <FaEnvelope className="size-10 text-slate-400 rounded-lg hover:text-slate-600 " />
-            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
+            <FaEnvelope className="size-10 text-slate-400 rounded-lg hover:text-blue-500 " />
+            <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
               Email me
             </span>
           </a>
@@ -75,8 +75,8 @@ export default function Contact() {
             className="flex items-center space-x-6 "
             aria-label="Email me"
           >
-            <FaInstagram className="size-10 text-slate-400 rounded-lg hover:text-slate-600 " />
-            <span className="text-sm font-semibold hover:text-slate-500 hover:underline">
+            <FaInstagram className="size-10 text-slate-400 rounded-lg hover:text-blue-500 " />
+            <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
               Follow me on Instagram
             </span>
           </a>

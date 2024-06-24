@@ -8,10 +8,8 @@ const ExperiencePage: React.FC = () => {
   return (
     <main className="flex flex-wrap min-h-screen p-8">
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-6">
-          My Work Experience
-        </h1>
-        <p className="text-justify mb-4">
+        <h1 className="text-3xl font-bold text-center mb-6">Work Experience</h1>
+        <p className="text-left mb-4">
           During my work experience, I have had the opportunity to take on
           diverse roles and projects that have significantly enriched my
           skillset and knowledge in computer science. After completing two
