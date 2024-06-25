@@ -9,7 +9,7 @@ const About: React.FC = () => {
     <main className="min-h-screen p-4 sm:p-9 flex flex-col sm:flex-row justify-between items-start">
       <div className="w-full sm:w-1/2 space-y-4 sm:space-y-8 py-2 sm:py-8 sm:text-center sm:mx-12">
         <h1 className="text-2xl sm:text-3xl font-bold mb-3 text-center sm:text-center mt-0">
-          Read more about me!
+          Read More About Me!
         </h1>
         <p className="styled-paragraph text-left sm:text-left">
           I am a Computer Science Master's student at Rice University, currently

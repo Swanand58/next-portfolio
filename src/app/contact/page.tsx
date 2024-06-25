@@ -13,7 +13,7 @@ export default function Contact() {
       <section>
         <div className="text-center">
           <h1 className="text-2xl sm:text-3xl font-bold ">
-            Let's get in touch!
+            Let's Get In Touch!
           </h1>
         </div>
         <div className="text-left mt-12 mb-6 px-6 sm:px-36 ">
