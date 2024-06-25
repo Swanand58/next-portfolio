@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import ProjectCards from "../_components/projectcards";
 import { projects } from "../../../data/projects";
 
