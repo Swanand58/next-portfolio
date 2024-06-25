@@ -36,7 +36,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({
       </div>
       <div className="p-2 sm:p-4 flex-1 flex flex-col justify-between card-content transition filter duration-300 ease-in-out">
         <div>
-          <div className="flex items-center gap-2 sm:gap-3 mb-1 sm:mb-2">
+          <div className="flex items-center gap-2 sm:gap-3 mb-1 sm:mb-2 mt-2 sm:mt-1">
             <Icon className="text-xl w-8 sm:w-10 h-8 sm:h-10" />
             <h3 className="text-base sm:text-lg font-bold">{title}</h3>
           </div>

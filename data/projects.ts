@@ -101,7 +101,7 @@ const projects: Project[] = [
     description:
       "Built a Full Stack online auction platform in HSBC Hackathon CodeFury 2021",
     Icon: FaJava,
-    link: "https://github.com/manyaabhardwaj/CodeFury_2021",
+    link: "https://github.com/Swanand58/code-fury-2021",
   },
   {
     image: "/projects/document-classification.png",
