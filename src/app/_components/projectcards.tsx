@@ -46,7 +46,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({
         </div>
       </div>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out bg-black bg-opacity-50">
-        <GrView className="text-4xl text-white" />
+        <GrView className="text-4xl text-white hover:text-blue-500" />
       </div>
     </div>
   );

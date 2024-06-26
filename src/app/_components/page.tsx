@@ -19,7 +19,7 @@ const SocialCard: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             title={link.name}
-            className="size-7 text-slate-400 rounded-lg hover:bg-slate-100 hover:text-slate-600"
+            className="size-7 text-slate-400 rounded-lg hover:bg-slate-600 hover:text-slate-600"
           >
             <link.icon className="size-7" />
           </a>
