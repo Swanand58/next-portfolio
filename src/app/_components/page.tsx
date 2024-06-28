@@ -8,6 +8,7 @@ import {
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import React from "react";
+
 const SocialCard: React.FC = () => {
   return (
     <div className="flex py-5">
@@ -70,7 +71,7 @@ const WorkExperience: React.FC = () => {
               />
               <div>
                 <strong>{experience.companyName}</strong>
-                <p className="text-xs">{experience.role}</p>
+                <p className="text-xs italic">{experience.role}</p>
               </div>
             </div>
             <span className="text-sm">{experience.duration}</span>

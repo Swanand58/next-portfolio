@@ -18,7 +18,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
           <h2 className="text-xl sm:text-2xl font-bold ml-3">
             {experience.company}
           </h2>
-          <p className="text-xs sm:text-sm ml-3 text-slate-200">
+          <p className="text-xs sm:text-sm ml-3 text-slate-200 italic">
             {experience.location}
           </p>
         </div>
@@ -30,7 +30,10 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
       <ul className="my-2 mt-0.5 flex flex-wrap gap-2 ml-3 text-slate-200 text-sm sm:text-base mb-6">
         <span className="font-semibold">Skills:</span>
         {experience.skills.map((skill, index) => (
-          <li key={index} className="text-slate-200 text-sm sm:text-base">
+          <li
+            key={index}
+            className="text-slate-200 text-sm sm:text-base italic"
+          >
             {skill}
             {index < experience.skills.length - 1 && <span>,</span>}
           </li>
@@ -38,7 +41,10 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
       </ul>
       <ul className="text-white list-disc pl-5">
         {experience.achievements.map((achievement, index) => (
-          <li key={index}>{achievement}</li>
+          <li
+            key={index}
+            dangerouslySetInnerHTML={{ __html: achievement }}
+          ></li>
         ))}
       </ul>
     </div>

@@ -11,7 +11,7 @@ const workExperiences: WorkExperienceType[] = [
     id: "nedd",
     companyLogo: "/nedd.jpeg",
     companyName: "Nedd Technologies",
-    role: "Software Engineer I [Internship]",
+    role: "Software Engineer Intern",
     duration: "May 2024 - Present",
   },
   {
