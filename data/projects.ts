@@ -4,6 +4,7 @@ import { IconType } from "react-icons";
 import { SiJavascript } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
 import { FaNode, FaReact, FaPython } from "react-icons/fa";
+import { SiNvidia } from "react-icons/si";
 
 import { FaGolang } from "react-icons/fa6";
 
@@ -39,6 +40,14 @@ const projects: Project[] = [
       "A fully scalable social media platform in MERN stack. Frontend written in React.js",
     Icon: FaReact,
     link: "https://github.com/Swanand58/social-media-app-frontend-rice",
+  },
+  {
+    image: "/projects/cuda.jpg",
+    title: "Data Parallel Hole Compaction using CUDA",
+    description:
+      "Implementation of parallel hole compaction using CUDA, a parallel computing platform and application programming interface model created by NVIDIA",
+    Icon: SiNvidia,
+    link: "https://github.com/Swanand58/parallel-hole-compaction-cuda",
   },
   {
     image: "/projects/lu.jpg",
