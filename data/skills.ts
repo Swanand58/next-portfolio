@@ -12,12 +12,12 @@ const skills: SkillSet[] = [
   {
     id: "programming",
     icon: FaCode,
-    description: "Python, Java, Javascript/ Typescript",
+    description: "Python, Java, Javascript/ Typescript, C++",
   },
   {
     id: "backend",
     icon: FaServer,
-    description: "Spring Boot, Node.js, Flask",
+    description: "Spring Boot, Node.js, Flask, Express",
   },
   {
     id: "frontend",
@@ -27,13 +27,12 @@ const skills: SkillSet[] = [
   {
     id: "devops",
     icon: TbKeyframes,
-    description:
-      "Azure, AWS, Jenkins, Git, JUnit, Ansible, Service Now, Grafana",
+    description: "Azure, AWS, Jenkins, Git, JUnit, Ansible, Grafana, Kafka",
   },
   {
     id: "databases",
     icon: FaDatabase,
-    description: "SQL, MongoDB, PostgreSQL",
+    description: "SQL, MongoDB, PostgreSQL, Redis",
   },
 ];
 
