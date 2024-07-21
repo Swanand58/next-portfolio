@@ -20,9 +20,12 @@ const SocialCard: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             title={link.name}
-            className="size-10 text-slate-400 rounded-xl hover:bg-slate-100 hover:text-slate-600"
+            className=" size-10 text-slate-400 rounded-xl hover:bg-slate-100 hover:text-slate-600"
           >
-            <link.icon className="size-10" />
+            <link.icon className="has-tooltip size-10" />
+            <div className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+              {link.name}
+            </div>
           </a>
         ))}
       </div>

@@ -1,5 +1,7 @@
 import { FaXTwitter, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { ImProfile } from "react-icons/im";
 import { IconType } from "react-icons";
+
 
 interface SocialLink {
   name: string;
@@ -8,6 +10,11 @@ interface SocialLink {
 }
 
 const socialLinks: SocialLink[] = [
+  {
+    name: "Resume",
+    url: "/Resume_SwanandKhonde.pdf",
+    icon: ImProfile,
+  },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/swanandkhonde/",

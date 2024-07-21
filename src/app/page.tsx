@@ -66,6 +66,7 @@ const Home: React.FC = () => {
             interests to create innovative solutions and contribute to the tech
             community.
           </p>
+
           <SocialCard />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 mb-4">
