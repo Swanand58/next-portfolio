@@ -30,7 +30,7 @@ const ThemeToggle = () => {
         onChange={toggleTheme}
         className={`${
           theme === "dark" ? "bg-gray-800" : "bg-gray-200"
-        } relative inline-flex h-6 w-8 items-center rounded-full`}
+        } relative inline-flex h-6 w-12 items-center rounded-full`}
       >
         <span className="sr-only">Toggle Theme</span>
         <span
