@@ -20,7 +20,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div
-      className="relative bg-slate-500 text-white rounded-lg shadow-md m-1 sm:m-2 transition duration-300 ease-in-out hover:shadow-xl hover:bg-slate-800 flex flex-col justify-between h-full cursor-pointer overflow-hidden"
+      className="relative bg-[rgb(51,67,101)] dark:bg-slate-500 text-white rounded-lg shadow-md m-1 sm:m-2 transition duration-300 ease-in-out hover:shadow-xl hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 flex flex-col justify-between h-full cursor-pointer overflow-hidden"
       onClick={() => window.open(link, "_blank")}
     >
       <div className="relative w-full h-32 sm:h-48 p-2">
@@ -46,7 +46,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({
         </div>
       </div>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out bg-black bg-opacity-50">
-        <GrView className="text-4xl text-white hover:text-blue-500" />
+        <GrView className="text-4xl text-white hover:text-[rgb(51,67,101)]" />
       </div>
     </div>
   );

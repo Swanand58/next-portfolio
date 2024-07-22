@@ -5,11 +5,11 @@ export default function Contact() {
     <main className="p-4 sm:p-6">
       <section>
         <div className="text-center">
-          <h1 className="text-2xl sm:text-3xl font-bold ">
+          <h1 className="text-2xl mt-6 sm:text-3xl font-bold ">
             Let's Get In Touch!
           </h1>
         </div>
-        <div className="text-left mt-12 mb-6 px-6 sm:px-36 ">
+        <div className="text-left mt-12 mb-20 px-6 sm:px-36 ">
           <p className="text-sm sm:text-base font-semibold">
             Thank you for reaching out! I'd love to hear your thoughts,
             questions, or ideas. You can email me directly at

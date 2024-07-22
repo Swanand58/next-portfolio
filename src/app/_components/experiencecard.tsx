@@ -7,7 +7,7 @@ interface ExperienceCardProps {
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
-    <div className="bg-slate-500 hover:bg-slate-800 p-4 sm:p-6 rounded-lg shadow-md m-3">
+    <div className="bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 p-4 sm:p-6 rounded-lg shadow-md m-3">
       <div className="flex mb-4">
         <img
           src={experience.companyLogo}
@@ -15,7 +15,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
           className="w-10 h-10 ml-3 rounded-full"
         />
         <div className="flex flex-col ml-3">
-          <h2 className="text-xl sm:text-2xl font-bold ml-3">
+          <h2 className="text-xl sm:text-2xl font-bold ml-3 text-white">
             {experience.company}
           </h2>
           <p className="text-xs sm:text-sm ml-3 text-slate-200 italic">

@@ -14,8 +14,8 @@ const ContactCard: React.FC = () => {
         className="flex items-center space-x-6"
         aria-label="Follow me on GitHub"
       >
-        <FaGithub className="size-10 text-slate-400 rounded-lg hover:text-blue-500" />
-        <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
+        <FaGithub className="size-10 text-[rgb(51,67,101)] dark:text-slate-400 rounded-lg hover:text-[rgb(41,55,91)] dark:hover:text-slate-600" />
+        <span className="text-sm font-semibold text-[rgb(51,67,101)] dark:text-slate-400 hover:text-[rgb(41,55,91)] dark:hover:text-slate-600 hover:underline">
           Follow me on GitHub
         </span>
       </a>
@@ -24,38 +24,38 @@ const ContactCard: React.FC = () => {
         className="flex items-center space-x-6"
         aria-label="Follow me on X"
       >
-        <FaXTwitter className="size-10 text-slate-400 rounded-lg hover:text-blue-500" />
-        <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
+        <FaXTwitter className="size-10 text-[rgb(51,67,101)] dark:text-slate-400 rounded-lg hover:text-[rgb(41,55,91)] dark:hover:text-slate-600" />
+        <span className="text-sm font-semibold text-[rgb(51,67,101)] dark:text-slate-400 hover:text-[rgb(41,55,91)] dark:hover:text-slate-600 hover:underline">
           Follow me on X
         </span>
       </a>
       <a
         href="https://www.linkedin.com/in/swanandkhonde/"
-        className="flex items-center space-x-6 "
+        className="flex items-center space-x-6"
         aria-label="Follow me on LinkedIn"
       >
-        <FaLinkedin className="size-10 text-slate-400 rounded-lg hover:text-blue-500" />
-        <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
+        <FaLinkedin className="size-10 text-[rgb(51,67,101)] dark:text-slate-400 rounded-lg hover:text-[rgb(41,55,91)] dark:hover:text-slate-600" />
+        <span className="text-sm font-semibold text-[rgb(51,67,101)] dark:text-slate-400 hover:text-[rgb(41,55,91)] dark:hover:text-slate-600 hover:underline">
           Follow me on LinkedIn
         </span>
       </a>
       <a
         href="mailto:swanandkhonde1999@gmail.com"
-        className="flex items-center space-x-6 "
+        className="flex items-center space-x-6"
         aria-label="Email me"
       >
-        <FaEnvelope className="size-10 text-slate-400 rounded-lg hover:text-blue-500 " />
-        <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
+        <FaEnvelope className="size-10 text-[rgb(51,67,101)] dark:text-slate-400 rounded-lg hover:text-[rgb(41,55,91)] dark:hover:text-slate-600" />
+        <span className="text-sm font-semibold text-[rgb(51,67,101)] dark:text-slate-400 hover:text-[rgb(41,55,91)] dark:hover:text-slate-600 hover:underline">
           Email me
         </span>
       </a>
       <a
         href="https://www.instagram.com/swanandkhonde_/"
-        className="flex items-center space-x-6 "
-        aria-label="Email me"
+        className="flex items-center space-x-6"
+        aria-label="Follow me on Instagram"
       >
-        <FaInstagram className="size-10 text-slate-400 rounded-lg hover:text-blue-500 " />
-        <span className="text-sm font-semibold hover:text-blue-500 hover:underline">
+        <FaInstagram className="size-10 text-[rgb(51,67,101)] dark:text-slate-400 rounded-lg hover:text-[rgb(41,55,91)] dark:hover:text-slate-600" />
+        <span className="text-sm font-semibold text-[rgb(51,67,101)] dark:text-slate-400 hover:text-[rgb(41,55,91)] dark:hover:text-slate-600 hover:underline">
           Follow me on Instagram
         </span>
       </a>

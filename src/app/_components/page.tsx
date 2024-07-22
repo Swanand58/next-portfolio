@@ -20,7 +20,7 @@ const SocialCard: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             title={link.name}
-            className=" size-10 text-slate-400 rounded-xl hover:bg-slate-100 hover:text-slate-600"
+            className="size-10 text-[rgb(51,67,101)] dark:text-slate-400 rounded-xl hover:bg-[rgb(71,87,121)] dark:hover:bg-slate-100 hover:text-[rgb(31,47,81)] dark:hover:text-slate-600"
           >
             <link.icon className="has-tooltip size-10" />
             <div className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
@@ -35,8 +35,8 @@ const SocialCard: React.FC = () => {
 
 const Skills: React.FC = () => {
   return (
-    <div className="bg-slate-500 hover:bg-slate-800 text-white p-4 rounded-lg shadow-md">
-      <div className="flex items-center justify-between mb-3 border-b-2 border-gray-400">
+    <div className="bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 text-white p-4 rounded-lg shadow-md">
+      <div className="flex items-center justify-between mb-3 border-b-2 border-[rgb(31,47,81)] dark:border-gray-400">
         <h3 className="text-2xl font-semibold flex items-center ">
           <IoSettingsOutline className="mr-2 text-xl" /> Skills
         </h3>
@@ -52,10 +52,11 @@ const Skills: React.FC = () => {
     </div>
   );
 };
+
 const WorkExperience: React.FC = () => {
   return (
-    <div className="bg-slate-500 hover:bg-slate-800 text-white p-4 rounded-lg shadow-md">
-      <div className="flex items-center justify-between mb-3 border-b-2 border-gray-400">
+    <div className="bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 text-white p-4 rounded-lg shadow-md">
+      <div className="flex items-center justify-between mb-3 border-b-2 border-[rgb(31,47,81)] dark:border-gray-400">
         <h3 className="text-2xl font-semibold flex items-center">
           <MdWork className="mr-2 text-xl" /> Work Experience
         </h3>
@@ -64,7 +65,7 @@ const WorkExperience: React.FC = () => {
         {workExperiences.map((experience: WorkExperienceType) => (
           <li
             key={experience.id}
-            className="flex justify-between items-center py-2 "
+            className="flex justify-between items-center py-2"
           >
             <div className="flex items-center">
               <img

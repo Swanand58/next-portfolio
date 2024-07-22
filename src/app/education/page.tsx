@@ -19,21 +19,21 @@ const EducationPage: React.FC = () => {
           and Development. Before coming to Rice, I attended Vishwakarma
           Institute of Technology in Pune, India, where I earned a Bachelor of
           Technology in Computer Engineering. I took courses related to Data
-          Structures,Operating Systems, Automata Theory, Database Management
+          Structures, Operating Systems, Automata Theory, Database Management
           System, Computer Networks, Compiler Design, Object-Oriented
           Programming, Machine Learning, Deep Learning.
         </p>
         <div className="text-center mb-8 mt-8">
           <button
-            className=" bg-gray-700 font-bold py-2 px-4 rounded hover:bg-slate-800 hover:text-slate-200"
+            className="bg-[rgb(51,67,101)] text-white dark:bg-gray-700 dark:text-white font-bold py-2 px-4 rounded hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800"
             onClick={() => window.open("/Resume_SwanandKhonde.pdf", "_blank")}
           >
             Show Resume
           </button>
         </div>
         <div className="flex flex-col md:grid-cols-2 gap-4 mt-4">
-          <div className="p-4 bg-slate-500 hover:bg-slate-800 rounded-lg shadow-md">
-            <div className="flex  items-center mb-4">
+          <div className="p-4 bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 rounded-lg shadow-md">
+            <div className="flex items-center mb-4">
               <Image
                 src="/rice-logo.jpeg"
                 alt="Rice University"
@@ -42,7 +42,9 @@ const EducationPage: React.FC = () => {
                 className="mr-3"
               />
               <div>
-                <h2 className="text-xl font-bold">Rice University</h2>
+                <h2 className="text-xl font-bold text-white">
+                  Rice University
+                </h2>
                 <p className="text-sm font-semibold text-gray-300">
                   Houston, Texas, United States
                 </p>
@@ -52,9 +54,9 @@ const EducationPage: React.FC = () => {
                 <p className="text-sm text-gray-300">Aug 2023 - Dec 2024</p>
               </div>
             </div>
-            <ul className="list-disc ml-5 p-y-4">
+            <ul className="list-disc ml-5 p-y-4 text-white">
               <li className="mb-2">
-                <strong className=" text-lg">Parallel Computing:</strong> Built
+                <strong className="text-lg">Parallel Computing:</strong> Built
                 shared memory parallel programs using Intel's Cilk Plus, OpenMP,
                 MPI, and CUDA. Studied parallel algorithm design, decomposition
                 techniques, and performance analysis. Gained hands-on experience
@@ -76,7 +78,7 @@ const EducationPage: React.FC = () => {
               </li>
               <li className="mb-2">
                 <strong className="text-lg">
-                  Deep Learning in Vision and Langauge:
+                  Deep Learning in Vision and Language:
                 </strong>{" "}
                 Studied visual recognition and language understanding using deep
                 learning models like CNNs and Transformers. Implemented an image
@@ -86,7 +88,7 @@ const EducationPage: React.FC = () => {
                 as image retrieval and text-to-image generation.
               </li>
               <li className="mb-2">
-                <strong className=" text-lg">Web Development:</strong> Created
+                <strong className="text-lg">Web Development:</strong> Created
                 multi-user web applications using the MERN stack. Gained
                 expertise in front-end development with HTML, CSS, React.js and
                 JavaScript, and back-end development with Node.js, Express, and
@@ -97,7 +99,7 @@ const EducationPage: React.FC = () => {
               </li>
             </ul>
           </div>
-          <div className=" p-4 bg-slate-500 hover:bg-slate-800 rounded-lg shadow-md">
+          <div className="p-4 bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
               <Image
                 src="/vit-logo.jpeg"
@@ -107,7 +109,7 @@ const EducationPage: React.FC = () => {
                 className="mr-3"
               />
               <div>
-                <h2 className="text-xl font-bold">
+                <h2 className="text-xl font-bold text-white">
                   Vishwakarma Institute of Technology
                 </h2>
                 <p className="text-sm font-semibold text-gray-300">
@@ -119,7 +121,7 @@ const EducationPage: React.FC = () => {
                 <p className="text-sm text-gray-300">Aug 2017 - Jun 2021</p>
               </div>
             </div>
-            <ul className="list-disc ml-5">
+            <ul className="list-disc ml-5 text-white">
               <li className="mb-2">
                 <strong>Data Structures:</strong> Gained a thorough
                 understanding of data structures and their applications in
@@ -136,7 +138,7 @@ const EducationPage: React.FC = () => {
                 Python.
               </li>
               <li className="mb-2">
-                <strong>Deep Learning</strong> Studied the fundamentals of deep
+                <strong>Deep Learning:</strong> Studied the fundamentals of deep
                 learning and its applications. Built a deep learning project
                 called document classification using TensorFlow and Ludwig.
               </li>

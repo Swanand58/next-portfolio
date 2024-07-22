@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./_components/footer";
 import TopNav from "./_components/topnav";
+import ThemeToggle from "../app/_components/ThemeToggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <CSPostHogProvider>
-        <body className={inter.className}>
+        <body
+          className={`${inter.className} bg-gray-200 dark:bg-black text-black dark:text-white`}
+        >
           <TopNav />
           {children}
           <Footer />

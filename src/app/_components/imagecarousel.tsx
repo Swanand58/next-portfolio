@@ -35,13 +35,13 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
         </div>
         <button
           onClick={goToPrevious}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-gray-800 hover:bg-gray-600 p-2 z-10"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-[rgb(51,67,101)] dark:bg-gray-800 hover:bg-[rgb(41,55,91)] dark:hover:bg-gray-600 p-2 z-10"
         >
           {"<"}
         </button>
         <button
           onClick={goToNext}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-gray-800 hover:bg-gray-600 p-2 z-10"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-[rgb(51,67,101)] dark:bg-gray-800 hover:bg-[rgb(41,55,91)] dark:hover:bg-gray-600 p-2 z-10"
         >
           {">"}
         </button>

@@ -1,4 +1,4 @@
-import { Article } from "../../../data/projects";
+import { Article } from "../../../data/article";
 import Link from "next/link";
 import React from "react";
 
@@ -9,7 +9,7 @@ interface ArticleCardProps {
 const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
   return (
     <div
-      className="bg-slate-500 text-white p-4 rounded-lg shadow-md m-2 transition duration-300 ease-in-out hover:shadow-xl hover:bg-slate-800 flex flex-col justify-between"
+      className="bg-[rgb(51,67,101)] dark:bg-slate-500 text-white p-4 rounded-lg shadow-md m-2 transition duration-300 ease-in-out hover:shadow-xl hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 flex flex-col justify-between"
       style={{ minHeight: "350px" }}
     >
       <div>
@@ -24,13 +24,13 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
           href={article.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 hover:text-blue-300 p-2 rounded font-semibold transition-colors"
+          className="mt-2 hover:text-[rgb(71,87,121)] p-2 rounded font-semibold transition-colors"
         >
           Read article &gt;
         </a>
       ) : (
         <Link
-          className="mt-2 hover:text-blue-300 p-2 rounded font-semibold transition-colors"
+          className="mt-2 hover:text-[rgb(71,87,121)] p-2 rounded font-semibold transition-colors"
           href={article.link}
         >
           Read article &gt;
