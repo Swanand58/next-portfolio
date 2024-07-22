@@ -26,19 +26,12 @@ const ThemeToggle = () => {
 
   return (
     <div className="flex items-center">
-      <span
-        className={`mr-2 text-sm ${
-          theme === "light" ? "text-white" : "text-gray-400"
-        }`}
-      >
-        Light
-      </span>
       <Switch
         checked={theme === "dark"}
         onChange={toggleTheme}
         className={`${
-          theme === "dark" ? "bg-gray-800" : "bg-yellow-200"
-        } relative inline-flex h-8 w-14 items-center rounded-full`}
+          theme === "dark" ? "bg-gray-800" : "bg-gray-200"
+        } relative inline-flex h-10 w-14 items-center rounded-full`}
       >
         <span className="sr-only">Toggle Theme</span>
         <span
@@ -48,10 +41,10 @@ const ThemeToggle = () => {
         >
           {theme === "dark" ? (
             <>
-              <MoonIcon className="h-4 w-4 text-gray-400" />
+              <MoonIcon className="h-6 w-4 text-gray-400" />
             </>
           ) : (
-            <SunIcon className="h-4 w-4 text-yellow-600" />
+            <SunIcon className="h-6 w-4 text-yellow-700" />
           )}
         </span>
         {theme === "dark" && (
@@ -63,13 +56,6 @@ const ThemeToggle = () => {
           </div>
         )}
       </Switch>
-      <span
-        className={`ml-2 text-sm ${
-          theme === "dark" ? "text-gray-400" : "text-white"
-        }`}
-      >
-        Dark
-      </span>
     </div>
   );
 };

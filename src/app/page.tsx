@@ -106,7 +106,7 @@ const Home: React.FC = () => {
               ))}
               <button
                 onClick={toggleArticles}
-                className="mt-4 text-black dark:text-white bg-slate-200 dark:bg-slate-500 hover:bg-slate-400 dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
+                className="mt-4 text-black dark:text-white bg-blue-300 dark:bg-slate-500 hover:bg-blue-500 dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
               >
                 {showAllArticles ? "Show Less" : "Read More"}
               </button>

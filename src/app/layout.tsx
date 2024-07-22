@@ -28,6 +28,9 @@ export default function RootLayout({
           <TopNav />
           {children}
           <Footer />
+          <div className="fixed top-2 right-4">
+            <ThemeToggle />
+          </div>
         </body>
       </CSPostHogProvider>
     </html>
