@@ -39,7 +39,7 @@ const Home: React.FC = () => {
         </div>
       </section>
       <section className="flex flex-col gap-4">
-        <div className="text-left">
+        <div className="text-left border-b border-black dark:border-gray-700">
           <h1 className="text-3xl sm:text-4xl font-bold">
             <Typewriter
               words={[
@@ -66,7 +66,6 @@ const Home: React.FC = () => {
             interests to create innovative solutions and contribute to the tech
             community.
           </p>
-
           <SocialCard />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 mb-4">
@@ -74,7 +73,7 @@ const Home: React.FC = () => {
           <WorkExperience />
         </div>
         <div className="mt-4 mb-4">
-          <div className="border-t border-gray-300 dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center">
+          <div className="border-t border-black dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center">
             <h2 className="text-xl sm:text-2xl font-bold text-center">
               Projects
             </h2>
@@ -87,7 +86,7 @@ const Home: React.FC = () => {
           <div className="flex justify-center mt-6">
             <button
               onClick={() => router.push("/projects")}
-              className="mt-4 text-black dark:text-white bg-blue-300 dark:bg-slate-500 hover:bg-blue-500 dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
+              className="mt-4 text-white dark:text-white bg-[rgb(64,85,131)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
             >
               View More
             </button>
@@ -95,7 +94,7 @@ const Home: React.FC = () => {
         </div>
         <div className="flex flex-col sm:flex-row h-full mt-4">
           <div className="w-full sm:w-1/2 flex flex-col">
-            <div className="border-t border-gray-300 dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center">
+            <div className="border-t border-black dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center">
               <h2 className="text-xl sm:text-2xl font-bold text-center">
                 Articles
               </h2>
@@ -106,14 +105,14 @@ const Home: React.FC = () => {
               ))}
               <button
                 onClick={toggleArticles}
-                className="mt-4 text-black dark:text-white bg-blue-300 dark:bg-slate-500 hover:bg-blue-500 dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
+                className="mt-4 text-gray-200 dark:text-white bg-[rgb(64,85,131)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
               >
                 {showAllArticles ? "Show Less" : "Read More"}
               </button>
             </div>
           </div>
-          <div className="w-full sm:w-1/2 flex flex-col">
-            <div className="border-t border-gray-300 dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center">
+          <div className="w-full sm:w-1/2 flex flex-col mt-6 sm:mt-2">
+            <div className="border-t border-black dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center ">
               <h2 className="text-xl sm:text-2xl font-bold text-center">
                 Gallery
               </h2>
