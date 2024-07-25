@@ -1,7 +1,5 @@
 import React from "react";
 import { IconType } from "react-icons";
-import { GrView } from "react-icons/gr";
-import Image from "next/image";
 
 interface ProjectCardProps {
   title: string;
