@@ -53,18 +53,13 @@ const Home: React.FC = () => {
               delaySpeed={1000}
             />
           </h1>
-          <p className="mt-3 sm:mt-5 text-base sm:text-lg font-light">
+          <p className="mt-3 sm:mt-4 text-base sm:text-lg font-light">
             I'm Swanand Sanjay Khonde, a software developer based in Houston,
             Texas, currently pursuing a Master's degree in Computer Science from
             Rice University. My passion for technology and coding drives me to
-            constantly learn and explore new things. Beyond my love for coding,
-            music is a significant part of my life. Music fuels my creativity
-            and helps me unwind. Whenever I feel tired or stressed, a cup of
-            masala tea is my go-to stress buster. Houston has become my new home
-            as I embark on this exciting journey of advanced studies in computer
-            science. I'm eager to combine my technical skills with my diverse
-            interests to create innovative solutions and contribute to the tech
-            community.
+            constantly learn and explore new things. I'm eager to combine my
+            technical skills with my diverse interests to create innovative
+            solutions and contribute to the tech community.
           </p>
           <SocialCard />
         </div>
