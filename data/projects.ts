@@ -16,6 +16,20 @@ interface Project {
 }
 
 const projects: Project[] = [
+  // {
+  //   title: "Nedd ESG Platform",
+  //   description:
+  //     "A full stack platform for ESG data reporting, implemented using Next.js, Flask - Python and PostgreSQL.",
+  //   Icon: SiJavascript,
+  //   link: "",
+  // },
+  // {
+  //   title: "Load Trade Archiving Service",
+  //   description:
+  //     "Implemented a Fullstack REST API Application for Bloomberg's Load Trade platform, enabling efficient access and filtering of XML and CSV trade files, improving organization and reducing IT search time.",
+  //   Icon: FaPython,
+  //   link: "",
+  // },
   {
     title: "Othello Reversi Game using Cilk Plus",
     description:
@@ -55,7 +69,7 @@ const projects: Project[] = [
     title: "Spotify Music Party Backend",
     description:
       "A work in progess project where a group of music enthusiasts are building a music party app using spotify developer APIs",
-    Icon: FaGolang,
+    Icon: FaPython,
     link: "https://github.com/Swanand58/spotify-music-party-backend",
   },
   {
