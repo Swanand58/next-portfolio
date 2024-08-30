@@ -54,7 +54,7 @@ const Home: React.FC = () => {
             />
           </h1>
           <p className="mt-3 sm:mt-4 text-base sm:text-lg font-light">
-            I'm Swanand Sanjay Khonde, Accomplished software engineer with a
+            I'm Swanand Sanjay Khonde, accomplished software engineer with a
             proven track record of developing and implementing both frontend and
             backend solutions. Known for working with limited direction while
             understanding and executing a business vision to build market-ready

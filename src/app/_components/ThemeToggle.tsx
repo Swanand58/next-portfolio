@@ -25,7 +25,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className={`p-2 rounded-lg border transition-colors ${
+      className={`p-1 sm:p-2 rounded-lg border transition-colors ${
         theme === "dark"
           ? "bg-black border-gray-600"
           : "bg-white border-gray-300"

@@ -21,20 +21,27 @@ const About: React.FC = () => {
         </p>
         <p className="styled-paragraph text-left sm:text-left">
           I possess a solid foundation and hands-on experience in programming
-          languages and frameworks such as Python, Java, JavaScript/ TypeScript,
+          languages and frameworks such as Python, Java, JavaScript/TypeScript,
           Flask, React, and Spring Boot. At HSBC, I worked as a Full Stack
           Engineer in the Shared Infrastructure Services team within the Trade
-          and Transaction Reporting department.
-        </p>
-        <p className="styled-paragraph text-left sm:text-left">
-          One of my notable projects involved developing a proof-of-concept AI
-          SRE chatbot in Python using TensorFlow, which earned me the{" "}
-          <a className="font-semibold">Pat on the Back</a> Award from HSBC in Q2
-          2022. Additionally, I developed the {""}
-          <a className="font-semibold">Load Trade Archiving Service </a>, a
+          and Transaction Reporting department, where I developed the{" "}
+          <a className="font-semibold">Load Trade Archiving Service</a>, a
           microservice that significantly improved data accessibility for
           business users. For this project, I was recognized with the{" "}
           <a className="font-semibold">Star Performer</a> Award in Q1 2023.
+        </p>
+        <p className="styled-paragraph text-left sm:text-left">
+          In addition to my work at HSBC, I served as a{" "}
+          <a className="font-semibold">
+            founding engineer at Nedd Technologies - a startup from Houston,
+            Texas{" "}
+          </a>
+          , where I directed the development of an ESG Platform. This involved
+          implementing high-performance Flask-based RESTful services and
+          designing a responsive Next.js User Interface. My leadership in this
+          project also included configuring essential tools like Grafana and
+          Azure AI services, leading to significant improvements in deployment
+          efficiency and product reliability.
         </p>
         <p className="styled-paragraph text-left sm:text-left">
           Beyond my professional life, I am deeply passionate about music. I
@@ -50,10 +57,11 @@ const About: React.FC = () => {
           <Image
             src="/self2.jpg"
             alt="Swanand"
-            layout="responsive"
             width={370}
             height={370}
             className="about-image"
+            priority
+            style={{ width: "100%", height: "auto" }}
           />
         </div>
         <ContactCardAbout />
@@ -61,7 +69,7 @@ const About: React.FC = () => {
       <style jsx>{`
         .about-image-wrapper {
           display: block;
-          overflow: hidden;
+          overflow: scroll;
           width: 100%;
           max-width: 370px;
           border-radius: 10%;

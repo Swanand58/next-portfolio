@@ -11,12 +11,38 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    id: 4,
+    company: "Rice University",
+    companyLogo: "/rice-logo.jpeg",
+    location: "Houston, United States",
+    role: "Graduate Teaching Assistant",
+    period: "Jan 2024 - Present",
+    skills: [
+      "Next.js",
+      "React",
+      "Web Security",
+      "Wireshark",
+      "Javascript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    achievements: [
+      "<b>Graduate Web Design and Development - Aug 2024 - Present</b>",
+      "Guided students through web development principles, covering topics such as HTML, CSS, JavaScript, and modern frameworks like React, node.js and Express.js.",
+      "Assisted in creating and grading assignments, ensuring that students grasped key concepts of front-end and back-end development.",
+      "<b>Computer Security - Jan 2024 - May 2024</b>",
+      "Designed and guided students through assignments focused on identifying and exploiting vulnerabilities in web applications, including bringing down sites by detecting and leveraging inconsistencies.",
+      "Led lab sessions utilizing Wireshark to identify and analyze vulnerable network packets, enabling students to effectively fix security weaknesses in real-world scenarios.",
+    ],
+  },
+  {
     id: 1,
     company: "Nedd Technologies",
     companyLogo: "/nedd.jpeg",
     location: "Houston, United States",
     role: "Software Engineer Intern",
-    period: "May 2024 - Present",
+    period: "May 2024 - Aug 2024",
     skills: [
       "Next.js",
       "Tailwind css",
@@ -28,11 +54,11 @@ const experiences: Experience[] = [
       "Kafka",
     ],
     achievements: [
-      "Leading the <b>ESG Platform</b> development from conception to launch, owning Flask-based <b>RESTful</b> services, handling over <b>1,000 API requests per second</b>.",
-      "Developing a responsive and user-friendly <b>Next.js</b> application for clients, enhancing the overall user experience, achieving an overall user satisfaction score of <b>90%</b>.",
-      "Building REST API endpoints from scratch using Python flask, improving back-end performance and usability.",
-      "Designing and implementing a data model and data transformations for accurate and insightful sustainability reporting, identifying and correcting <b>500</b> data anomalies, reducing processing time by <b>10 hours per week</b>, and enabling over <b>100</b> sustainability reports with insights.",
-      "Utilizing <b>Azure DevOps</b> to implement <b>CI/CD pipelines</b>, automated testing, and deployment strategies, significantly improving development efficiency and product reliability, reducing deployment time by <b>50%</b> and increasing product reliability with a <b>60%</b> decrease in production issues.",
+      "Directed the end-to-end development of the ESG Platform, taking the project from conception to a fully functional demo within <b>2 months</b>.",
+      "Implemented Flask-based RESTful services capable of handling over <b>1,000 API requests per second</b>, and designed a responsive <b>Next.js User Interface</b>.",
+      "Configured a suite of essential tools, including <b>Grafana, MS Copilot</b>, and <b>Azure AI services</b>, on an <b>Azure Linux VM (version 9)</b>.",
+      "Engineered and implemented a comprehensive data model, creating <b>60 psql database tables</b> covering Environment, Social, Governance, Ops, Regulatory, and Finance domains.",
+      "Employed <b>Azure DevOps</b> to implement <b>CI/CD pipelines</b> and deployment strategies, reducing deployment time by <b>50%</b> and increasing product reliability with a <b>60%</b> decrease in production issues.",
     ],
   },
   {

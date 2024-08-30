@@ -39,13 +39,24 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
           </li>
         ))}
       </ul>
-      <ul className="text-white list-disc pl-5">
-        {experience.achievements.map((achievement, index) => (
-          <li
-            key={index}
-            dangerouslySetInnerHTML={{ __html: achievement }}
-          ></li>
-        ))}
+      <ul className="text-white list-none pl-5">
+        {experience.achievements.map((achievement, index) => {
+          const isSubheading = achievement.startsWith("<b>");
+          return (
+            <li
+              key={index}
+              className={`relative ${isSubheading ? " text-lg mt-4" : "ml-5"}`}
+            >
+              {isSubheading && (
+                <span className="absolute -left-5 top-1 text-gray-200"></span>
+              )}
+              {!isSubheading && (
+                <span className="absolute -left-5 top-1 text-white">•</span>
+              )}
+              <span dangerouslySetInnerHTML={{ __html: achievement }}></span>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

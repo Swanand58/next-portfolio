@@ -1,6 +1,7 @@
 import { IconType } from "react-icons";
 import { FaCode, FaLaptopCode, FaServer, FaDatabase } from "react-icons/fa6";
 import { TbKeyframes } from "react-icons/tb";
+import { BsClipboard2Data } from "react-icons/bs";
 
 interface SkillSet {
   id: string;
@@ -33,6 +34,12 @@ const skills: SkillSet[] = [
     id: "databases",
     icon: FaDatabase,
     description: "SQL, MongoDB, PostgreSQL, Redis",
+  },
+  {
+    id: "Machine Learning",
+    icon: BsClipboard2Data,
+    description:
+      "Pytorch, Tensorflow, Pandas, Numpy, Neural Networks,, Matplotlib",
   },
 ];
 

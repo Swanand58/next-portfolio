@@ -30,7 +30,7 @@ const ExperiencePage: React.FC = () => {
         </p>
         <div className="text-center mb-6 mt-8">
           <button
-            className=" text-white bg-gray-700 font-bold py-2 px-4 rounded hover:bg-slate-800 hover:text-slate-200"
+            className=" text-white bg-[rgb(51,67,101)] font-bold py-2 px-4 rounded hover:bg-slate-800 hover:text-slate-200"
             onClick={() => window.open("/Resume_SwanandKhonde.pdf", "_blank")}
           >
             Show Resume

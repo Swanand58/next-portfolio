@@ -1,0 +1,50 @@
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.starsContainer::before,
+.starsContainer::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0;
+  animation: blink 1.5s infinite;
+}
+
+.starsContainer::before {
+  top: -10px;
+  left: -15px;
+  animation-delay: 0.3s;
+}
+
+.starsContainer::after {
+  bottom: -10px;
+  right: -15px;
+  animation-delay: 0.6s;
+}
+
+.gradientFlow {
+  background: linear-gradient(45deg, yellow, white);
+  background-size: 200% 200%;
+  animation: gradient-flow 2s linear infinite;
+  border: none;
+}

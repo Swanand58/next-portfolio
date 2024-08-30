@@ -8,11 +8,18 @@ interface WorkExperienceType {
 
 const workExperiences: WorkExperienceType[] = [
   {
+    id: "rice",
+    companyLogo: "/rice-logo.jpeg",
+    companyName: "Rice University",
+    role: "Graduate Teaching Assistant",
+    duration: "Jan 2024 - Present",
+  },
+  {
     id: "nedd",
     companyLogo: "/nedd.jpeg",
     companyName: "Nedd Technologies",
     role: "Software Engineer Intern",
-    duration: "May 2024 - Present",
+    duration: "May 2024 - Aug 2024",
   },
   {
     id: "hsbc",
