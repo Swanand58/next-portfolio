@@ -39,7 +39,7 @@ const skills: SkillSet[] = [
     id: "Machine Learning",
     icon: BsClipboard2Data,
     description:
-      "Pytorch, Tensorflow, Pandas, Numpy, Neural Networks,, Matplotlib",
+      "Pytorch, Tensorflow, Pandas, Numpy, Neural Networks, Matplotlib",
   },
 ];
 
