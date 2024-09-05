@@ -109,6 +109,7 @@ const experiences: Experience[] = [
     achievements: [
       "Conceptualized and executed <b>Document Classification using visual parameters</b>, a deep learning project aimed at streamlining document categorization (letters, emails, resumes, invoices, etc.) for user convenience.",
       "Employed a <b>Convolutional Neural Network (CNN)</b> model for classification, achieving a raw training accuracy of <b>95.7%</b> and a test accuracy of <b>83%.</b>",
+      "Implemented an MLOps pipeline using Docker, TFX, and Jenkins for automated model tracking, version control, and deployment, reducing model update time by <b>30% </b>and ensuring continuous integration and delivery.",
       "Developed a web application using Python Flask, which allowed users to upload and classify documents with ease.",
     ],
   },
