@@ -9,7 +9,14 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import React from "react";
 
+import posthog from "posthog-js";
+
 const SocialCard: React.FC = () => {
+  const handleSocialClick = (socialName: string): void => {
+    posthog.capture("Social Link Clicked", {
+      social: socialName,
+    });
+  };
   return (
     <div className="flex py-5">
       <div className="flex gap-x-6 gap-y-2">
@@ -21,6 +28,7 @@ const SocialCard: React.FC = () => {
             rel="noopener noreferrer"
             title={link.name}
             className="size-10 text-[rgb(51,67,101)] dark:text-slate-400 rounded-xl hover:bg-[rgb(71,87,121)] dark:hover:bg-slate-100 hover:text-[rgb(31,47,81)] dark:hover:text-slate-600"
+            onClick={() => handleSocialClick(link.name)}
           >
             <link.icon className="has-tooltip size-10" />
             <div className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">

@@ -1,8 +1,14 @@
 "use client";
 import ProjectCards from "../_components/projectcards";
 import { projects } from "../../../data/projects";
+import posthog from "posthog-js";
 
 export default function Projects() {
+  const handleProjectClick = (projectTitle: string): void => {
+    posthog.capture("Project Clicked", {
+      project: projectTitle,
+    });
+  };
   return (
     <main className="p-4 sm:p-6">
       <section>
@@ -19,7 +25,11 @@ export default function Projects() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {projects.map((project) => (
-              <ProjectCards key={project.title} {...project} />
+              <ProjectCards
+                {...project}
+                key={project.title}
+                onClick={() => handleProjectClick(project.title)}
+              />
             ))}
           </div>
         </div>

@@ -2,8 +2,16 @@
 
 import React from "react";
 import Image from "next/image";
+import posthog from "posthog-js";
 
 const EducationPage: React.FC = () => {
+  const handleResumeClick = (): void => {
+    posthog.capture("Resume Clicked", {
+      section: "Education Page",
+    });
+
+    window.open("/Resume_SwanandKhonde.pdf", "_blank");
+  };
   return (
     <main className="flex flex-wrap min-h-screen p-8">
       <div className="container mx-auto ">
@@ -26,7 +34,7 @@ const EducationPage: React.FC = () => {
         <div className="text-center mb-8 mt-8">
           <button
             className="bg-[rgb(51,67,101)] text-white dark:bg-gray-700 dark:text-white font-bold py-2 px-4 rounded hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800"
-            onClick={() => window.open("/Resume_SwanandKhonde.pdf", "_blank")}
+            onClick={handleResumeClick}
           >
             Show Resume
           </button>

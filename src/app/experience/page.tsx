@@ -3,8 +3,16 @@
 import React from "react";
 import { Experience, experiences } from "../../../data/experience";
 import ExperienceCard from "../_components/experiencecard";
+import posthog from "posthog-js";
 
 const ExperiencePage: React.FC = () => {
+  const handleResumeClick = (): void => {
+    posthog.capture("Resume Clicked", {
+      section: "Experience Page",
+    });
+
+    window.open("/Resume_SwanandKhonde.pdf", "_blank");
+  };
   return (
     <main className="flex flex-wrap min-h-screen p-8">
       <div className="container mx-auto">
@@ -31,7 +39,7 @@ const ExperiencePage: React.FC = () => {
         <div className="text-center mb-6 mt-8">
           <button
             className=" text-white bg-[rgb(51,67,101)] font-bold py-2 px-4 rounded hover:bg-slate-800 hover:text-slate-200"
-            onClick={() => window.open("/Resume_SwanandKhonde.pdf", "_blank")}
+            onClick={handleResumeClick}
           >
             Show Resume
           </button>

@@ -11,6 +11,7 @@ import { carouselImages } from "../../data/images";
 import { articles } from "../../data/article";
 import { useRouter } from "next/navigation";
 import { Typewriter } from "react-simple-typewriter";
+import posthog from "posthog-js";
 
 export const dynamic = "force-dynamic";
 
@@ -24,6 +25,12 @@ const Home: React.FC = () => {
 
   const displayedArticles = showAllArticles ? articles : articles.slice(0, 2);
   const displayedProjects = projects.slice(0, 3);
+
+  const handleProjectClick = (projectTitle: string): void => {
+    posthog.capture("Project Clicked", {
+      project: projectTitle,
+    });
+  };
 
   return (
     <main className=" min-h-screen p-4 sm:p-8">
@@ -75,7 +82,11 @@ const Home: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
             {displayedProjects.map((project) => (
-              <ProjectCards key={project.title} {...project} />
+              <ProjectCards
+                {...project}
+                key={project.title}
+                onClick={() => handleProjectClick(project.title)}
+              />
             ))}
           </div>
           <div className="flex justify-center mt-6">

@@ -6,6 +6,7 @@ interface ProjectCardProps {
   description: string;
   Icon: IconType;
   link: string;
+  onClick: () => void;
 }
 
 const ProjectCards: React.FC<ProjectCardProps> = ({
@@ -13,6 +14,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({
   description,
   Icon,
   link,
+  onClick,
 }) => {
   return (
     <div className="bg-[rgb(51,67,101)] dark:bg-slate-500 text-white p-2 sm:p-4 rounded-lg shadow-md m-1 sm:m-2 transition duration-300 ease-in-out hover:shadow-xl hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 flex flex-col justify-between h-full">
@@ -28,6 +30,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({
       <a
         href={link}
         className="hover:text-blue-300 p-1 sm:p-2 rounded font-semibold transition-colors text-left mt-1 sm:mt-2"
+        onClick={onClick}
       >
         View Project
       </a>
