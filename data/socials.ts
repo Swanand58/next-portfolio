@@ -1,7 +1,7 @@
 import { FaXTwitter, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { TbBrandLeetcode } from "react-icons/tb";
 import { ImProfile } from "react-icons/im";
 import { IconType } from "react-icons";
-
 
 interface SocialLink {
   name: string;
@@ -34,6 +34,11 @@ const socialLinks: SocialLink[] = [
     name: "Email",
     url: "mailto:swanandkhonde1999@gmail.com",
     icon: FaEnvelope,
+  },
+  {
+    name: "Leetcode",
+    url: "https://leetcode.com/u/Swanand58/",
+    icon: TbBrandLeetcode,
   },
 ];
 
