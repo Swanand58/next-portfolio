@@ -69,7 +69,7 @@ const About: React.FC = () => {
       <style jsx>{`
         .about-image-wrapper {
           display: block;
-          overflow: scroll;
+          overflow: hidden;
           width: 100%;
           max-width: 370px;
           border-radius: 10%;
