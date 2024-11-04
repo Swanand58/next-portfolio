@@ -1,5 +1,6 @@
 import { Experience } from "../../../data/experience";
 import React from "react";
+import Image from "next/image";
 
 interface ExperienceCardProps {
   experience: Experience;
@@ -9,10 +10,13 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
     <div className="bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 p-4 sm:p-6 rounded-lg shadow-md m-3">
       <div className="flex mb-4">
-        <img
+        <Image
+          width={40}
+          height={40}
+          loading="lazy"
           src={experience.companyLogo}
           alt={`${experience.company} Logo`}
-          className="w-10 h-10 ml-3 rounded-full"
+          className="w-10 h-10 ml-3 mt-1 rounded-2xl"
         />
         <div className="flex flex-col ml-3">
           <h2 className="text-xl sm:text-2xl font-bold ml-3 text-white">

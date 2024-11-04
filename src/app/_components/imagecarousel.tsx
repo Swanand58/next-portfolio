@@ -28,6 +28,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
             src={images[currentIndex]}
             alt="Carousel"
             fill
+            loading="lazy"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             style={{ objectFit: "contain" }}
             className="max-h-full"

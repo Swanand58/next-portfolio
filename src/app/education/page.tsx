@@ -45,6 +45,7 @@ const EducationPage: React.FC = () => {
               <Image
                 src="/rice-logo.jpeg"
                 alt="Rice University"
+                loading="lazy"
                 width={50}
                 height={50}
                 className="mr-3"
@@ -112,6 +113,7 @@ const EducationPage: React.FC = () => {
               <Image
                 src="/vit-logo.jpeg"
                 alt="Vishwakarma Institute of Technology"
+                loading="lazy"
                 width={50}
                 height={50}
                 className="mr-3"

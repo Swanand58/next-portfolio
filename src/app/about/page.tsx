@@ -60,7 +60,8 @@ const About: React.FC = () => {
             width={370}
             height={370}
             className="about-image"
-            priority
+            loading="lazy"
+            // priority
             style={{ width: "100%", height: "auto" }}
           />
         </div>

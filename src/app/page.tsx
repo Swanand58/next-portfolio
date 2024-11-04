@@ -40,6 +40,7 @@ const Home: React.FC = () => {
             src="/logo.jpg"
             alt="Swanand"
             fill
+            loading="lazy"
             sizes="(max-width: 768px) 100vw, 36vw"
             className="rounded-full object-contain"
           />

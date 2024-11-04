@@ -8,6 +8,7 @@ import {
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import React from "react";
+import Image from "next/image";
 
 import posthog from "posthog-js";
 
@@ -76,10 +77,13 @@ const WorkExperience: React.FC = () => {
             className="flex justify-between items-center py-2"
           >
             <div className="flex items-center">
-              <img
+              <Image
+                width={40}
+                height={40}
+                loading="lazy"
                 src={experience.companyLogo}
                 alt={`${experience.companyName} Logo`}
-                className="w-10 h-10 mr-4 rounded-full"
+                className="mr-4 rounded-full"
               />
               <div>
                 <strong>{experience.companyName}</strong>
