@@ -46,9 +46,10 @@ const Skills: React.FC = () => {
   return (
     <div className="bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 text-white p-4 rounded-lg shadow-md">
       <div className="flex items-center justify-between mb-3 border-b-2 border-[rgb(31,47,81)] dark:border-gray-400">
-        <h3 className="text-2xl font-semibold flex items-center ">
-          <IoSettingsOutline className="mr-2 text-xl" /> Skills
-        </h3>
+        <h2 className="text-2xl font-semibold flex items-center ">
+          <IoSettingsOutline className="mr-2 text-xl" aria-hidden="true" />{" "}
+          Skills
+        </h2>
       </div>
       <div className="flex flex-col gap-y-8 mt-6 mb-6">
         {skills.map((skill: SkillSet) => (

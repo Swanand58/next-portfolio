@@ -24,6 +24,7 @@ const ThemeToggle = () => {
 
   return (
     <button
+      aria-label="Toggle theme"
       onClick={toggleTheme}
       className={`p-1 sm:p-2 rounded-lg border transition-colors ${
         theme === "dark"
