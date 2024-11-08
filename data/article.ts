@@ -9,6 +9,16 @@ interface Article {
 
 const articles: Article[] = [
   {
+    id: 5,
+    date: "08 November 2024",
+    title:
+      "Mastering Caching Strategies with Next.js 15: Balancing Consistency and Performance",
+    summary:
+      "In the ever-evolving world of web development, caching remains a powerful tool for optimizing application performance. However, managing caching across multiple layers in an application, like the frontend, backend, and database, can introduce complexities, particularly around data consistency. Next.js 15 has made notable updates in caching strategies, shifting from “cached by default” to “uncached by default” for GET route handlers and Client Router Cache. Let’s take a closer look at how these changes fit into broader caching considerations and explore a few practical examples that highlight the impact of caching decisions on performance and user experience.",
+    link: "/articles/mastering-caching-strategies",
+    isExternal: false,
+  },
+  {
     id: 2,
     date: "28 July 2020",
     title: "Patents in Quantum Computing",
