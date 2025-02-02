@@ -8,11 +8,18 @@ interface WorkExperienceType {
 
 const workExperiences: WorkExperienceType[] = [
   {
+    id: "ford",
+    companyLogo: "/ford.webp",
+    companyName: "Ford Motor Company",
+    role: "Software Engineer",
+    duration: "Jan 2025 - Present",
+  },
+  {
     id: "rice",
     companyLogo: "/rice-logo.jpeg",
     companyName: "Rice University",
     role: "Graduate Teaching Assistant",
-    duration: "Jan 2024 - Present",
+    duration: "Jan 2024 - Dec 2024",
   },
   {
     id: "nedd",
@@ -28,13 +35,13 @@ const workExperiences: WorkExperienceType[] = [
     role: "Software Engineer",
     duration: "Aug 2021 - Jun 2023",
   },
-  {
-    id: "xceed",
-    companyLogo: "/xceed.jpeg",
-    companyName: "Xceed Imagination",
-    role: "Software Engineer Intern",
-    duration: "Jan 2021 - July 2021",
-  },
+  // {
+  //   id: "xceed",
+  //   companyLogo: "/xceed.jpeg",
+  //   companyName: "Xceed Imagination",
+  //   role: "Software Engineer Intern",
+  //   duration: "Jan 2021 - July 2021",
+  // },
   {
     id: "oda",
     companyLogo: "/oda.jpeg",

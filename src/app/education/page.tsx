@@ -17,19 +17,18 @@ const EducationPage: React.FC = () => {
       <div className="container mx-auto ">
         <h1 className="text-3xl font-bold text-center mb-6">Education</h1>
         <p className="text-left mb-4">
-          I am currently pursuing a Master of Science in Computer Science at
-          Rice University. I started my program in August 2023 and am expected
-          to graduate in December 2024. I have taken courses in Parallel
-          Computing, Graduate Tools and Models in Data Science, Information
-          Retrieval , Machine Learning with Graphs, and Deep Learning in Vision
-          and Language. I have also taken general courses to improve my core CS
-          skills, such as Graduate Design Analysis of Algorithms and Web Design
-          and Development. Before coming to Rice, I attended Vishwakarma
-          Institute of Technology in Pune, India, where I earned a Bachelor of
-          Technology in Computer Engineering. I took courses related to Data
+          I graduated with a Master of Science in Computer Science from Rice
+          University in December 2024. During my program, I took courses in
+          Parallel Computing, Graduate Tools and Models in Data Science,
+          Information Retrieval, Machine Learning with Graphs, and Deep Learning
+          in Vision and Language. Additionally, I strengthened my core CS skills
+          by taking Graduate Design Analysis of Algorithms and Web Design and
+          Development. Before coming to Rice, I attended Vishwakarma Institute
+          of Technology in Pune, India, where I earned a Bachelor of Technology
+          in Computer Engineering. My undergraduate coursework included Data
           Structures, Operating Systems, Automata Theory, Database Management
-          System, Computer Networks, Compiler Design, Object-Oriented
-          Programming, Machine Learning, Deep Learning.
+          Systems, Computer Networks, Compiler Design, Object-Oriented
+          Programming, Machine Learning, and Deep Learning.
         </p>
         <div className="text-center mb-8 mt-8">
           <button

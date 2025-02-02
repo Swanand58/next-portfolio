@@ -22,19 +22,18 @@ const ExperiencePage: React.FC = () => {
           diverse roles and projects that have significantly enriched my
           skillset and knowledge in computer science. After completing two
           semesters of my Master’s in Computer Science program at Rice
-          University, I am currently interning at Nedd Technologies in Houston,
-          Texas, where I am developing an ESG platform from scratch. Prior to my
-          time in the US, I worked for nearly two years as a Software Engineer
-          at HSBC Technology India, designing and developing critical
-          microservices and backend solutions that significantly improved data
-          accessibility and operational efficiency. My contributions were
-          recognized with the 'Star Performer' Award in Q1, 2023. Additionally,
-          during my undergraduate studies at Vishwakarma Institute of
-          Technology, I interned at Optimum Data Analytics, working on a deep
-          learning project for document classification. These varied experiences
-          have been instrumental in shaping my career and fueling my passion for
-          technology, particularly in distributed systems, full-stack
-          development, and DevOps
+          University, I interned at Nedd Technologies in Houston, Texas, where I
+          developed an ESG platform from scratch. Prior to my time in the US, I
+          worked for nearly two years as a Software Engineer at HSBC Technology
+          India, designing and developing critical microservices and backend
+          solutions that significantly improved data accessibility and
+          operational efficiency. My contributions were recognized with the
+          'Star Performer' Award in Q1, 2023. Currently, I have joined Ford
+          Motor Company in the Advanced EV department, where I am contributing
+          to full-stack projects and other internal initiatives. These varied
+          experiences have been instrumental in shaping my career and fueling my
+          passion for technology, particularly in distributed systems,
+          full-stack development, and DevOps.
         </p>
         <div className="text-center mb-6 mt-8">
           <button

@@ -11,6 +11,27 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    id: 5,
+    company: "Ford Motor Company",
+    companyLogo: "/ford.webp",
+    location: "Irvine, United States",
+    role: "Software Engineer: Advanced EV",
+    period: "Jan 2025 - Present",
+    skills: [
+      "Next.js",
+      "Python",
+      "Google Cloud",
+      "Docker",
+      "MongoDB",
+      "FastAPI",
+    ],
+    achievements: [
+      "Resolved <b>9 Jira stories and bugs</b> within a week, significantly improving feature stability and user experience.",
+      "Contributed to a <b>full-stack project</b>, implementing key <b>frontend changes</b> and fixing existing <b>bugs</b> to enhance performance and usability.",
+      "Designed and presented an <b>architecture</b> for an upcoming project, incorporating <b>regression testing with Google Cloud Run</b> to ensure reliability and scalability.",
+    ],
+  },
+  {
     id: 4,
     company: "Rice University",
     companyLogo: "/rice-logo.jpeg",
