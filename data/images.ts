@@ -16,7 +16,7 @@ const carouselImages = [
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSvN03VsmMM6Ckspioz4IKq3WNcJZGBOS9L1uw",
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSYDKGrcQqvfO0YmUNj2rtx6EFgacyKVM4nuJz",
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSjf78s1Ad0pxMG9sVuXlKb12n7e8WcPQCgqrA",
-  " https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS9imP0NXeqxwOWtph7XCrUmyF4IYouMblS5eK",
+  "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS9imP0NXeqxwOWtph7XCrUmyF4IYouMblS5eK",
 ];
 
 export { carouselImages };

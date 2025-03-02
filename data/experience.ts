@@ -13,7 +13,8 @@ const experiences: Experience[] = [
   {
     id: 5,
     company: "Ford Motor Company",
-    companyLogo: "/ford.webp",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS7EPFbSk2PdA4b19KXiBwDqI5eOCgFY6jUoVx",
     location: "Irvine, United States",
     role: "Software Engineer: Advanced EV",
     period: "Jan 2025 - Present",
@@ -34,7 +35,8 @@ const experiences: Experience[] = [
   {
     id: 4,
     company: "Rice University",
-    companyLogo: "/rice-logo.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSWtYNVC7BG94PJxrjLhfp1aSq2RXoFOTwE5eU",
     location: "Houston, United States",
     role: "Graduate Teaching Assistant",
     period: "Jan 2024 - Present",
@@ -60,7 +62,8 @@ const experiences: Experience[] = [
   {
     id: 1,
     company: "Nedd Technologies",
-    companyLogo: "/nedd.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSlN1WAIzsbDS9JyxWpzGHBEQPr4FnAmj1Xkif",
     location: "Houston, United States",
     role: "Software Engineer Intern",
     period: "May 2024 - Aug 2024",
@@ -85,7 +88,8 @@ const experiences: Experience[] = [
   {
     id: 2,
     company: "HSBC",
-    companyLogo: "/hsbc.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS6UWgRZl1ru2LgTRcJ9nKpZSNYfVUtdaCXQks",
     location: "Pune, India",
     role: "Software Engineer",
     period: "Aug 2021 - June 2023",
@@ -114,7 +118,8 @@ const experiences: Experience[] = [
   {
     id: 3,
     company: "Optimum Data Analytics",
-    companyLogo: "/oda.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSz0tvie5uchTWmMs5jqLy9wnpOilNY31tegIV",
     location: "Pune, India",
     role: "Machine Learning Engineer Intern",
     period: "Aug 2019 - Jan 2020",
