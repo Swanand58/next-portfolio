@@ -11,7 +11,10 @@ const ExperiencePage: React.FC = () => {
       section: "Experience Page",
     });
 
-    window.open("/Resume_SwanandKhonde.pdf", "_blank");
+    window.open(
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSazJlkyd6rWPGu7koqJIinD1UNdSpl2093cX8",
+      "_blank"
+    );
   };
   return (
     <main className="flex flex-wrap min-h-screen p-8">
@@ -28,11 +31,11 @@ const ExperiencePage: React.FC = () => {
           India, designing and developing critical microservices and backend
           solutions that significantly improved data accessibility and
           operational efficiency. My contributions were recognized with the
-          'Star Performer' Award in Q1, 2023. Currently, I have joined Ford
-          Motor Company in the Advanced EV department, where I am contributing
-          to full-stack projects and other internal initiatives. These varied
-          experiences have been instrumental in shaping my career and fueling my
-          passion for technology, particularly in distributed systems,
+          &quot;Star Performer&quot; Award in Q1, 2023. Currently, I have joined
+          Ford Motor Company in the Advanced EV department, where I am
+          contributing to full-stack projects and other internal initiatives.
+          These varied experiences have been instrumental in shaping my career and
+          fueling my passion for technology, particularly in distributed systems,
           full-stack development, and DevOps.
         </p>
         <div className="text-center mb-6 mt-8">

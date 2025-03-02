@@ -11,9 +11,9 @@ const About: React.FC = () => {
           Read More About Me
         </h1>
         <p className="styled-paragraph text-left sm:text-left">
-          I am a Computer Science Master's student at Rice University, currently
-          residing in Houston, Texas. My academic journey began with a
-          Bachelor's in Computer Engineering from Vishwakarma Institute of
+          I am a Computer Science Master&apos;s student at Rice University,
+          currently residing in Houston, Texas. My academic journey began with a
+          Bachelor&apos;s in Computer Engineering from Vishwakarma Institute of
           Technology, Pune. Professionally, I have accumulated substantial
           experience working as a Software Engineer at HSBC Technology India,
           where I honed my skills and contributed to numerous impactful
@@ -55,7 +55,7 @@ const About: React.FC = () => {
       <div className="w-full sm:w-1/2 sm:flex sm:flex-col sm:items-center mt-8">
         <div className="about-image-wrapper mx-auto sm:mr-0 sm:ml-auto">
           <Image
-            src="/self2.jpg"
+            src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSYGZlXyQqvfO0YmUNj2rtx6EFgacyKVM4nuJz"
             alt="Swanand"
             width={370}
             height={370}

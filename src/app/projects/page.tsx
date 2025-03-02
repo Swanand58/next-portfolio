@@ -14,12 +14,12 @@ export default function Projects() {
       <section>
         <div className="mb-8">
           <div className="text-center mt-4 mb-6">
-            <h1 className="text-2xl sm:text-3xl font-bold">What I've Built</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold">What I&apos;ve Built</h1>
           </div>
           <div className="text-left mt-6 mb-6">
             <p className="text-sm sm:text-lg font-semibold px-2">
-              Explore my collection of innovative coding projects! Here you'll
-              find a variety of projects that I've built using Python,
+              Explore my collection of innovative coding projects! Here you&apos;ll
+              find a variety of projects that I&apos;ve built using Python,
               JavaScript/ Typescript (React and Node), Java, and C++.
             </p>
           </div>

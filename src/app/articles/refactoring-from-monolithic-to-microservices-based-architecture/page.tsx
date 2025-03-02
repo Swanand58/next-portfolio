@@ -73,7 +73,7 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
         microservices architecture.
       </p>
       <Image
-        src="/monolithic1.webp"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSH1rG1SFucYZ0V1kmvqEzlbHSr65ULaP3wThJ"
         alt="Monolith"
         width={400}
         height={500}
@@ -88,14 +88,14 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
       <p className="mb-6">
         Unlike monoliths, microservices are loosely coupled units of execution.
         It promotes breaking down a big monolithic application into smaller and
-        simpler services to be built and deployed independently. Well, it's
-        "micro," so it's simple to understand, and the developers can focus on
-        just that functionality that they want to release into production. When
-        it is ready, developers can just test and deploy that service. There is
-        no need to bundle it with the rest of the application, and no waiting
-        for a release window. Over time, development cycles become faster as
-        features can be released quicker. Testing becomes more coherent and
-        consistent.
+        simpler services to be built and deployed independently. Well, it&apos;s
+        &quot;micro,&quot; so it&apos;s simple to understand, and the developers
+        can focus on just that functionality that they want to release into
+        production. When it is ready, developers can just test and deploy that
+        service. There is no need to bundle it with the rest of the application,
+        and no waiting for a release window. Over time, development cycles become
+        faster as features can be released quicker. Testing becomes more coherent
+        and consistent.
       </p>
       <p className="mb-6">
         If the service is creating bottlenecks when demand spikes, scale out by
@@ -104,13 +104,13 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
         completely will not affect the rest of the application. Thus, a single
         service that fails will not bring down the entire application. This is
         an architecture that embraces agile and DevOps practices. The target
-        number of production deployments and the vision of "releasing faster and
-        breaking less" is easily achievable. This approach helps the
+        number of production deployments and the vision of &quot;releasing faster
+        and breaking less&quot; is easily achievable. This approach helps the
         organization adjust in response to fluctuating business demand without
         interrupting core activities.
       </p>
       <Image
-        src="/microservice.png"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSlNH8VHzsbDS9JyxWpzGHBEQPr4FnAmj1Xkif"
         alt="microservice"
         width={400}
         height={500}
@@ -167,8 +167,8 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
         <li>Identify component dependencies.</li>
         <li>Identify component groups.</li>
         <li>Create an API for remote user interface.</li>
-        <li>Migrate component groups to "macroservices."</li>
-        <li>Migrate "macroservices" to microservices.</li>
+        <li>Migrate component groups to &quot;macroservices.&quot;</li>
+        <li>Migrate &quot;macroservices&quot; to microservices.</li>
       </ul>
       <h2 className="mb-2 text-xl font-semibold">
         Identify logical components.
@@ -261,7 +261,7 @@ const MonolithicToMicroservicesBasedArchitecture = () => {
         logic that may cause problems when converting to microservices. The key
         goal is to move component groups into separate projects and make
         separate deployments. Each macroservice should be independently
-        deployable from within the system's CI/CD pipeline.
+        deployable from within the system&apos;s CI/CD pipeline.
       </p>
       <h2 className="mb-2 text-xl font-semibold">
         Migrate macroservices to microservices

@@ -35,22 +35,23 @@ const MasteringCachingStrategies = () => {
         caching across multiple layers in an application, like the frontend,
         backend, and database, can introduce complexities, particularly around
         data consistency. Next.js 15 has made notable updates in caching
-        strategies, shifting from “cached by default” to “uncached by default”
-        for GET route handlers and Client Router Cache. Let’s take a closer look
-        at how these changes fit into broader caching considerations and explore
-        a few practical examples that highlight the impact of caching decisions
-        on performance and user experience.
+        strategies, shifting from &quot;cached by default&quot; to
+        &quot;uncached by default&quot; for GET route handlers and Client Router
+        Cache. Let&apos;s take a closer look at how these changes fit into
+        broader caching considerations and explore a few practical examples that
+        highlight the impact of caching decisions on performance and user
+        experience.
       </p>
 
       <h2 className="mb-6 text-xl font-semibold">
-        Understanding Next.js 15’s New Caching Semantics
+        Understanding Next.js 15&apos;s New Caching Semantics
       </h2>
       <p className="mb-6">
         With Next.js 15, caching for GET route handlers and Client Router Cache
-        is now “uncached by default.” This means that, unless specified, data is
-        served fresh with each request, which enhances predictability and
-        reduces the chances of inconsistent or stale data across different parts
-        of an application.
+        is now &quot;uncached by default.&quot; This means that, unless
+        specified, data is served fresh with each request, which enhances
+        predictability and reduces the chances of inconsistent or stale data
+        across different parts of an application.
       </p>
 
       <p className="mb-6">
@@ -58,13 +59,13 @@ const MasteringCachingStrategies = () => {
         responses by default, which worked well for less dynamic data but had
         limitations for applications where data is frequently updated. In those
         cases, developers often found themselves implementing complex cache
-        invalidation strategies to ensure data consistency. Next.js 15's
+        invalidation strategies to ensure data consistency. Next.js 15&apos;s
         approach to uncaching by default lets developers consciously opt into
-        caching only when it’s beneficial, enhancing control over how data is
-        served in high-traffic or rapidly changing applications.
+        caching only when it&apos;s beneficial, enhancing control over how data
+        is served in high-traffic or rapidly changing applications.
       </p>
       <Image
-        src="/article5_1.png"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS4y5bzd3lPV5WSRNqfap4uw8k9XZxTJnBCU3i"
         alt="Next.js 15 Caching"
         width={500}
         height={600}
@@ -78,7 +79,7 @@ const MasteringCachingStrategies = () => {
       </h2>
       <p className="mb-6">
         In multi-layered applications, caching can be implemented across several
-        levels: frontend, backend, and database. Let’s explore some examples
+        levels: frontend, backend, and database. Let&apos;s explore some examples
         that illustrate how caching across these layers can affect performance
         and consistency, and how the Next.js 15 update could play a role in this
         process.
@@ -115,7 +116,7 @@ const MasteringCachingStrategies = () => {
       <p className="mb-6">
         <strong>After Next.js 15:</strong> With uncached defaults, we get
         fresher data by default, reducing the risk of inconsistency. However,
-        for high-traffic data that doesn’t change often, developers can still
+        for high-traffic data that doesn&apos;t change often, developers can still
         opt into caching where appropriate.
       </p>
 
@@ -163,7 +164,7 @@ const MasteringCachingStrategies = () => {
         </li>
       </ul>
       <Image
-        src="/article5_2.webp"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS3QpXu08mQve9ks8hb0gyZIoUizj164xduBHE"
         alt="Caching"
         width={500}
         height={600}
@@ -179,21 +180,21 @@ const MasteringCachingStrategies = () => {
       <p className="mb-6">
         Each of these examples highlights the importance of selectively
         implementing caching, especially in complex applications where data
-        consistency and performance are critical. With Next.js 15’s adjustments,
-        developers have more flexibility in deciding which data to cache,
-        reducing the burden of manual invalidation and enhancing user experience
-        by default.
+        consistency and performance are critical. With Next.js 15&apos;s
+        adjustments, developers have more flexibility in deciding which data to
+        cache, reducing the burden of manual invalidation and enhancing user
+        experience by default.
       </p>
       <p className="mb-6">
-        In projects, I’ve found that caching strategies can vary significantly
-        based on data usage patterns. Next.js’s new defaults align well with
-        these real-world needs, encouraging a mindful approach to caching while
-        reducing risks of stale data.
+        In projects, I&apos;ve found that caching strategies can vary
+        significantly based on data usage patterns. Next.js&apos;s new defaults
+        align well with these real-world needs, encouraging a mindful approach
+        to caching while reducing risks of stale data.
       </p>
       <p className="mb-6">
         As caching techniques continue to evolve, experimenting with different
         configurations will provide valuable insights into balancing system
-        performance with data accuracy. With Next.js 15 paving the way, there’s
+        performance with data accuracy. With Next.js 15 paving the way, there&apos;s
         a lot of potential to build faster, more reliable applications.
       </p>
     </div>

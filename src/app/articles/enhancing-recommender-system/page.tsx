@@ -65,7 +65,7 @@ const EnhancingRecommenderSystem = () => {
         semantic interconnections for imporved recommendation quality.
       </p>
       <Image
-        src="/article3.1.png"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS7BF1wyk2PdA4b19KXiBwDqI5eOCgFY6jUoVx"
         alt="Recommender System"
         width={500}
         height={600}
@@ -223,12 +223,12 @@ const EnhancingRecommenderSystem = () => {
         knowledge from the knowledge graph, visual information from the image of
         the item and textual description associated with that item. Then it
         combines these different modalities into single embedded space where
-        each item's representation is influenced by its relationships in the KG
-        as well as its visual and textual features. For visual data it uses
-        Convolutional Neural Networks to extract feature vectors. To improve the
-        generalization of the embeddings and to prevent overfitting, CKE applies
-        regularization techniques to maintain the robustness of the model across
-        the data.
+        each item&apos;s representation is influenced by its relationships in
+        the KG as well as its visual and textual features. For visual data it
+        uses Convolutional Neural Networks to extract feature vectors. To
+        improve the generalization of the embeddings and to prevent overfitting,
+        CKE applies regularization techniques to maintain the robustness of the
+        model across the data.
       </p>
       <h2 className="mb-2 text-xl font-semibold">
         Limitations and New Research Directions

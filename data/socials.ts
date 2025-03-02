@@ -12,7 +12,7 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     name: "Resume",
-    url: "/Resume_SwanandKhonde.pdf",
+    url: "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSazJlkyd6rWPGu7koqJIinD1UNdSpl2093cX8",
     icon: ImProfile,
   },
   {

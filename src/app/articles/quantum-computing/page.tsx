@@ -40,14 +40,14 @@ const QuantumComputing = () => {
       </div>
 
       <p className="mb-6">
-        Quantum Computing can be simply defined as “Use of quantum effects to
-        store and compute data”. Quantum computing is emerging as a gamechanger
-        in today’s computer industry.
+        Quantum Computing can be simply defined as &quot;Use of quantum effects
+        to store and compute data&quot;. Quantum computing is emerging as a
+        gamechanger in today&apos;s computer industry.
       </p>
       <p className="mb-6">
         But what is the need of quantum computing? Today we use semiconductor
         technology for computers. By increasing the number of transistors in a
-        given area we are increasing the capacity of data storage. But we can’t
+        given area we are increasing the capacity of data storage. But we can&apos;t
         keep on reducing the size of transistors. There is a limit to it. The
         advantages of small size are:
       </p>
@@ -58,7 +58,7 @@ const QuantumComputing = () => {
       </ul>
 
       <Image
-        src="/quantum-2.avif"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSlRFpnGzsbDS9JyxWpzGHBEQPr4FnAmj1Xkif"
         alt="Quantum Computing"
         width={500}
         height={400}
@@ -90,8 +90,8 @@ const QuantumComputing = () => {
       <p className="mb-6">
         In classical computing, some problems are believed to be intractable.
         Using quantum algorithms for the same problems makes them tractable. The
-        meaning of intractability of a problem is “The problem can be solved but
-        it can take decades or even time equal to the age of the universe to
+        meaning of intractability of a problem is &quot;The problem can be solved
+        but it can take decades or even time equal to the age of the universe to
         solve the problem using a classical computer. A quantum computer is
         essentially a quantum accelerator. It speeds up the tasks of a classical
         computer. As we use FPGA and/or GPU with a classical CPU, we can use a
@@ -101,24 +101,24 @@ const QuantumComputing = () => {
         intractable problems can be handed over to the quantum accelerator.
       </p>
       <p className="mb-6">
-        An example of such a problem is “factoring” which is used by RSA (RSA:
-        Rivest–Shamir–Adleman is one of the first public-key cryptosystems and
-        is widely used for secure data transmission) as it is believed to be
-        intractable. But using Shor’s quantum algorithm this problem becomes
-        tractable. As RSA is used by many networking protocols for security, all
-        these protocols will become insecure if this algorithm is implemented
-        easily and economically.
+        An example of such a problem is &quot;factoring&quot; which is used by
+        RSA (RSA: Rivest–Shamir–Adleman is one of the first public-key
+        cryptosystems and is widely used for secure data transmission) as it is
+        believed to be intractable. But using Shor&apos;s quantum algorithm this
+        problem becomes tractable. As RSA is used by many networking protocols
+        for security, all these protocols will become insecure if this algorithm
+        is implemented easily and economically.
       </p>
       <p className="mb-6">
         As the field of quantum computing is still in its infancy, there is very
         little research in this area which has led to fewer patents. As
         developing a quantum computer is expensive, access to this technology is
         limited to billion-dollar companies like Google. Google has many patents
-        in this area. E.g. “Chips including classical and quantum computing
-        processors”. Google has also developed its own quantum computer.
+        in this area. E.g. &quot;Chips including classical and quantum computing
+        processors&quot;. Google has also developed its own quantum computer.
       </p>
       <Image
-        src="/quantum.png"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSOvnWO3GdHuJ8C1DTYihy5Mg0pO6FzLjoamXc"
         alt="Quantum Computing"
         width={500}
         height={400}
@@ -136,9 +136,9 @@ const QuantumComputing = () => {
         Cryptography arises from this problem. Quantum cryptography can
         re-establish the security which was previously provided by classical
         cryptography. One such patent by Hewlett Packard Enterprise Development
-        LP in 2004 describes “A method of establishing a shared secret random
+        LP in 2004 describes &quot;A method of establishing a shared secret random
         cryptographic key between a sender and a recipient using a quantum
-        communications channel“. BT Group, a British multinational
+        communications channel&quot;. BT Group, a British multinational
         telecommunications company, United Kingdom, has filed over 100 patents
         in quantum cryptography.
       </p>
@@ -161,7 +161,7 @@ const QuantumComputing = () => {
       </p>
 
       <Image
-        src="/quantum-1.png"
+        src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSLoPVZUbETp3ZXigbODhW7GVYQRoFweMUrkts"
         alt="Quantum Computing"
         width={500}
         height={400}

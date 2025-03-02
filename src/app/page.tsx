@@ -37,7 +37,7 @@ const Home: React.FC = () => {
       <section className="flex gap-4 sm:gap-8 items-start mb-4 sm:mb-12">
         <div className="w-36 sm:w-36 h-36 sm:h-36 relative">
           <Image
-            src="/logo.jpg"
+            src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS5yTb3F2GCckijaRb9PEu47lSefps1HmAW0YL"
             alt="Swanand"
             fill
             loading="lazy"
@@ -62,9 +62,9 @@ const Home: React.FC = () => {
             />
           </h1>
           <p className="mt-3 sm:mt-4 text-base sm:text-lg font-light">
-            I'm Swanand Sanjay Khonde, accomplished software engineer with a
-            proven track record of developing and implementing both frontend and
-            backend solutions. Known for working with limited direction while
+            I&apos;m Swanand Sanjay Khonde, accomplished software engineer with
+            a proven track record of developing and implementing both frontend
+            and backend solutions. Known for working with limited direction while
             understanding and executing a business vision to build market-ready
             applications. Capable of leading projects from conception to
             completion and poised for future leadership roles.

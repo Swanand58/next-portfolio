@@ -10,7 +10,10 @@ const EducationPage: React.FC = () => {
       section: "Education Page",
     });
 
-    window.open("/Resume_SwanandKhonde.pdf", "_blank");
+    window.open(
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSazJlkyd6rWPGu7koqJIinD1UNdSpl2093cX8",
+      "_blank"
+    );
   };
   return (
     <main className="flex flex-wrap min-h-screen p-8">
@@ -42,7 +45,7 @@ const EducationPage: React.FC = () => {
           <div className="p-4 bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
               <Image
-                src="/rice-logo.jpeg"
+                src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSWtYNVC7BG94PJxrjLhfp1aSq2RXoFOTwE5eU"
                 alt="Rice University"
                 loading="lazy"
                 width={50}
@@ -65,12 +68,12 @@ const EducationPage: React.FC = () => {
             <ul className="list-disc ml-5 p-y-4 text-white">
               <li className="mb-2">
                 <strong className="text-lg">Parallel Computing:</strong> Built
-                shared memory parallel programs using Intel's Cilk Plus, OpenMP,
-                MPI, and CUDA. Studied parallel algorithm design, decomposition
-                techniques, and performance analysis. Gained hands-on experience
-                with GPU programming and warehouse-scale computing. Analyzed
-                scalability and parallel efficiency, and identified scaling
-                losses using advanced tools.
+                shared memory parallel programs using Intel&apos;s Cilk Plus,
+                OpenMP, MPI, and CUDA. Studied parallel algorithm design,
+                decomposition techniques, and performance analysis. Gained hands-on
+                experience with GPU programming and warehouse-scale computing.
+                Analyzed scalability and parallel efficiency, and identified
+                scaling losses using advanced tools.
               </li>
               <li className="mb-2">
                 <strong className="text-lg">
@@ -110,7 +113,7 @@ const EducationPage: React.FC = () => {
           <div className="p-4 bg-[rgb(51,67,101)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
               <Image
-                src="/vit-logo.jpeg"
+                src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSNt3dgByhYtQn0B6lU7bCGvW5zAaTZRx9Spye"
                 alt="Vishwakarma Institute of Technology"
                 loading="lazy"
                 width={50}
