@@ -9,49 +9,49 @@ interface WorkExperienceType {
 const workExperiences: WorkExperienceType[] = [
   {
     id: "ford",
-    companyLogo: "/ford.webp",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS7EPFbSk2PdA4b19KXiBwDqI5eOCgFY6jUoVx",
     companyName: "Ford Motor Company",
     role: "Software Engineer",
     duration: "Jan 2025 - Present",
   },
   {
     id: "rice",
-    companyLogo: "/rice-logo.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSWtYNVC7BG94PJxrjLhfp1aSq2RXoFOTwE5eU",
     companyName: "Rice University",
     role: "Graduate Teaching Assistant",
     duration: "Jan 2024 - Dec 2024",
   },
   {
     id: "nedd",
-    companyLogo: "/nedd.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSlN1WAIzsbDS9JyxWpzGHBEQPr4FnAmj1Xkif",
     companyName: "Nedd Technologies",
     role: "Software Engineer Intern",
     duration: "May 2024 - Aug 2024",
   },
   {
     id: "hsbc",
-    companyLogo: "/hsbc.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS6UWgRZl1ru2LgTRcJ9nKpZSNYfVUtdaCXQks",
     companyName: "HSBC",
     role: "Software Engineer",
     duration: "Aug 2021 - Jun 2023",
   },
-  // {
-  //   id: "xceed",
-  //   companyLogo: "/xceed.jpeg",
-  //   companyName: "Xceed Imagination",
-  //   role: "Software Engineer Intern",
-  //   duration: "Jan 2021 - July 2021",
-  // },
+
   {
     id: "oda",
-    companyLogo: "/oda.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSz0tvie5uchTWmMs5jqLy9wnpOilNY31tegIV",
     companyName: "Optimum Data Analytics",
     role: "Machine Learning Engineer Intern",
     duration: "Aug 2019 - Jan 2020",
   },
   {
     id: "iauro",
-    companyLogo: "/iauro.jpeg",
+    companyLogo:
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS91K9gPeqxwOWtph7XCrUmyF4IYouMblS5eKV",
     companyName: "Iauro Systems",
     role: "Software Engineer Intern",
     duration: "June 2018 - Aug 2018",
