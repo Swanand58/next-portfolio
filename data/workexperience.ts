@@ -12,7 +12,7 @@ const workExperiences: WorkExperienceType[] = [
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS7EPFbSk2PdA4b19KXiBwDqI5eOCgFY6jUoVx",
     companyName: "Ford Motor Company",
-    role: "Software Engineer",
+    role: "Software Development Engineer II",
     duration: "Jan 2025 - Present",
   },
   {
@@ -28,7 +28,7 @@ const workExperiences: WorkExperienceType[] = [
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSlN1WAIzsbDS9JyxWpzGHBEQPr4FnAmj1Xkif",
     companyName: "Nedd Technologies",
-    role: "Software Engineer Intern",
+    role: "Founding Software Engineer",
     duration: "May 2024 - Aug 2024",
   },
   {

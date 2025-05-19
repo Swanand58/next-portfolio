@@ -15,21 +15,17 @@ const experiences: Experience[] = [
     company: "Ford Motor Company",
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS7EPFbSk2PdA4b19KXiBwDqI5eOCgFY6jUoVx",
-    location: "Irvine, United States",
-    role: "Software Engineer: Advanced EV",
+    location: "Irvine, California - United States",
+    role: "Software Development Engineer II",
     period: "Jan 2025 - Present",
-    skills: [
-      "Next.js",
-      "Python",
-      "Google Cloud",
-      "Docker",
-      "MongoDB",
-      "FastAPI",
-    ],
+    skills: ["Next.js", "Python", "GCP", "Docker", "MongoDB", "FastAPI"],
     achievements: [
-      "Resolved <b>9 Jira stories and bugs</b> within a week, significantly improving feature stability and user experience.",
-      "Contributed to a <b>full-stack project</b>, implementing key <b>frontend changes</b> and fixing existing <b>bugs</b> to enhance performance and usability.",
-      "Designed and presented an <b>architecture</b> for an upcoming project, incorporating <b>regression testing with Google Cloud Run</b> to ensure reliability and scalability.",
+      "Contributed to development and validation of EV control software through software-in-the-loop (SIL) test automation frameworks.",
+      "Developed a Next.js dashboarding tool to visualize 30GB+ of simulation data per test run, with built-in mass and cost tracking across vehicle variants.",
+      "Built a FastAPI backend with MongoDB aggregation pipelines to process and serve high-volume regression data, enabling efficient time-series queries for EV signal visualization.",
+      "Served as product owner for a business-facing logs viewer tool, enabling access to critical service logs and audit trails for monitoring sensitive data interactions.",
+      "Designed a centralized FastAPI backend for the logs viewer, fetching data from BigQuery where logs were ingested via service-specific log sinks, enabling scalable and secure log access.",
+      "Managed cloud infrastructure for apps using GCP services, including Cloud Run, Cloud Storage, scheduled jobs, and CI/CD pipelines for automated builds and deployments.",
     ],
   },
   {
@@ -37,9 +33,9 @@ const experiences: Experience[] = [
     company: "Rice University",
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSWtYNVC7BG94PJxrjLhfp1aSq2RXoFOTwE5eU",
-    location: "Houston, United States",
+    location: "Houston, Texas - United States",
     role: "Graduate Teaching Assistant",
-    period: "Jan 2024 - Present",
+    period: "Jan 2024 - Dec 2024",
     skills: [
       "Next.js",
       "React",
@@ -51,7 +47,7 @@ const experiences: Experience[] = [
       "MongoDB",
     ],
     achievements: [
-      "<b>Graduate Web Design and Development - Aug 2024 - Present</b>",
+      "<b>Graduate Web Design and Development - Aug 2024 - Dec 2024</b>",
       "Guided students through web development principles, covering topics such as HTML, CSS, JavaScript, and modern frameworks like React, node.js and Express.js.",
       "Assisted in creating and grading assignments, ensuring that students grasped key concepts of front-end and back-end development.",
       "<b>Computer Security - Jan 2024 - May 2024</b>",
@@ -64,8 +60,8 @@ const experiences: Experience[] = [
     company: "Nedd Technologies",
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSlN1WAIzsbDS9JyxWpzGHBEQPr4FnAmj1Xkif",
-    location: "Houston, United States",
-    role: "Software Engineer Intern",
+    location: "Houston, Texas - United States",
+    role: "Founding Software Engineer",
     period: "May 2024 - Aug 2024",
     skills: [
       "Next.js",
@@ -90,7 +86,7 @@ const experiences: Experience[] = [
     company: "HSBC",
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS6UWgRZl1ru2LgTRcJ9nKpZSNYfVUtdaCXQks",
-    location: "Pune, India",
+    location: "Pune, Maharashtra - India",
     role: "Software Engineer",
     period: "Aug 2021 - June 2023",
     skills: [
@@ -120,7 +116,7 @@ const experiences: Experience[] = [
     company: "Optimum Data Analytics",
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSz0tvie5uchTWmMs5jqLy9wnpOilNY31tegIV",
-    location: "Pune, India",
+    location: "Pune, Maharashtra - India",
     role: "Machine Learning Engineer Intern",
     period: "Aug 2019 - Jan 2020",
     skills: [

@@ -64,10 +64,10 @@ const Home: React.FC = () => {
           <p className="mt-3 sm:mt-4 text-base sm:text-lg font-light">
             I&apos;m Swanand Sanjay Khonde, accomplished software engineer with
             a proven track record of developing and implementing both frontend
-            and backend solutions. Known for working with limited direction while
-            understanding and executing a business vision to build market-ready
-            applications. Capable of leading projects from conception to
-            completion and poised for future leadership roles.
+            and backend solutions. Known for working with limited direction
+            while understanding and executing a business vision to build
+            market-ready applications. Capable of leading projects from
+            conception to completion and poised for future leadership roles.
           </p>
           <SocialCard />
         </div>

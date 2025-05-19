@@ -12,7 +12,7 @@ const ExperiencePage: React.FC = () => {
     });
 
     window.open(
-      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSazJlkyd6rWPGu7koqJIinD1UNdSpl2093cX8",
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSrhr1qC4exfjwEk4TL6IC9ytSbM80i7hguPYR",
       "_blank"
     );
   };
@@ -34,9 +34,9 @@ const ExperiencePage: React.FC = () => {
           &quot;Star Performer&quot; Award in Q1, 2023. Currently, I have joined
           Ford Motor Company in the Advanced EV department, where I am
           contributing to full-stack projects and other internal initiatives.
-          These varied experiences have been instrumental in shaping my career and
-          fueling my passion for technology, particularly in distributed systems,
-          full-stack development, and DevOps.
+          These varied experiences have been instrumental in shaping my career
+          and fueling my passion for technology, particularly in distributed
+          systems, full-stack development, and DevOps.
         </p>
         <div className="text-center mb-6 mt-8">
           <button

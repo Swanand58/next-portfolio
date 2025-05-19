@@ -33,7 +33,7 @@ function Footer() {
       </div>
       <div className="flex justify-center w-full text-gray-300 dark:text-gray-400 text-xs sm:text-sm items-center sm:w-auto sm:ml-auto">
         <p className="hover:text-white dark:hover:text-white">
-          © 2024 Swanand Khonde. All Rights Reserved.
+          © {new Date().getFullYear()} Swanand Khonde. All Rights Reserved.
         </p>
       </div>
     </footer>

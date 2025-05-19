@@ -11,7 +11,7 @@ const EducationPage: React.FC = () => {
     });
 
     window.open(
-      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSazJlkyd6rWPGu7koqJIinD1UNdSpl2093cX8",
+      "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSrhr1qC4exfjwEk4TL6IC9ytSbM80i7hguPYR",
       "_blank"
     );
   };
@@ -70,10 +70,10 @@ const EducationPage: React.FC = () => {
                 <strong className="text-lg">Parallel Computing:</strong> Built
                 shared memory parallel programs using Intel&apos;s Cilk Plus,
                 OpenMP, MPI, and CUDA. Studied parallel algorithm design,
-                decomposition techniques, and performance analysis. Gained hands-on
-                experience with GPU programming and warehouse-scale computing.
-                Analyzed scalability and parallel efficiency, and identified
-                scaling losses using advanced tools.
+                decomposition techniques, and performance analysis. Gained
+                hands-on experience with GPU programming and warehouse-scale
+                computing. Analyzed scalability and parallel efficiency, and
+                identified scaling losses using advanced tools.
               </li>
               <li className="mb-2">
                 <strong className="text-lg">
