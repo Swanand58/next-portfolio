@@ -38,6 +38,13 @@ const projects: Project[] = [
     link: "https://github.com/Swanand58/Othello_CILKPLUS",
   },
   {
+    title: "Math AI Agent",
+    description:
+      "A simple math agent built using Agno that converts natural language mathematical expressions into MathJS and LaTeX representations.",
+    Icon: FaPython,
+    link: "https://github.com/Swanand58/math-ai-agent",
+  },
+  {
     title: "Next.js Portfolio",
     description:
       "This Website. My portfolio website built with Next.js and Tailwind CSS.",
