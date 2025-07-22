@@ -55,7 +55,7 @@ const About: React.FC = () => {
       <div className="w-full sm:w-1/2 sm:flex sm:flex-col sm:items-center mt-8">
         <div className="about-image-wrapper mx-auto sm:mr-0 sm:ml-auto">
           <Image
-            src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSYGZlXyQqvfO0YmUNj2rtx6EFgacyKVM4nuJz"
+            src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSuo5NVYDtZJCXyI5lfBDiWwjRp3GYSosKErzv"
             alt="Swanand"
             width={370}
             height={370}
