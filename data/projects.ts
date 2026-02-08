@@ -31,6 +31,13 @@ const projects: Project[] = [
   //   link: "",
   // },
   {
+    title: "Cloudless - Secure File Transfer",
+    description:
+      "A secure, self-hosted file transfer application with end-to-end encryption using XSalsa20-Poly1305. Features encrypted chat, relay transfers, and safety number verification. Built with Next.js, FastAPI, and TweetNaCl.",
+    Icon: TbBrandTypescript,
+    link: "https://github.com/Swanand58/cloudless",
+  },
+  {
     title: "Othello Reversi Game using Cilk Plus",
     description:
       "A parallelized version of the classic strategy game Othello (also known as Reversi), implemented in Cilk Plus. Implements the negamax algorithm for AI decision-making.",
