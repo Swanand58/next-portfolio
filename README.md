@@ -1,17 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Swanand Khonde - Portfolio
 
-Here is the live site: [My Portfolio](https://swanand-khonde-portfolio.vercel.app/)
+A modern, responsive portfolio website built with Next.js, React, and Tailwind CSS.
 
-## Getting Started
+**Live Site:** [swanandkhonde.com](https://swanandkhonde.com/)
 
-- [x] - adding default layout and global styles
-- [x] - adding top nav in main layout.tsx page
-- [x] - adding Home page
-- [x] - adding about page
-- [x] - adding education page
-- [x] - adding experience page
-- [x] - adding projects page
-- [x] - adding contact page
-- [X] - adding Dynamic articles page
-- [X] - Finetuning content
-- [] - future development
+## Features
+
+- Responsive design optimized for all screen sizes
+- Dark/Light mode with system-aware theming
+- Projects showcase with GitHub links
+- Technical articles with MDX support
+- Work experience and education timeline
+- Image gallery carousel
+- Contact form
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vercel
+
+## Contact
+
+- **GitHub:** [@Swanand58](https://github.com/Swanand58)
+- **LinkedIn:** [Swanand Khonde](https://www.linkedin.com/in/swanand-khonde/)
