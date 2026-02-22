@@ -65,9 +65,9 @@ export default function About() {
       <div className="mx-auto max-w-3xl space-y-5 text-center text-base leading-relaxed">
         <p>
           I&apos;m currently a Software Engineer at{" "}
-          <span className="font-semibold">Ford Motor Company</span>, where I build
-          full-stack applications for Advanced EV Systems. I graduated with a
-          Master&apos;s in Computer Science from{" "}
+          <span className="font-semibold">Ford Motor Company</span>, where I
+          build full-stack applications for Advanced EV Systems. I graduated
+          with a Master&apos;s in Computer Science from{" "}
           <span className="font-semibold">Rice University</span> and hold a
           Bachelor&apos;s in Computer Engineering from Vishwakarma Institute of
           Technology, Pune.
@@ -75,24 +75,27 @@ export default function About() {
 
         <p>
           Before Ford, I was a{" "}
-          <span className="font-semibold">founding engineer at Nedd Technologies</span>,
-          where I built an ESG platform from the ground up using Flask and Next.js.
-          Prior to that, I spent two years at{" "}
-          <span className="font-semibold">HSBC Technology India</span> as a Full Stack
-          Engineer, developing microservices for trade reporting systems. I was
-          recognized with the{" "}
-          <span className="font-semibold">Star Performer</span> award in Q1 2023.
+          <span className="font-semibold">
+            founding engineer at Nedd Technologies
+          </span>
+          , where I built an ESG platform from the ground up. Prior to that, I
+          spent two years at{" "}
+          <span className="font-semibold">HSBC Technology India</span> as a Full
+          Stack Engineer, developing microservices for trade reporting systems.
+          I was recognized with the{" "}
+          <span className="font-semibold">Star Performer</span> award in Q1
+          2023.
         </p>
 
         <p>
-          My go-to stack includes Python, TypeScript, React, Next.js, FastAPI, and
-          GCP—but I enjoy picking up whatever tools get the job done.
+          My go-to stack includes Python, TypeScript, React, Next.js, FastAPI,
+          and GCP—but I enjoy picking up whatever tools get the job done.
         </p>
 
         <p>
           Outside of work, music keeps me balanced. I play guitar and have an
-          eclectic playlist that ranges from Linkin Park and Metallica to Bollywood
-          classics by Sonu Nigam, KK, and Shreya Ghoshal.
+          eclectic playlist that ranges from Linkin Park and Metallica to
+          Bollywood classics by Sonu Nigam, KK, and Shreya Ghoshal.
         </p>
       </div>
     </main>
