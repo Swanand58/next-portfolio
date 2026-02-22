@@ -1,4 +1,4 @@
-interface Experience {
+export interface Experience {
   id: number;
   company: string;
   companyLogo: string;
@@ -9,23 +9,25 @@ interface Experience {
   achievements: string[];
 }
 
-const experiences: Experience[] = [
+export const experiences: Experience[] = [
   {
     id: 5,
     company: "Ford Motor Company",
     companyLogo:
       "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS7EPFbSk2PdA4b19KXiBwDqI5eOCgFY6jUoVx",
-    location: "Irvine, California - United States",
-    role: "Software Development Engineer II",
+    location: "Long Beach, California - United States",
+    role: "Software Engineer - Advanced EV Systems, Skunk Works",
     period: "Jan 2025 - Present",
     skills: ["Next.js", "Python", "GCP", "Docker", "MongoDB", "FastAPI"],
     achievements: [
-      "Contributed to development and validation of EV control software through software-in-the-loop (SIL) test automation frameworks.",
-      "Developed a Next.js dashboarding tool to visualize 30GB+ of simulation data per test run, with built-in mass and cost tracking across vehicle variants.",
-      "Built a FastAPI backend with MongoDB aggregation pipelines to process and serve high-volume regression data, enabling efficient time-series queries for EV signal visualization.",
-      "Served as product owner for a business-facing logs viewer tool, enabling access to critical service logs and audit trails for monitoring sensitive data interactions.",
-      "Designed a centralized FastAPI backend for the logs viewer, fetching data from BigQuery where logs were ingested via service-specific log sinks, enabling scalable and secure log access.",
-      "Managed cloud infrastructure for apps using GCP services, including Cloud Run, Cloud Storage, scheduled jobs, and CI/CD pipelines for automated builds and deployments.",
+      "Designed and built a Next.js analytics dashboard to visualize <b>30GB+</b> of EV software-in-the-loop (SIL) regression test data per run, enabling engineers to explore and analyze vehicle signals across thermal, battery, and control systems.",
+      "Led end-to-end development of a production-grade Bill of Materials (BOM) quality dashboard for <b>21 vehicle variants</b> with ~<b>35K parts</b> per variant, implementing <b>13 quality checks</b> critical to part release, cost auditing, and sourcing decisions.",
+      "Delivered a business-critical BOM quality platform to production within <b>15 days</b>, owning frontend (Next.js), backend (FastAPI), data pipeline, and cloud infrastructure end-to-end.",
+      "Designed an event-driven data pipeline using GCP Eventarc, Cloud Storage triggers, scheduled jobs, and MongoDB, enabling near real-time ingestion, validation, and visualization of BOM data for <b>200+ users</b> across the ECM organization.",
+      "Replaced manual Excel-based audit reporting with a fully automated pipeline generating validated reports and dashboards, significantly reducing audit turnaround time and eliminating human error.",
+      "Built executive-facing change action and performance dashboards for C-suite stakeholders to track ownership and approval bottlenecks in vehicle part release workflows.",
+      "Developed software release management tools for over-the-air (OTA) update workflows, building Next.js frontends and FastAPI backends to manage vehicle software releases at scale.",
+      "Built AI-assisted automation to remediate <b>42+ production security audit findings</b>, accelerating vulnerability fixes and improving API security compliance.",
     ],
   },
   {
@@ -102,7 +104,7 @@ const experiences: Experience[] = [
       "Load Trade",
     ],
     achievements: [
-      "Spearheaded development of Load Trade Archive Service, a microservice-based platform for <b>Bloomberg’s Load Trade</b> production instance.",
+      "Spearheaded development of Load Trade Archive Service, a microservice-based platform for <b>Bloomberg's Load Trade</b> production instance.",
       "Enabled direct user access to XML and CSV trade files through a UI with different filters, reducing weekly IT team search time by <b>30 minutes</b> per member and significantly improving data accessibility and organization.",
       "Facilitated requirements gathering and feedback sessions with business users, creating a UI that streamlined access to trade files and improved data retrieval efficiency by ≈ <b>50%</b>.",
       "Earned <b>Star Performer</b> Award from HSBC in Q1 2023 for Load Trade Archive Service project, an honor awarded to only <b>20 individuals</b> organization-wide for exceptional performance.",
@@ -136,6 +138,3 @@ const experiences: Experience[] = [
     ],
   },
 ];
-
-export { experiences };
-export type { Experience };

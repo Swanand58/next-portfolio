@@ -1,4 +1,4 @@
-const carouselImages = [
+export const carouselImages = [
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSpAwkdLitdEmVWtkXC18HlinDPLSz9swAq4u0",
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSRprG6xX2xtjk84AIyReJYvOs7FPX36zUo9a1",
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSJGOURVYTVJIYa964zxCKEkNvbyeqf1sdA8nm",
@@ -18,5 +18,3 @@ const carouselImages = [
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSjf78s1Ad0pxMG9sVuXlKb12n7e8WcPQCgqrA",
   "https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS9imP0NXeqxwOWtph7XCrUmyF4IYouMblS5eK",
 ];
-
-export { carouselImages };

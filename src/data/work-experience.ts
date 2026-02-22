@@ -1,4 +1,4 @@
-interface WorkExperienceType {
+export interface WorkExperienceType {
   id: string;
   companyLogo: string;
   companyName: string;
@@ -6,7 +6,7 @@ interface WorkExperienceType {
   duration: string;
 }
 
-const workExperiences: WorkExperienceType[] = [
+export const workExperiences: WorkExperienceType[] = [
   {
     id: "ford",
     companyLogo:
@@ -39,7 +39,6 @@ const workExperiences: WorkExperienceType[] = [
     role: "Software Engineer",
     duration: "Aug 2021 - Jun 2023",
   },
-
   {
     id: "oda",
     companyLogo:
@@ -57,6 +56,3 @@ const workExperiences: WorkExperienceType[] = [
     duration: "June 2018 - Aug 2018",
   },
 ];
-
-export { workExperiences };
-export type { WorkExperienceType };

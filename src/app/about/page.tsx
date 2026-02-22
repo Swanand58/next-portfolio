@@ -1,94 +1,100 @@
 "use client";
-import Image from "next/image";
-import React from "react";
-import ContactCardAbout from "../_components/contactabout";
 
-const About: React.FC = () => {
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
+import { Github, Twitter, Linkedin, Mail } from "lucide-react";
+import { SiLeetcode } from "react-icons/si";
+
+const socialLinks = [
+  { icon: Github, href: "https://github.com/Swanand58", label: "GitHub" },
+  {
+    icon: Twitter,
+    href: "https://twitter.com/swanandkhonde_",
+    label: "Twitter",
+  },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/swanandkhonde/",
+    label: "LinkedIn",
+  },
+  {
+    icon: SiLeetcode,
+    href: "https://leetcode.com/u/Swanand58/",
+    label: "LeetCode",
+  },
+  { icon: Mail, href: "mailto:swanandkhonde1999@gmail.com", label: "Email" },
+];
+
+export default function About() {
   return (
-    <main className="min-h-screen p-4 sm:p-9 flex flex-col sm:flex-row justify-between items-start">
-      <div className="w-full sm:w-1/2 space-y-4 sm:space-y-8 py-2 sm:py-8 sm:text-center sm:mx-12">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-3 text-center sm:text-center mt-0">
-          Read More About Me
-        </h1>
-        <p className="styled-paragraph text-left sm:text-left">
-          I am a Computer Science Master&apos;s student at Rice University,
-          currently residing in Houston, Texas. My academic journey began with a
-          Bachelor&apos;s in Computer Engineering from Vishwakarma Institute of
-          Technology, Pune. Professionally, I have accumulated substantial
-          experience working as a Software Engineer at HSBC Technology India,
-          where I honed my skills and contributed to numerous impactful
-          projects.
-        </p>
-        <p className="styled-paragraph text-left sm:text-left">
-          I possess a solid foundation and hands-on experience in programming
-          languages and frameworks such as Python, Java, JavaScript/TypeScript,
-          Flask, React, and Spring Boot. At HSBC, I worked as a Full Stack
-          Engineer in the Shared Infrastructure Services team within the Trade
-          and Transaction Reporting department, where I developed the{" "}
-          <a className="font-semibold">Load Trade Archiving Service</a>, a
-          microservice that significantly improved data accessibility for
-          business users. For this project, I was recognized with the{" "}
-          <a className="font-semibold">Star Performer</a> Award in Q1 2023.
-        </p>
-        <p className="styled-paragraph text-left sm:text-left">
-          In addition to my work at HSBC, I served as a{" "}
-          <a className="font-semibold">
-            founding engineer at Nedd Technologies - a startup from Houston,
-            Texas{" "}
-          </a>
-          , where I directed the development of an ESG Platform. This involved
-          implementing high-performance Flask-based RESTful services and
-          designing a responsive Next.js User Interface. My leadership in this
-          project also included configuring essential tools like Grafana and
-          Azure AI services, leading to significant improvements in deployment
-          efficiency and product reliability.
-        </p>
-        <p className="styled-paragraph text-left sm:text-left">
-          Beyond my professional life, I am deeply passionate about music. I
-          listen to songs and enjoy playing the guitar, which fuels my
-          creativity and helps me unwind. My musical tastes are diverse, ranging
-          from Linkin Park and Metallica to Bollywood music legends like Sonu
-          Nigam, KK, and Shreya Ghoshal. Music is an integral part of my life,
-          providing both inspiration and relaxation.
-        </p>
-      </div>
-      <div className="w-full sm:w-1/2 sm:flex sm:flex-col sm:items-center mt-8">
-        <div className="about-image-wrapper mx-auto sm:mr-0 sm:ml-auto">
+    <main className="min-h-screen p-4 sm:p-8">
+      {/* Hero Section */}
+      <div className="mb-8 flex flex-col items-center text-center">
+        <div className="relative mb-6 h-56 w-56 overflow-hidden rounded-full border-4 border-primary/20 sm:h-64 sm:w-64">
           <Image
-            src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSuo5NVYDtZJCXyI5lfBDiWwjRp3GYSosKErzv"
-            alt="Swanand"
-            width={370}
-            height={370}
-            className="about-image"
-            loading="lazy"
-            // priority
-            style={{ width: "100%", height: "auto" }}
+            src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDSNdGBOIyhYtQn0B6lU7bCGvW5zAaTZRx9Spye"
+            alt="Swanand Khonde"
+            fill
+            className="object-cover"
+            priority
           />
         </div>
-        <ContactCardAbout />
+        <h1 className="mb-2 text-3xl font-bold sm:text-4xl">About Me</h1>
+
+        {/* Social Links */}
+        <div className="flex gap-2">
+          {socialLinks.map((link) => (
+            <Button key={link.label} variant="outline" size="icon" asChild>
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={link.label}
+              >
+                <link.icon className="h-4 w-4" />
+              </a>
+            </Button>
+          ))}
+        </div>
       </div>
-      <style jsx>{`
-        .about-image-wrapper {
-          display: block;
-          overflow: hidden;
-          width: 100%;
-          max-width: 370px;
-          border-radius: 10%;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        .about-image-wrapper img {
-          display: block;
-          width: 100%;
-        }
-        .styled-paragraph {
-          font-size: 16px;
-          line-height: 1.6;
-          max-width: 100%;
-        }
-      `}</style>
+
+      <Separator className="mb-8" />
+
+      {/* Content - Full width */}
+      <div className="mx-auto max-w-3xl space-y-5 text-center text-base leading-relaxed">
+        <p>
+          I&apos;m currently a Software Engineer at{" "}
+          <span className="font-semibold">Ford Motor Company</span>, where I build
+          full-stack applications for Advanced EV Systems. I graduated with a
+          Master&apos;s in Computer Science from{" "}
+          <span className="font-semibold">Rice University</span> and hold a
+          Bachelor&apos;s in Computer Engineering from Vishwakarma Institute of
+          Technology, Pune.
+        </p>
+
+        <p>
+          Before Ford, I was a{" "}
+          <span className="font-semibold">founding engineer at Nedd Technologies</span>,
+          where I built an ESG platform from the ground up using Flask and Next.js.
+          Prior to that, I spent two years at{" "}
+          <span className="font-semibold">HSBC Technology India</span> as a Full Stack
+          Engineer, developing microservices for trade reporting systems. I was
+          recognized with the{" "}
+          <span className="font-semibold">Star Performer</span> award in Q1 2023.
+        </p>
+
+        <p>
+          My go-to stack includes Python, TypeScript, React, Next.js, FastAPI, and
+          GCP—but I enjoy picking up whatever tools get the job done.
+        </p>
+
+        <p>
+          Outside of work, music keeps me balanced. I play guitar and have an
+          eclectic playlist that ranges from Linkin Park and Metallica to Bollywood
+          classics by Sonu Nigam, KK, and Shreya Ghoshal.
+        </p>
+      </div>
     </main>
   );
-};
-
-export default About;
+}

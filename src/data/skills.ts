@@ -1,15 +1,15 @@
 import { IconType } from "react-icons";
 import { FaCode, FaLaptopCode, FaServer, FaDatabase } from "react-icons/fa6";
 import { TbKeyframes } from "react-icons/tb";
-import { BsClipboard2Data } from "react-icons/bs";
+import { BsClipboard2Data, BsRobot } from "react-icons/bs";
 
-interface SkillSet {
+export interface SkillSet {
   id: string;
   icon: IconType;
   description: string;
 }
 
-const skills: SkillSet[] = [
+export const skills: SkillSet[] = [
   {
     id: "programming",
     icon: FaCode,
@@ -18,7 +18,7 @@ const skills: SkillSet[] = [
   {
     id: "backend",
     icon: FaServer,
-    description: "Spring Boot, Node.js, Flask, Express",
+    description: "Spring Boot, Node.js, Flask, FastAPI, Express",
   },
   {
     id: "frontend",
@@ -28,7 +28,7 @@ const skills: SkillSet[] = [
   {
     id: "devops",
     icon: TbKeyframes,
-    description: "Azure, AWS, Jenkins, Git, JUnit, Ansible, Grafana, Kafka",
+    description: "GCP, Azure, Terraform, Jenkins, Git, JUnit, Ansible, Grafana, Kafka",
   },
   {
     id: "databases",
@@ -41,7 +41,9 @@ const skills: SkillSet[] = [
     description:
       "Pytorch, Tensorflow, Pandas, Numpy, Neural Networks, Matplotlib",
   },
+  {
+    id: "AI Agents",
+    icon: BsRobot,
+    description: "Agno, OpenAI, Anthropic, RAG, Vector Databases",
+  },
 ];
-
-export type { SkillSet };
-export { skills };

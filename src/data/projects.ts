@@ -1,35 +1,20 @@
-import { TbBrandTypescript } from "react-icons/tb";
+ import { TbBrandTypescript } from "react-icons/tb";
 import { PiFileCppDuotone } from "react-icons/pi";
 import { IconType } from "react-icons";
 import { SiJavascript } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
 import { FaNode, FaReact, FaPython } from "react-icons/fa";
 import { SiNvidia } from "react-icons/si";
-
 import { FaGolang } from "react-icons/fa6";
 
-interface Project {
+export interface Project {
   title: string;
   description: string;
   Icon: IconType;
   link: string;
 }
 
-const projects: Project[] = [
-  // {
-  //   title: "Nedd ESG Platform",
-  //   description:
-  //     "A full stack platform for ESG data reporting, implemented using Next.js, Flask - Python and PostgreSQL.",
-  //   Icon: SiJavascript,
-  //   link: "",
-  // },
-  // {
-  //   title: "Load Trade Archiving Service",
-  //   description:
-  //     "Implemented a Fullstack REST API Application for Bloomberg's Load Trade platform, enabling efficient access and filtering of XML and CSV trade files, improving organization and reducing IT search time.",
-  //   Icon: FaPython,
-  //   link: "",
-  // },
+export const projects: Project[] = [
   {
     title: "Cloudless - Secure File Transfer",
     description:
@@ -163,5 +148,3 @@ const projects: Project[] = [
     link: "https://github.com/Swanand58/sudoku_game",
   },
 ];
-
-export { projects };

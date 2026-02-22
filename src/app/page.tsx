@@ -1,21 +1,25 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
-import { SocialCard, Skills, WorkExperience } from "./_components/page";
-import ProjectCards from "./_components/projectcards";
-import ArticleCard from "./_components/articlecard";
-import ImageCarousel from "./_components/imagecarousel";
-import { projects } from "../../data/projects";
-import { carouselImages } from "../../data/images";
-import { articles } from "../../data/article";
 import { useRouter } from "next/navigation";
-import { Typewriter } from "react-simple-typewriter";
 import posthog from "posthog-js";
+
+import { HeroSection } from "@/components/features/hero-section";
+import { SkillsList } from "@/components/features/skills-list";
+import { WorkExperienceList } from "@/components/features/work-experience-list";
+import { ProjectCard } from "@/components/features/project-card";
+import { ArticleCard } from "@/components/features/article-card";
+import { ImageCarousel } from "@/components/features/image-carousel";
+import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
+
+import { projects } from "@/data/projects";
+import { carouselImages } from "@/data/images";
+import { articles } from "@/data/articles";
 
 export const dynamic = "force-dynamic";
 
-const Home: React.FC = () => {
+export default function Home() {
   const [showAllArticles, setShowAllArticles] = useState(false);
   const router = useRouter();
 
@@ -33,76 +37,50 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main className=" min-h-screen p-4 sm:p-8">
-      <section className="flex gap-4 sm:gap-8 items-start mb-4 sm:mb-12">
-        <div className="w-36 sm:w-36 h-36 sm:h-36 relative">
-          <Image
-            src="https://f85w27gq4v.ufs.sh/f/l2ptklkzsbDS5yTb3F2GCckijaRb9PEu47lSefps1HmAW0YL"
-            alt="Swanand"
-            fill
-            loading="lazy"
-            sizes="(max-width: 768px) 100vw, 36vw"
-            className="rounded-full object-contain"
-          />
+    <main className="min-h-screen">
+      {/* Hero Section - Full Screen */}
+      <HeroSection />
+
+      {/* Separator */}
+      <div className="px-4 sm:px-8">
+        <Separator className="my-0" />
+      </div>
+
+      {/* Rest of the content */}
+      <div className="p-4 pt-12 sm:p-8 sm:pt-16">
+        {/* Skills & Experience Grid */}
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8">
+          <SkillsList />
+          <WorkExperienceList />
         </div>
-      </section>
-      <section className="flex flex-col gap-4">
-        <div className="text-left border-b border-black dark:border-gray-700">
-          <h1 className="text-3xl sm:text-4xl font-bold">
-            <Typewriter
-              words={[
-                "Software Engineer, Technology Enthusiast, and Aspiring Musician",
-              ]}
-              loop={1}
-              cursor
-              cursorStyle="_"
-              typeSpeed={100}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </h1>
-          <p className="mt-3 sm:mt-4 text-base sm:text-lg font-light">
-            I&apos;m Swanand Sanjay Khonde, accomplished software engineer with
-            a proven track record of developing and implementing both frontend
-            and backend solutions. Known for working with limited direction
-            while understanding and executing a business vision to build
-            market-ready applications. Capable of leading projects from
-            conception to completion and poised for future leadership roles.
-          </p>
-          <SocialCard />
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 mb-4">
-          <Skills />
-          <WorkExperience />
-        </div>
-        <div className="mt-4 mb-4">
-          <div className="border-t border-black dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center">
-            <h2 className="text-xl sm:text-2xl font-bold text-center">
+
+        {/* Projects Section */}
+        <div className="mb-4 mt-16">
+          <div className="mx-auto flex justify-center border-t border-border py-2 sm:py-3">
+            <h2 className="text-center text-xl font-bold sm:text-2xl">
               Projects
             </h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+          <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
             {displayedProjects.map((project) => (
-              <ProjectCards
+              <ProjectCard
                 {...project}
                 key={project.title}
                 onClick={() => handleProjectClick(project.title)}
               />
             ))}
           </div>
-          <div className="flex justify-center mt-6">
-            <button
-              onClick={() => router.push("/projects")}
-              className="mt-4 text-white dark:text-white bg-[rgb(64,85,131)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
-            >
-              View More
-            </button>
+          <div className="mt-6 flex justify-center">
+            <Button onClick={() => router.push("/projects")}>View More</Button>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row h-full mt-4">
-          <div className="w-full sm:w-1/2 flex flex-col">
-            <div className="border-t border-black dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center">
-              <h2 className="text-xl sm:text-2xl font-bold text-center">
+
+        {/* Articles & Gallery */}
+        <div className="mt-12 flex h-full flex-col sm:flex-row">
+          {/* Articles */}
+          <div className="flex w-full flex-col sm:w-1/2">
+            <div className="mx-auto flex justify-center border-t border-border py-2 sm:py-3">
+              <h2 className="text-center text-xl font-bold sm:text-2xl">
                 Articles
               </h2>
             </div>
@@ -110,27 +88,27 @@ const Home: React.FC = () => {
               {displayedArticles.map((article) => (
                 <ArticleCard key={article.id} article={article} />
               ))}
-              <button
-                onClick={toggleArticles}
-                className="mt-4 text-gray-200 dark:text-white bg-[rgb(64,85,131)] dark:bg-slate-500 hover:bg-[rgb(41,55,91)] dark:hover:bg-slate-800 font-bold py-2 px-4 rounded self-center"
-              >
-                {showAllArticles ? "Show Less" : "Read More"}
-              </button>
+              <div className="mt-4 flex justify-center">
+                <Button variant="secondary" onClick={toggleArticles}>
+                  {showAllArticles ? "Show Less" : "Read More"}
+                </Button>
+              </div>
             </div>
           </div>
-          <div className="w-full sm:w-1/2 flex flex-col mt-6 sm:mt-2">
-            <div className="border-t border-black dark:border-gray-700 mx-auto py-2 sm:py-3 flex justify-center ">
-              <h2 className="text-xl sm:text-2xl font-bold text-center">
+
+          {/* Gallery */}
+          <div className="mt-6 flex w-full flex-col sm:mt-2 sm:w-1/2">
+            <div className="mx-auto flex justify-center border-t border-border py-2 sm:py-3">
+              <h2 className="text-center text-xl font-bold sm:text-2xl">
                 Gallery
               </h2>
             </div>
-            <div className="flex-grow flex items-center justify-center p-4">
+            <div className="flex flex-grow items-center justify-center p-4">
               <ImageCarousel images={carouselImages} />
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   );
-};
-export default Home;
+}
