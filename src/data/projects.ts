@@ -16,6 +16,13 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Folio Editor",
+    description:
+      "A paginated document editor for React/Next.js — Google Docs-style page breaks, headers/footers, charts, math equations, and print-ready output. Built on TipTap and published to npm.",
+    Icon: TbBrandTypescript,
+    link: "https://www.npmjs.com/package/folio-editor",
+  },
+  {
     title: "Cloudless - Secure File Transfer",
     description:
       "A secure, self-hosted file transfer application with end-to-end encryption using XSalsa20-Poly1305. Features encrypted chat, relay transfers, and safety number verification. Built with Next.js, FastAPI, and TweetNaCl.",

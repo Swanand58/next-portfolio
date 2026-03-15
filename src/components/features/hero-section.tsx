@@ -11,7 +11,7 @@ export function HeroSection() {
     <section className="relative min-h-[calc(100vh-56px)] overflow-hidden bg-background">
       <ParticlesBackground />
       
-      <div className="relative z-10 flex min-h-[calc(100vh-56px)] flex-col lg:flex-row lg:items-start lg:gap-4 lg:pt-16">
+      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-56px)] max-w-7xl flex-col lg:flex-row lg:items-start lg:gap-8 lg:pt-16">
         {/* Left Content */}
         <div className="flex flex-1 flex-col px-6 py-8 sm:px-12 lg:px-16 lg:py-0">
           <motion.h1 
