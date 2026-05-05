@@ -40,3 +40,5 @@ next-env.d.ts
 relic.yaml
 mcp.json
 .cursorrules
+.claude
+CLAUDE.md

@@ -1,0 +1,73 @@
+---
+title: "The Next Frontier in AI Coding Agents: Saving Tokens"
+date: "04 May 2026"
+summary: "How a knowledge graph changed the way I think about AI and codebases, and why token efficiency is the engineering challenge of this decade."
+---
+
+There's a quiet tax being levied on every team adopting AI coding agents. It doesn't show up in your sprint retro. It shows up in your API bill.
+
+Every time an agent reads a file to answer a question, it burns tokens. Read ten files, burn ten times the tokens. On a large codebase with thousands of files, an agent navigating a non-trivial task can consume hundreds of thousands of tokens just orienting itself. Before it writes a single line of code.
+
+This isn't a criticism of AI. It's a structural problem. And like most structural problems in software, it has a structural solution.
+
+## The Context Problem
+
+AI coding agents understand code the way a junior engineer might on their first day: by reading files. A lot of files. The naive approach, stuff as much source code into the context window as possible, works but it's expensive and doesn't scale. Token limits get hit. Costs compound. And even with large context windows, more tokens in doesn't mean better answers out. You're not helping the model think more clearly; you're just making it read faster.
+
+The deeper question is: **what does an agent actually need to understand a codebase?**
+
+Not the full source of every file. What it needs is *structure*. Which files import which. What classes are defined where. Which components inherit from what. The relationships between things, not the things themselves.
+
+This is a graph problem.
+
+## Codebases Are Graphs, Not Files
+
+When a senior engineer joins a new codebase, they don't read every file. They ask questions: *What's the entry point? What does the payment module depend on? Where is the base class for all API handlers?*
+
+They're navigating a mental graph, a model of how the pieces connect. They build it fast, keep it compact, and use it to orient every decision.
+
+Relic gives AI agents that same mental model.
+
+Relic is a CLI tool that performs static analysis on your codebase and builds a **knowledge graph**: a network of file nodes and symbol nodes connected by typed relationships: `imports`, `defines`, `extends`. No LLM required to build it. No runtime execution. Just your source code, parsed and indexed into a graph that captures the structural reality of your project.
+
+<RelicDiagram />
+
+When an agent asks *"tell me about `src/payments/processor.py`"*, Relic doesn't hand it 800 lines of raw source. It runs a breadth-first search from that node, extracts everything within 2 hops: the files it imports, the symbols it defines, the classes it inherits from. Then it serializes that subgraph into a compact, token-efficient format called **TOON** (Token-Oriented Object Notation).
+
+Instead of 20,000 tokens of raw source, the agent gets 400 tokens of precise structural context. Same insight. 98% fewer tokens.
+
+## The Moment It Clicked
+
+I want to tell you about the moment I knew Relic was onto something real.
+
+After building out the first three phases of core features, I decided to dogfood it. I installed Relic *on the Relic codebase itself* and let an AI coding agent loose on it, asking it to explore the project, understand the architecture, and identify gaps.
+
+What happened next genuinely surprised me.
+
+The agent didn't just use Relic. It *critiqued* it. It pointed out exactly which parts of the graph felt thin, what context it wished it had, what relationships were missing, what would make its navigation faster and more confident. Six to eight concrete feature suggestions, all from the agent, unprompted.
+
+I had built Relic to help agents understand codebases. The agent used it to tell me how to build Relic better.
+
+That feedback loop, agent as both user and product manager, became the foundation for Relic's next development phase. Features I hadn't planned. Edge cases I hadn't considered. All surfaced by the thing the tool was designed to serve.
+
+That's when I stopped thinking of Relic as a developer tool and started thinking of it as infrastructure for a new kind of human-agent collaboration.
+
+## Why Token Efficiency Is the Engineering Problem of This Decade
+
+We're in an interesting moment. AI capabilities are advancing fast. But the economics of deploying AI at scale are forcing a different kind of engineering discipline, one that's less about what the model *can* do and more about how efficiently it can do it.
+
+Token efficiency is the new performance optimization. The same instinct that made engineers care about big-O complexity, database query plans, and bundle sizes now applies to context windows. Every unnecessary token is waste. Every redundant file read is a failure of abstraction.
+
+The engineers who figure this out, who build tools and workflows that give agents *precision* rather than *volume*, are the ones who will make AI coding economically viable at scale.
+
+Relic is my attempt at that. Not by making agents smarter, but by making the information they receive denser and more structured. A knowledge graph is to file reading what an index is to a full table scan. Same data, radically different cost.
+
+## What Comes Next
+
+Relic is published on PyPI and exposes its graph through an MCP server, which means any MCP-compatible agent, Claude, Cursor, Windsurf, can query it natively without any custom integration.
+
+But the broader point matters beyond Relic specifically: the future of AI-assisted development isn't bigger context windows or faster models. It's smarter information architecture. It's building the abstractions that let agents navigate complexity without drowning in it.
+
+The codebase has always been a graph. We're only just building the tools to let AI see it that way.
+
+*Relic is open source and available on [PyPI](https://pypi.org/project/relic-graph/). If you're building with AI coding agents and want to cut context costs, give it a try.*

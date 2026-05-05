@@ -26,7 +26,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
         </CardTitle>
       </CardHeader>
       <CardContent className="flex-1">
-        <p className="my-2 overflow-auto text-muted-foreground">
+        <p className="my-2 line-clamp-4 text-muted-foreground">
           {article.summary}
         </p>
       </CardContent>

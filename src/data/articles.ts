@@ -9,6 +9,15 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 6,
+    date: "04 May 2026",
+    title: "The Next Frontier in AI Coding Agents: Saving Tokens",
+    summary:
+      "There's a quiet tax being levied on every team adopting AI coding agents. It doesn't show up in your sprint retro. It shows up in your API bill. Every time an agent reads a file to answer a question, it burns tokens. This is a structural problem with a structural solution: a knowledge graph that gives AI agents the same mental model a senior engineer uses to navigate a codebase.",
+    link: "/articles/relic-knowledge-graph",
+    isExternal: false,
+  },
+  {
     id: 5,
     date: "08 November 2024",
     title:
