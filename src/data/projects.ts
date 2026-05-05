@@ -23,6 +23,13 @@ export const projects: Project[] = [
     link: "https://www.npmjs.com/package/folio-editor",
   },
   {
+    title: "Relic",
+    description:
+      "A codebase knowledge graph CLI for AI coding agents. Builds a static knowledge graph from source code via MCP — no LLM needed. Saves 80% of context tokens by replacing manual file reads with compact TOON subgraphs. Published to PyPI.",
+    Icon: FaPython,
+    link: "https://pypi.org/project/relic-graph/",
+  },
+  {
     title: "Cloudless - Secure File Transfer",
     description:
       "A secure, self-hosted file transfer application with end-to-end encryption using XSalsa20-Poly1305. Features encrypted chat, relay transfers, and safety number verification. Built with Next.js, FastAPI, and TweetNaCl.",
