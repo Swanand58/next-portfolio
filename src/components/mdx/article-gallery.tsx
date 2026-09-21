@@ -17,7 +17,7 @@ interface GalleryImage {
 export function ArticleGallery({ images }: { images: GalleryImage[] }) {
   if (!images.length) return null;
   return (
-    <Carousel opts={{ loop: true }} className="mx-auto my-12 w-full max-w-3xl px-12">
+    <Carousel opts={{ loop: true }} className="mx-auto my-12 w-full max-w-3xl">
       <CarouselContent>
         {images.map(({ src, alt, caption }) => (
           <CarouselItem key={src}>
@@ -38,8 +38,8 @@ export function ArticleGallery({ images }: { images: GalleryImage[] }) {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="left-2 bg-background/80 backdrop-blur" />
+      <CarouselNext className="right-2 bg-background/80 backdrop-blur" />
     </Carousel>
   );
 }
