@@ -1,6 +1,7 @@
 import type { MDXComponents } from "mdx/types";
 import { ArticleImage } from "./article-image";
 import { RelicDiagram } from "./relic-diagram";
+import { ArticleGallery } from "./article-gallery";
 
 export const mdxComponents: MDXComponents = {
   h2: ({ children }) => (
@@ -64,5 +65,6 @@ export const mdxComponents: MDXComponents = {
   ),
   hr: () => <div className="my-12 h-px bg-border" />,
   ArticleImage,
+  ArticleGallery,
   RelicDiagram,
 };
