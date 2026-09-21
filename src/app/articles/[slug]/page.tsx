@@ -60,7 +60,11 @@ export default async function ArticlePage({
       }
       wordCount={wordCount}
     >
-      <MDXRemote source={content} components={mdxComponents} />
+      <MDXRemote
+        source={content}
+        components={mdxComponents}
+        options={{ blockJS: false }} // trusted: content lives in this repo
+      />
     </ArticleLayout>
   );
 }

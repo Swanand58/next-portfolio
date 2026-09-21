@@ -9,6 +9,15 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 7,
+    date: "20 September 2026",
+    title: "2,100 Miles, One Weekend, and a Waterfall Taller Than Niagara",
+    summary:
+      "A 2,100-mile round trip from Atlanta to the Finger Lakes: Taughannock Falls, Watkins Glen, and getting back to doing things just for me.",
+    link: "/articles/2100-miles-one-weekend-and-a-waterfall-taller-than-niagara",
+    isExternal: false,
+  },
+  {
     id: 6,
     date: "04 May 2026",
     title: "The Next Frontier in AI Coding Agents: Saving Tokens",
