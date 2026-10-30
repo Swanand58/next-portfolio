@@ -30,6 +30,13 @@ export const projects: Project[] = [
     link: "https://pypi.org/project/relic-graph/",
   },
   {
+    title: "Session Guard",
+    description:
+      "A Claude Code hook and status line that warns you when a session gets expensive, so you can hand over to a fresh one in time. Tracks context growth and cost in real time.",
+    Icon: FaPython,
+    link: "https://github.com/Swanand58/session-guard",
+  },
+  {
     title: "Cloudless - Secure File Transfer",
     description:
       "A secure, self-hosted file transfer application with end-to-end encryption using XSalsa20-Poly1305. Features encrypted chat, relay transfers, and safety number verification. Built with Next.js, FastAPI, and TweetNaCl.",
